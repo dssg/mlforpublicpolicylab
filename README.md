@@ -1,4 +1,23 @@
 # Machine Learning for Public Policy Lab
+## Spring 2020: 10718, 94889
+## Tues & Thurs, 3:00-4:20pm, GHC 4307
+
+This is a project-based course designed to provide students training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
+
+Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping, through modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
+
+Students will be expected to know python, and have prior coursework in machine learning.
+
+**[DRAFT SYLLABUS](/syllabus.pdf)**
+
+## People
+
+### Instructors
+
+| Rayid Ghani | Kit Rodolfa |
+| --- | --- |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 | <img src='/img/kitrodolfa.png' width='200' height='200' /> <br /> GHC 8112 |
+
 
 |   | **ML for Public Policy Lab** |  |  |  |  |  |  |
 | :---: | :---: | --- | --- | --- | --- | --- | --- |
