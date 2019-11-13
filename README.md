@@ -22,6 +22,8 @@ TBD
 
 ## Tentative Schedule
 
+See the **[draft syllabus](/syllabus.pdf)** for much more detail as well
+
 |   | **ML for Public Policy Lab** |  |  |  |  |  |  |
 | :---: | :---: | --- | --- | --- | --- | --- | --- |
 |  **Week** | **Dates** | **Holidays?** | **Lecture/Discussion Topic** | **Project Activity** | **Goal** | **Readings** | **Delvierable / Expected Output** |
