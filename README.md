@@ -16,7 +16,7 @@ Students will be expected to know python, and have prior coursework in machine l
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 | <img src='/kitrodolfa.png' width='200' height='200' /> <br /> GHC 8112 |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 | <img src='/kit_rodolfa.png' /> <br /> GHC 8112 |
 
 
 |   | **ML for Public Policy Lab** |  |  |  |  |  |  |
