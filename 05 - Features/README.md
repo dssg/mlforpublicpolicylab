@@ -8,11 +8,12 @@ gineering can dramatically improve model performance by understanding what under
 factors are likely to be predictive and helping the model find these relationships. Likewise,
 most data sets you’ll encounter in practice are littered with outliers, inconsistencies, and miss-
 ingness. Handling these data issues in a smart way can be critical to a project’s success.
+
 Required Readings for Tuesday:
 – TBD Case Study on Feature Development by TBD. Available Online
 – Missing Data Conundrum by Akinfaderin, W. Medium. Available Online
+
 Optional Readings:
-– Feature Engineering for Machine Learning by Zhang, A. and Casari, A. O’Reilly. 2018.
-Chapter 2: Fancy Tricks with Simple Numbers Available Online
+– Feature Engineering for Machine Learning by Zhang, A. and Casari, A. O’Reilly. 2018. Chapter 2: Fancy Tricks with Simple Numbers Available Online
 – Missing-data imputation by Gelman, A. Available Online
 
