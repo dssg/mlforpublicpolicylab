@@ -1,0 +1,5 @@
+This week, we’ll organize groups and begin project work
+
+Practical examples can provide a great way to gain an understanding of the nuance of ap-plying machine learning to policy problems, so Tuesday will focus on a class discussion of thetwo case studies of recent applications that have been deployed in the real world.
+
+On Thursday, we’ll delve into some of the details of acquiring data, protecting privacy, andlinking records across data sources. Acquiring data from a project partner is often an involvedprocess with a number of legal and technical aspects.  Researchers need to understand howthe data acquired may and may not be used (typically formalized in a data use agreement aswell as underlying law) and ensure that the privacy of individuals in the dataset is protected(potentially both through access restrictions and techniques like anonymization).  One datahas been acquired, it often needs to be transformed to ingest into the system used for analy-sis, records from multiple data sources linked, and data structured for further analysis.
