@@ -20,8 +20,7 @@ Optional Readings:
 
 – Fairness Through Awareness by Dwork, C, Hardt, M, et al. ITCS 2012. [Available Online](https://dl.acm.org/citation.cfm?id=2090255)
 
-– Fairness Constraints: Mechanisms for Fair Classification Zafar, M, Valera I, et al. PMLR
-
-1.  [Available Online](http://proceedings.mlr.press/v54/zafar17a.html)
+– Fairness Constraints: Mechanisms for Fair Classification Zafar, M,
+  Valera I, et al. PMLR 2017  [Available Online](http://proceedings.mlr.press/v54/zafar17a.html)
 
 – Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments by Chouldechova, A. Big Data. 2017. [Available Online](https://www.liebertpub.com/doi/10.1089/big.2016.0047)
