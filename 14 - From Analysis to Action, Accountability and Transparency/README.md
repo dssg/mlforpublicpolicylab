@@ -22,17 +22,11 @@ necessarily a goal in its own right (nor even desirable in all cases,
 such as where bad actors could game a system). 
 
 Required Readings for Tuesday
-
-– *Ethics and Data Science* by Loukides, M., Mason, H., and Patil, D.J. O’Reilly (2018). Entire Book (don’t worry – it’s short!) [Available Online](https://learning.oreilly.com/library/view/ethics-and-data/9781492043898/)
-
-– *Communicating Data with Tableau* by Jones, B. O’Reilly (2014). Chapter 1: Communi- cating Data [Available Online](https://learning.oreilly.com/library/view/communicating-data-with/9781449372019/)
-
-– *Teaching Statistics: A Bag of Tricks* by Gelman, A and Nolan, D. O’Reilly (2014). Chapter 11: Lying with Statistics [Available Online](https://www.oxfordscholarship.com/view/10.1093/oso/9780198785699.001.0001/oso-9780198785699-chapter-11)
+- *Ethics and Data Science* by Loukides, M., Mason, H., and Patil, D.J. O’Reilly (2018). Entire Book (don’t worry – it’s short!) [Available Online](https://learning.oreilly.com/library/view/ethics-and-data/9781492043898/)
+- *Communicating Data with Tableau* by Jones, B. O’Reilly (2014). Chapter 1: Communi- cating Data [Available Online](https://learning.oreilly.com/library/view/communicating-data-with/9781449372019/)
+- *Teaching Statistics: A Bag of Tricks* by Gelman, A and Nolan, D. O’Reilly (2014). Chapter 11: Lying with Statistics [Available Online](https://www.oxfordscholarship.com/view/10.1093/oso/9780198785699.001.0001/oso-9780198785699-chapter-11)
 
 Optional Readings:
-
-– *Improving Data Displays* by Wainer, H. Chance. 2007 [Available Online](http://www.stat.columbia.edu/~gelman/communication/Wainer2009.pdf)
-
-– *Making Data Talk National Cancer Institute*. 2011 [Available Online](https://www.cancer.gov/publications/health-communication/making-data-talk.pdf)
-
-– *The Visual Display of Quantitative Information* by Tufte, E. Graphics Press. 2001.
+- *Improving Data Displays* by Wainer, H. Chance. 2007 [Available Online](http://www.stat.columbia.edu/~gelman/communication/Wainer2009.pdf)
+- *Making Data Talk National Cancer Institute*. 2011 [Available Online](https://www.cancer.gov/publications/health-communication/making-data-talk.pdf)
+- *The Visual Display of Quantitative Information* by Tufte, E. Graphics Press. 2001.
