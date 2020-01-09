@@ -12,8 +12,7 @@ that an expert would come up with or even a pre-existing statistical model that 
 effort is seeking to replace.
 
 Required Readings for Tuesday:
-- Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Ober-
-meyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
+- Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
 - Always Start with a Stupid Model, No Exceptions by
   Ameisen, E. Medium. [Available Online](https://blog.insightdatascience.com/always-start-with-a-stupid-model-no-exceptions-3a22314b9aaa)
 
