@@ -20,5 +20,5 @@ meyer, Z., Powers, B., et al. Science. 2009. [Available Online](https://science.
 Optional Readings:
 - Create a Common-Sense Baseline First by Ramakrishnan. Medium. [Available Online](https://towardsdatascience.com/first-create-a-common-sense-baseline-e66dbf8a8a47)
 - Data Science for Business by Provost and Fawcett. O’Reilly. 2013. Chapter 2: Business
-Problems and Data Science [[https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html][Available Online]]
+Problems and Data Science [Available Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html)
 
