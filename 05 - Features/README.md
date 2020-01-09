@@ -1,7 +1,7 @@
 Pipeline development should be continuing in your project, with a focus on producing the
 simplest-possible version of the full system.
 
-*Due Thursday, Feb. 13*: Peer reviews of three project proposals.
+**Due Thursday, Feb. 13:** Peer reviews of three project proposals.
 
 In many real-world contexts, expressing domain expertise through thoughtful feature en-
 gineering can dramatically improve model performance by understanding what underlying
