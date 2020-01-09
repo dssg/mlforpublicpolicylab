@@ -13,12 +13,12 @@ these questions, focusing on cross-validation stategies and choosing performance
 
 Required Readings for Tuesday:
 
-– Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic
-structure by Roberts, DR, Bahn, V, et al. Ecography 40:2017. Available Online
-– The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
-2019. Available Online
+- Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic
+structure by Roberts, DR, Bahn, V, et al. Ecography 40:2017. [Available Online](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881)
+- The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
+2019. [Available Online](https://arxiv.org/abs/1906.01998)
 
 Optional Readings:
 
-– Big Data and Social Science edited by Foster, Ghani, et al. Chapter 5: Machine Learning.
+- Big Data and Social Science edited by Foster, Ghani, et al. Chapter 5: Machine Learning.
 
