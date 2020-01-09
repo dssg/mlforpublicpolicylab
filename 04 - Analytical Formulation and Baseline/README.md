@@ -1,6 +1,8 @@
 Thursday of this week will include the first set of deep dive presentations. At this point in
 your project work, you should be developing your initial end-to-end pipeline.
-Due Thursday, Feb. 6: Project proposal with scope and descriptive statistics.
+
+**Due Thursday, Feb. 6:** Project proposal with scope and descriptive statistics.
+
 Distinct from the initial scoping, a true analytical formulation of your policy problem can
 only come after you have developed an understanding of the data at hand, which in turn will
 often result in a greater understanding of the problem itself. Here, you’ll ask how specifically
