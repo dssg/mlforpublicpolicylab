@@ -1,7 +1,7 @@
 By this week, your group should have a very simple version of an end-to-end pipeline with
 preliminary results for a single model specification.
 
-*Due Thursday, Feb. 20*: Technical modeling plan
+**Due Thursday, Feb. 20:** Technical modeling plan
 
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
 can be brought to bear on your modeling question. How do you decide which models are bet-
