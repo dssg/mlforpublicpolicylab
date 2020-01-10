@@ -1,5 +1,5 @@
 By this week, your group should have a preliminary set of "correct but
-crappy" results reflect- ing a relatively simple model grid and the
+crappy" results reflecting a relatively simple model grid and the
 features you prioritized to build as a first pass. So you think you
 have a great model, you’ve "validated" it on holdout data, and you’re
 all ready to go&#x2026; Models can fail to generalize to novel data
@@ -7,7 +7,7 @@ data in a multitude of ways and this week we’ll be exploring some of
 the reasons that things can go wrong in building models for real-world
 deployment. Issues like overfitting and leakage can threaten the
 external validity of your model even in the context of a stable world,
-but changes in policies and data collec- tion techniques pose
+but changes in policies and data collection techniques pose
 considerable challenges as well. 
 
 Required Readings for Tuesday:
