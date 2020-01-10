@@ -7,14 +7,12 @@ final report and presentation.
 For a machine learning practitioner, developing a model is only one
 aspect of the job. They must also be able to communicate about what
 their models can and (importantly) cannot achieve to  non-technical
-stakeholders, as well as develop a strategy for deploying their mod-
-els in a manner that allows for ongoing monitoring of performance and
+stakeholders, as well as develop a strategy for deploying their models in a manner that allows for ongoing monitoring of performance and
 equity measures along with continual improvement through feedback
 about errors. Too often overlooked (especially when "black box" models
-are deployed by third party contractors to agencies with little capac-
-ity to maintain them), these considerations are critical to the
+are deployed by third party contractors to agencies with little capacity to maintain them), these considerations are critical to the
 long-term success of a project. Both practitioners and researchers of
-machine learning and artificial intelligence addition- ally have a
+machine learning and artificial intelligence additionally have a
 responsibility to act in an ethical way and consider the broader
 social impact of their work. However, reasonable people can disagree
 on exactly what constitutes ethical behavior and transparency isn’t
