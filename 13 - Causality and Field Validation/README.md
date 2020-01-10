@@ -1,6 +1,6 @@
 Note: No classes on Thursday, April 16, so there will be no deep dive
 this week. By this week, you should be wrapping up any remaining
-technical work and beginning to put together re- sults for your
+technical work and beginning to put together results for your
 group’s final report and presentation. 
 
 Even with careful planning and handling of the data, the only way to
@@ -9,7 +9,7 @@ field. Generally, you’re concerned not only with its predictiveness,
 but the actual ability of the model to help the program achieve its
 policy goals, such as improving outcomes among the population it
 serves. Typically, this involves working closely with policy makers to
-develop a field trial using either randomization or non- experimental
+develop a field trial using either randomization or non-experimental
 methods depending on the constraints of the setting. 
 
 Required Readings for Tuesday:
