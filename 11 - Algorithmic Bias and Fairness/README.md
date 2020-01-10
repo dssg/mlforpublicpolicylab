@@ -2,7 +2,7 @@ By this week, you should be finalizing your modeling results and
 beginning to look at bias and disparities in your models. 
 
 Just as important as assessing whether your model is making accurate
-predictions is deter- mining whether it is doing so in a fair
+predictions is determining whether it is doing so in a fair
 manner. But, what do we mean by fairness? How can you measure it and
 what can you do to mitigate any disparities you might find? Where in
 your pipeline can bias be introduced? (spoiler: everywhere). This week
