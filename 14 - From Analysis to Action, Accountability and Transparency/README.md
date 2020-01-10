@@ -25,6 +25,7 @@ Required Readings for Tuesday
 - *Teaching Statistics: A Bag of Tricks* by Gelman, A and Nolan, D. O’Reilly (2014). Chapter 11: Lying with Statistics [Available Online](https://www.oxfordscholarship.com/view/10.1093/oso/9780198785699.001.0001/oso-9780198785699-chapter-11)
 
 Optional Readings:
+- *Designing Effective Tables* CMU GCC [Available Online[(https://www.cmu.edu/gcc/handouts-and-resources/handouts/table-design.pdf)
 - *Improving Data Displays* by Wainer, H. Chance. 2007 [Available Online](http://www.stat.columbia.edu/~gelman/communication/Wainer2009.pdf)
 - *Making Data Talk National Cancer Institute*. 2011 [Available Online](https://www.cancer.gov/publications/health-communication/making-data-talk.pdf)
 - *The Visual Display of Quantitative Information* by Tufte, E. Graphics Press. 2001.
