@@ -4,8 +4,7 @@ preliminary results for a single model specification.
 **Due Thursday, Feb. 20:** Technical modeling plan
 
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
-can be brought to bear on your modeling question. How do you decide which models are bet-
-ter than others and how can you be confident this decision will carry forward into the future
+can be brought to bear on your modeling question. How do you decide which models are better than others and how can you be confident this decision will carry forward into the future
 when the model is deployed? How should you balance considerations of performance and
 fairness when making these decisions? Are models that are performing similarly well giving
 similar predictions? What should you do if they are not? In this week, we’ll begin to answer
