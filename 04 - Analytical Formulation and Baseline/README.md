@@ -6,8 +6,7 @@ your project work, you should be developing your initial end-to-end pipeline.
 Distinct from the initial scoping, a true analytical formulation of your policy problem can
 only come after you have developed an understanding of the data at hand, which in turn will
 often result in a greater understanding of the problem itself. Here, you’ll ask how specifically
-your target variable (if relevant) is defined in the data, what types of information are avail-
-able as predictors, and what baseline you’ll be measure performance against. Very rarely is
+your target variable (if relevant) is defined in the data, what types of information are available as predictors, and what baseline you’ll be measure performance against. Very rarely is
 the appropriate baseline as simple as "random choice" or the population prevalence. Rather,
 it should reflect what would be expected to happen otherwise: perhaps a simple decision rule
 that an expert would come up with or even a pre-existing statistical model that the current
