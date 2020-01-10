@@ -3,7 +3,7 @@ on evaluation, model selection, and interpretation.
 
 This week, we’ll look at the other side of interpretability, with a
 focus on several practical applications of local explanations: they
-can help researchers debug and improve their mod- els, build trust
+can help researchers debug and improve their models, build trust
 among stakeholders (including a growing legal movement towards a
 "right to explanation"), help those acting on model predictions
 understand when they should override the model with their judgement,
