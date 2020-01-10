@@ -3,11 +3,9 @@ simplest-possible version of the full system.
 
 **Due Thursday, Feb. 13:** Peer reviews of three project proposals.
 
-In many real-world contexts, expressing domain expertise through thoughtful feature en-
-gineering can dramatically improve model performance by understanding what underlying
+In many real-world contexts, expressing domain expertise through thoughtful feature engineering can dramatically improve model performance by understanding what underlying
 factors are likely to be predictive and helping the model find these relationships. Likewise,
-most data sets you’ll encounter in practice are littered with outliers, inconsistencies, and miss-
-ingness. Handling these data issues in a smart way can be critical to a project’s success.
+most data sets you’ll encounter in practice are littered with outliers, inconsistencies, and missingness. Handling these data issues in a smart way can be critical to a project’s success.
 
 Required Readings for Tuesday:
 - TBD Case Study on Feature Development by TBD. Available Online
