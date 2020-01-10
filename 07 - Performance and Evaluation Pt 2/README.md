@@ -1,4 +1,4 @@
-During this week, your pipeline development and refinement should continue with a widen- ing set of model specifications and features to explore.
+During this week, your pipeline development and refinement should continue with a widening set of model specifications and features to explore.
 
 This week, we’ll continue our discussion from the previous week, delving into the details of winnowing down a large number of model specifications to one or a handful that perform "best" for some definition of "best". In particular, we’ll focus on the common case of machine learning problems with a strong time series component and the desire to balance performance and stability in model selection.
 
