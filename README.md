@@ -15,10 +15,12 @@ Students will be expected to know python, and have prior coursework in machine l
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours TBD | <img src='/kit_rodolfa.png' /> <br /> GHC 8112 <br /> Office Hours TBD |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br /> Tue 1-2pm in GHC 8023 <br /> Wed 4-5pm in HBH 2001 | <img src='/kit_rodolfa.png' /> <br /> GHC 8112 <br /> Office Hours: <br /> Wed 11am-12pm in HBH 2001 <br /> Thu 1-2pm in GHC 8112 |
 
 ### Teaching Assistants
-TBD
+| Sebastian Caldas Rivera | Himil Sheth |
+| --- | --- |
+| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> GHC 8009 <br /> Office Hours: TBD | <img src='/himil.jpg' width='133' height='200' /> <br /> TBD <br /> Office Hours: TBD |
 
 ## Tentative Schedule
 
