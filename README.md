@@ -20,7 +20,7 @@ Students will be expected to know python, and have prior coursework in machine l
 ### Teaching Assistants
 | Sebastian Caldas Rivera | Himil Sheth |
 | --- | --- |
-| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> GHC 8009 <br /> Office Hours: TBD | <img src='/himil.jpg' width='133' height='200' /> <br /> TBD <br /> Office Hours: TBD |
+| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> GHC 8009 <br /> Office Hours: TBD | <img src='/himil.jpg' width='200' height='200' /> <br /> TBD <br /> Office Hours: TBD |
 
 ## Tentative Schedule
 
