@@ -1,6 +1,6 @@
 [Slides for Tuesday](Class%201%20-%20Overview.pptx) - On  Tuesday,  we’ll  provide  an  introduction  to  the  class,  its  goals,  and  an  overview  of  theproject options to help you decide what you’re interested in working on for the remainder of the semester.
 
-On Thursday, we’ll talk about scoping, problem definition, and understanding and balancingorganizational goals.  Well before the outset of technical work, a decision needs to be madeabout whether a given policy problem can and should be addressed with machine learning:is the problem significant, feasible to solve with a technical approach, and of sufficient im-portance to policy makers that they will devote resources to implementing the solution? Howwill success be measured? How will (often competing) goals of efficiency, effectiveness, andequity be balanced?
+[Slides for Thursday](lecture2-scoping.pptx) - On Thursday, we’ll talk about scoping, problem definition, and understanding and balancingorganizational goals.  Well before the outset of technical work, a decision needs to be madeabout whether a given policy problem can and should be addressed with machine learning:is the problem significant, feasible to solve with a technical approach, and of sufficient im-portance to policy makers that they will devote resources to implementing the solution? Howwill success be measured? How will (often competing) goals of efficiency, effectiveness, andequity be balanced?
 
 
 Notes for Tuesday:
