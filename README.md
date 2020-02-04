@@ -15,12 +15,12 @@ Students will be expected to know python, and have prior coursework in machine l
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br /> Tue 1-2pm in GHC 8023 <br /> Wed 4-5pm in HBH 2001 | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11am-12pm in HBH 2001 <br /> Thu 1-2pm in GHC 8112 |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br /> Tue 1-2pm in GHC 8023 <br /> Wed 4-5pm in HBH 2001 | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11am-12pm in HBH 2001 <br /> Thu 1-2pm in GHC 8018 |
 
 ### Teaching Assistants
 | Sebastian Caldas | Himil Sheth |
 | --- | --- |
-| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Tue 10-11am <br /> Wed 10-11am <br /> in GHC 8009 | <img src='/himil.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Mon 3:30-4:30pm <br /> Thu 4:30-5:30pm <br /> GHC 8th Floor, by printers |
+| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Tue 10-11am <br /> Wed 10-11am <br /> in GHC 8009 | <img src='/himil.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Mon 2:00-3:00pm <br /> Thu 4:30-5:30pm <br /> GHC 8th Floor, by printers |
 
 ## Tentative Schedule
 
