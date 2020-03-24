@@ -15,7 +15,7 @@ Students will be expected to know python, and have prior coursework in machine l
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br /> Tue 1-2pm in GHC 8023 <br /> Wed 4-5pm in HBH 2001 | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11am-12pm in HBH 2001 <br /> Thu 1-2pm in GHC 8018 |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  TBD | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: TBD |
 
 ### Teaching Assistants
 | Sebastian Caldas | Himil Sheth |
