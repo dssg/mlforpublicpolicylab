@@ -18,9 +18,9 @@ Through lectures, discussions, readings, and project assignments, students will 
 | <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  TBD | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: TBD |
 
 ### Teaching Assistants
-| Sebastian Caldas | Himil Sheth |
-| --- | --- |
-| <img src='https://www.ml.cmu.edu/images/caldas-sebastian-500-min.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Tue 10-11am <br /> Wed 10-11am <br /> in GHC 8009 | <img src='/himil.jpg' width='200' height='200' /> <br /> Office Hours: <br /> Mon 2:00-3:00pm <br /> Thu 4:30-5:30pm <br /> GHC 8th Floor, by printers |
+| Amartya Basu | Aaron Dunmore  | TBD |
+| --- | --- | --- |
+| Office Hours: TBD | Office Hours: TBD |  Office Hours: TBD |
 
 ## Tentative Schedule
 
