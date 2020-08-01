@@ -5,7 +5,7 @@ This is a project-based course designed to provide students training and experie
 
 Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping, through modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
 
-Students will be expected to know python, and have prior coursework in machine learning.
+**Pre-Requisites**: Students will be expected to know Python, and have prior coursework in machine learning methods. Experience with SQL, *nix command line, git(hub), and working on remote machines will be helpful.
 
 **[DRAFT SYLLABUS](/syllabus.pdf)**
 
