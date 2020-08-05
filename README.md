@@ -1,4 +1,7 @@
 # 10718, 94889: Machine Learning for Public Policy Lab
+
+### Previous Versions: [Spring 2020]()
+ 
 ### Fall 2020: Tues & Thurs, 3:20-4:40pm, Remote
 
 This is a project-based course designed to provide students training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
