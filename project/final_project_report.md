@@ -78,7 +78,7 @@ The Github repo should be documented in two ways:
 - Future recommendations on how to improve the analysis are provided
  
 
-###Code and Repo:
+### Code and Repo:
 - The repository is well-structured and well-documented.
 - Usage instructions are clear.
 - Code is well-organized and documented.
