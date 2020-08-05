@@ -11,7 +11,9 @@ Practical examples can provide a great way to gain an understanding of the nuanc
 - *What Happens When an Algorithm Cuts Your Health Care* by Lecher, C. 2018. (The Verge) [Available Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
 ## Thursday: Data Acquisition and Integration
-On Thursday (*[Lecture Slides](lecture3-data.pdf)*), we’ll delve into some of the details of acquiring data, protecting privacy, and linking records across data sources. Acquiring data from a project partner is often an involved process with a number of legal and technical aspects.  Researchers need to understand how the data acquired may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure that the privacy of individuals in the dataset is protected(potentially both through access restrictions and techniques like anonymization).  One datahas been acquired, it often needs to be transformed to ingest into the system used for analy-sis, records from multiple data sources linked, and data structured for further analysis.
+(*[Lecture Slides](lecture3-data.pdf)*)
+
+On Thursday, we’ll delve into some of the details of acquiring data, protecting privacy, and linking records across data sources. Acquiring data from a project partner is often an involved process with a number of legal and technical aspects.  Researchers need to understand how the data acquired may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure that the privacy of individuals in the dataset is protected(potentially both through access restrictions and techniques like anonymization).  One datahas been acquired, it often needs to be transformed to ingest into the system used for analy-sis, records from multiple data sources linked, and data structured for further analysis.
 
 ### Optional Readings:
 - *Broken Promises of Privacy* by Ohm, P. UCLA Law Review. 2009. Introduction and Section 1. [Available Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&g_sent=1&casa_token=&collection=journals)
