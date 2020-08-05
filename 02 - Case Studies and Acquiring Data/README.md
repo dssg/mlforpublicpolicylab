@@ -1,4 +1,4 @@
-## General poan for the week
+## General plan for the week
 This week, we’ll break up into project teams and begin project work
 
 
