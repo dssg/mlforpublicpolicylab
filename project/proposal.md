@@ -1,4 +1,4 @@
-### Project Proposal
+## Project Proposal
 The proposal should be 4-5 pages (pdf) and should contain:
 
 - Background and Goals
