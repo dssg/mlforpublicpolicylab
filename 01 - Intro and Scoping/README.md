@@ -1,5 +1,5 @@
 ## Introduction to the goals of the Class 
-[Slides](Class1-Overview.pptx)
+[Slides](ClassOverview.pptx)
 
 We’ll  provide  an  introduction  to  the  class,  its  goals,  and  an  overview  of  the project options to help you decide what you’re interested in working on for the remainder of the semester.
 
@@ -10,7 +10,7 @@ Notes for Tuesday:
 
 ## ML Project Scoping 
 
-[Slides](lecture2-scoping.pptx)
+[Slides](scoping.pptx)
 
 We’ll talk about scoping, problem definition, and understanding and balancingorganizational goals.  Well before the outset of technical work, a decision needs to be madeabout whether a given policy problem can and should be addressed with machine learning:is the problem significant, feasible to solve with a technical approach, and of sufficient im-portance to policy makers that they will devote resources to implementing the solution? Howwill success be measured? How will (often competing) goals of efficiency, effectiveness, andequity be balanced?
 
