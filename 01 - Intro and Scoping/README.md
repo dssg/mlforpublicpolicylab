@@ -6,7 +6,7 @@ We’ll  provide  an  introduction  to  the  class,  its  goals,  and  an  overv
 Notes for Tuesday:
 - Different from previous iterations of the course, project-driven
 - Note that there isn't a single lecture on the syllabus about ML methods, class is about everything that happens before and after building a model, which is where you spend most of your time anyway
-- There are no comprehensive readings -- the readings we've selected for each class speak to elements of the topics, but lectures will be important to get a more complete understanding
+- Unfortunately, no single textbook or set of readings exist for this type of course. The readings we've selected for each class speak to elements of the topics, but lectures will be critical to get a more complete understanding
 
 ## ML Project Scoping 
 
