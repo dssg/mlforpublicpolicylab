@@ -12,7 +12,12 @@ Notes for Tuesday:
 
 [Slides](Scoping.pptx)
 
-We’ll talk about scoping, problem definition, and understanding and balancingorganizational goals.  Well before the outset of technical work, a decision needs to be madeabout whether a given policy problem can and should be addressed with machine learning:is the problem significant, feasible to solve with a technical approach, and of sufficient im-portance to policy makers that they will devote resources to implementing the solution? Howwill success be measured? How will (often competing) goals of efficiency, effectiveness, andequity be balanced?
+We’ll talk about scoping, problem definition, and understanding and balancing organizational goals.  Well before the outset of technical work, a decision needs to be made about whether a given policy problem can and should be addressed with machine learning: 
+- Is the problem significant, feasible to solve with a technical approach, and of sufficient importance to policy makers that they will devote resources to implementing the solution? 
+- How will success be measured? 
+- How will (often competing) goals of efficiency, effectiveness, andequity be balanced?
+
+We'll present and discuss our project scoping methodology that you will be expected to use in the class projects.
 
 
 ### Required Readings:
