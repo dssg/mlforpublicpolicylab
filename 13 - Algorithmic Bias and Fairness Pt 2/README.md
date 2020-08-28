@@ -1,9 +1,13 @@
+**Note:** No classes on Wednesday, Nov 25, or Thursday, Nov 26, for Thanksgiving.
+
+## Project Work
 During this week, your group should be continuing to investigate any
 disparities in your model results as well as performing any other
 necessary post-modeling analyses. 
 
-**Due Thursday, Apr. 9**: Draft research proposal section for your final report.
+**Due Monday, Nov 23**: Weekly project update.
 
+## Tuesday: Algorithmic Bias and Fairness, Part II
 This week, we’ll continue our discussion of bias and fairness with a
 very brief survey of practical considerations and open research
 questions in the rapidly-developing field.

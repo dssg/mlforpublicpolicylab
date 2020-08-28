@@ -10,10 +10,15 @@ Practical examples can provide a great way to gain an understanding of the nuanc
 - *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning* by Potash, E, et al. KDD 2015. [Available Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf)
 - *What Happens When an Algorithm Cuts Your Health Care* by Lecher, C. 2018. (The Verge) [Available Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
+## Wednesday: SQL + Github
+During the Wednesday session, the TAs will lead a tutorial on using SQL and github for your class project.
+
 ## Thursday: Data Acquisition and Integration
 (*[Lecture Slides](lecture3-data.pptx)*)
 
 On Thursday, we’ll delve into some of the details of acquiring data, protecting privacy, and linking records across data sources. Acquiring data from a project partner is often an involved process with a number of legal and technical aspects.  Researchers need to understand how the data acquired may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure that the privacy of individuals in the dataset is protected(potentially both through access restrictions and techniques like anonymization).  One datahas been acquired, it often needs to be transformed to ingest into the system used for analy-sis, records from multiple data sources linked, and data structured for further analysis.
+
+During class on Thursday, we'll also talk a little bit about working together with your project team.
 
 ### Optional Readings:
 - *Broken Promises of Privacy* by Ohm, P. UCLA Law Review. 2009. Introduction and Section 1. [Available Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&g_sent=1&casa_token=&collection=journals)

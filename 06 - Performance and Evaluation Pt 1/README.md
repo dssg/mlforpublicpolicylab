@@ -1,8 +1,10 @@
+## Project Work
 By this week, your group should have a very simple version of an end-to-end pipeline with
 preliminary results for a single model specification.
 
-**Due Thursday, Feb. 20:** Technical modeling plan
+**Due Friday, Oct. 9:** Skeleton pipeline code.
 
+## Tuesday: Performance Metrics and Evaluation, Pt I
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
 can be brought to bear on your modeling question. How do you decide which models are better than others and how can you be confident this decision will carry forward into the future
 when the model is deployed? How should you balance considerations of performance and
@@ -16,6 +18,12 @@ Required Readings for Tuesday:
 structure by Roberts, DR, Bahn, V, et al. Ecography 40:2017. [Available Online](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881)
 - The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
 2019. [Available Online](https://arxiv.org/abs/1906.01998)
+
+## Wednesday Group Check-Ins
+On Wednesday, we’ll start our regular group check-ins to provide feedback on your project progress.
+
+## Thursday: Temporal Validation Deep Dive
+Thursday, we’ll meet together as a class to do a deep dive on temporal validation through a few class project examples.
 
 Optional Readings:
 
