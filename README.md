@@ -23,7 +23,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 ### Teaching Assistants
 | Amartya Basu | Aaron Dunmore |
 | --- | --- | 
-| <img src='/amartyab.jpg' /> <br /> Office Hours: TBD | <img src='/adunmore.jpeg' /> <br /> Office Hours: TBD |
+| <img src='/amartyab.jpg' width='200' height='200' /> <br /> Office Hours: TBD | <img src='/adunmore.jpeg' width='200' height='200' /> <br /> Office Hours: TBD |
 
 ## Tentative Schedule
 
