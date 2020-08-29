@@ -18,12 +18,12 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  Tue 12-1pm ET, Fri 3-4pm ET | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: TBD |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours (Zoom): <br />  Tue 12-1pm ET, Fri 3-4pm ET | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours (Zoom): <br /> Mon 1:30-2:30 ET, Thr 11-12 ET |
 
 ### Teaching Assistants
 | Amartya Basu | Aaron Dunmore |
 | --- | --- | 
-| Office Hours: TBD | Office Hours: TBD |
+| <img src='/amartyab.jpg' /> <br /> Office Hours: TBD | <img src='/adunmore.jpeg' /> <br /> Office Hours: TBD |
 
 ## Tentative Schedule
 
