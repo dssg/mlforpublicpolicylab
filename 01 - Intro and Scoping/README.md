@@ -24,7 +24,7 @@ We'll present and discuss our project scoping methodology that you will be expec
 
 ### Required Readings:
 - [*Data Science Project Scoping Guide*](http://www.datasciencepublicpolicy.org/home/resources/data-science-project-scoping-guide/)
-- [*Using Machine Learning to Assess the Risk of and Prevent Water Main Breaks*](https://dl.acm.org/citation.cfm?id=3219835) by Kumar, A, Rizvi, SAA, et al. KDD 2018.
+- [*Using Machine Learning to Assess the Risk of and Prevent Water Main Breaks*](KumarWaterMains.pdf) by Kumar, A, Rizvi, SAA, et al. KDD 2018.
 
 ### Optional Reading:
 - *Deconstructing Statistical Questions* by Hand, D.J. J. Royal Stat Soc. A 157(3) 1994. [Available Online](http://stat688.bio5.org/sites/default/files/fall2014/hand-deconstructin.pdf)
