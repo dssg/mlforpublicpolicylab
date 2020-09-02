@@ -10,6 +10,14 @@ Notes for Tuesday:
 
 During the Wednesday session, we'll help ensure everyone is set up to access the class technical resources.
 
+## Tech Session
+
+[Slides](https://docs.google.com/presentation/d/1MEP-UF9dHuEfoIWWKIphFAYI23miVHCovLJgndPLgvE/edit?usp=sharing)
+
+This tech session will set you up to access to the class infrastructure: the course server via SSH, the database via command line and GUI, and the course github.
+
+Don't worry if any of these topics are unfamiliar to you - future tech sessions will cover them in greater depth.
+
 ## ML Project Scoping 
 
 [Slides](Scoping.pptx)
