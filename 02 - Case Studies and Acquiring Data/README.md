@@ -16,6 +16,9 @@ Practical examples can provide a great way to gain an understanding of the nuanc
 ## Wednesday: SQL + Github
 During the Wednesday session, the TAs will lead a tutorial on using SQL and github for your class project.
 
+- Useful github tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/)
+- [Basic SQL tutorial](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/)
+
 ## Thursday: Data Acquisition and Integration
 (*[Lecture Slides](lecture3-data.pptx)*)
 
