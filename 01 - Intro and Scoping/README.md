@@ -10,6 +10,14 @@ Notes for Tuesday:
 
 During the Wednesday session, we'll help ensure everyone is set up to access the class technical resources.
 
+## Tech Session
+
+[Slides](https://docs.google.com/presentation/d/1MEP-UF9dHuEfoIWWKIphFAYI23miVHCovLJgndPLgvE/edit?usp=sharing)
+
+This tech session will set you up to access to the class infrastructure: the course server via SSH, the database via command line and GUI, and the course github.
+
+Don't worry if any of these topics are unfamiliar to you - future tech sessions will cover them in greater depth.
+
 ## ML Project Scoping 
 
 [Slides](Scoping.pptx)
@@ -24,7 +32,7 @@ We'll present and discuss our project scoping methodology that you will be expec
 
 ### Required Readings:
 - [*Data Science Project Scoping Guide*](http://www.datasciencepublicpolicy.org/home/resources/data-science-project-scoping-guide/)
-- [*Using Machine Learning to Assess the Risk of and Prevent Water Main Breaks*](https://dl.acm.org/citation.cfm?id=3219835) by Kumar, A, Rizvi, SAA, et al. KDD 2018.
+- [*Using Machine Learning to Assess the Risk of and Prevent Water Main Breaks*](KumarWaterMains.pdf) by Kumar, A, Rizvi, SAA, et al. KDD 2018.
 
 ### Optional Reading:
 - *Deconstructing Statistical Questions* by Hand, D.J. J. Royal Stat Soc. A 157(3) 1994. [Available Online](http://stat688.bio5.org/sites/default/files/fall2014/hand-deconstructin.pdf)
