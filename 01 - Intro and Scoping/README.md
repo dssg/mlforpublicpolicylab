@@ -20,7 +20,7 @@ Don't worry if any of these topics are unfamiliar to you - future tech sessions 
 
 ## ML Project Scoping 
 
-[Slides](Scoping.pptx)
+[Slides](Scoping.pptx) and [Scoping Worksheet](https://docs.google.com/document/d/17svWoaRrRCjsROb2UxOVKPY86GyyRuiJMnPgjL2IkKg/edit)
 
 On Thursday, we’ll talk about scoping, problem definition, and understanding and balancing organizational goals.  Well before the outset of technical work, a decision needs to be made about whether a given policy problem can and should be addressed with machine learning: 
 - Is the problem significant, feasible to solve with a technical approach, and of sufficient importance to policy makers that they will devote resources to implementing the solution? 
