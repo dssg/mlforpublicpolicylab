@@ -11,7 +11,6 @@ Practical examples can provide a great way to gain an understanding of the nuanc
 ### Optional Readings:
 - *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning* by Potash, E, et al. KDD 2015. [Available Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf), [Short 3 minute video](https://www.youtube.com/watch?v=DbplLXRQquI)
 - *What Happens When an Algorithm Cuts Your Health Care* by Lecher, C. 2018. (The Verge) [Available Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
--
 
 ## Wednesday: SQL + Github
 During the Wednesday session, the TAs will lead a tutorial on using SQL and github for your class project.
