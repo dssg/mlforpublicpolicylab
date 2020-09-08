@@ -19,7 +19,7 @@ During the Wednesday session, the TAs will lead a tutorial on using SQL and gith
 - [Basic SQL tutorial](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/)
 
 ## Thursday: Data Acquisition and Integration
-(*[Lecture Slides](lecture3-data.pptx)*)
+(*[Lecture Slides](data.pptx)*)
 
 Required: (*[Pre-watch lecture video](https://youtu.be/BCnut05L5OA)*)
 
