@@ -8,7 +8,7 @@
 
 **Detailed instructions** are in [slack post](https://mlppfall2020.slack.com/files/T01A8J5N01E/F01A4RF49U4?origin_team=T01A8J5N01E&origin_channel=C019AFXU9NK)
 
-**[Slides from week 1 tech session]**(https://docs.google.com/presentation/d/1MEP-UF9dHuEfoIWWKIphFAYI23miVHCovLJgndPLgvE/edit#slide=id)
+**[Slides from week 1 tech session](https://docs.google.com/presentation/d/1MEP-UF9dHuEfoIWWKIphFAYI23miVHCovLJgndPLgvE/edit#slide=id)**
 
 
 
