@@ -1,8 +1,8 @@
 # Tech Setup
 
 1. Make sure you are on cmu vpn (Full VPN group)
-2. Connect to class server: mlpolicylab.dssg.io (command line/terminal/putty) : type ssh your_andrew_id@mlpolicylab.dssg.io
-3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database
+2. Connect to class server: mlpolicylab.dssg.io (command line/terminal/putty) : type `ssh your_andrew_id@mlpolicylab.dssg.io`
+3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database`
 4. setting up dbeaver (a visual ide to the database) [instructions are here](https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
 **Detailed instructions** are in [slack post](https://mlppfall2020.slack.com/files/T01A8J5N01E/F01A4RF49U4?origin_team=T01A8J5N01E&origin_channel=C019AFXU9NK)
@@ -27,11 +27,11 @@ We'll use github to collaborate on the code all semester. You will have a projec
 #### common (extremely simple) workflow
 
 - When you start working:
-  - The first time, clone an existing repo: git clone
-  - Every time, get changes since last time: git pull
-- Add new files: git add or make changes to existing files
-- Make a local checkpoint: git commit
-- Push to the remote repository: git push
+  - The first time, clone an existing repo: `git clone`
+  - Every time, get changes since last time: `git pull`
+- Add new files: `git add` or make changes to existing files
+- Make a local checkpoint: `git commit`
+- Push to the remote repository: `git push`
 
 A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
 
