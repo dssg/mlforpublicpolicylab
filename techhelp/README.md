@@ -24,7 +24,7 @@ dbeaver is a free tool that gives you a slightly nicer and visual interface to t
 ## github
 We'll use github to collaborate on the code all semester. You will have a project repository based on your projhect assignment.
 
-### common (extremely simple) workflow
+#### common (extremely simple) workflow
 
 - When you start working:
   - The first time, clone an existing repo: git clone
