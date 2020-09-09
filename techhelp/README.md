@@ -24,6 +24,18 @@ dbeaver is a free tool that gives you a slightly nicer and visual interface to t
 ## github
 We'll use github to collaborate on the code all semester. You will have a project repository based on your projhect assignment.
 
+### common (extremely simple) workflow
+
+- When you start working:
+  - The first time, clone an existing repo: git clone
+  - Every time, get changes since last time: git pull
+- Add new files: git add or make changes to existing files
+- Make a local checkpoint: git commit
+- Push to the remote repository: git push
+
+A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
+
+
 
 
 
