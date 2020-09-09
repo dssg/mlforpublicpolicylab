@@ -257,7 +257,6 @@ td
 	background:#A4C2F4;
 	mso-pattern:#A4C2F4 none;}
 -->
-</style>
 </head>
 
 <body link="#1155CC" vlink="#1155CC">
