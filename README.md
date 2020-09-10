@@ -23,7 +23,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 ### Teaching Assistants
 | Amartya Basu | Aaron Dunmore |
 | --- | --- | 
-| <img src='/amartyab.jpg' width='200' height='200' /> <br /> Office Hours: TBD | <img src='/adunmore.jpeg' width='200' height='200' /> <br /> Office Hours ([Zoom](https://cmu.zoom.us/j/8511355129)): <br /> Wed 1-2pm ET, Fri 1-2pm ET |
+| <img src='/amartyab.jpg' width='200' height='200' /> <br /> Office Hours: ([Zoom](https://cmu.zoom.us/my/hannibal.lecter)): <br /> Tue 1-2pm ET, Sat 1-2pm ET | <img src='/adunmore.jpeg' width='200' height='200' /> <br /> Office Hours ([Zoom](https://cmu.zoom.us/j/8511355129)): <br /> Wed 1-2pm ET, Fri 1-2pm ET |
 
 ## Tentative Schedule
 
