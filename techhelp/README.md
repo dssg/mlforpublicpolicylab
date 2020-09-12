@@ -22,6 +22,7 @@ A couple of quick pointers that might be helpful:
 - Everyone is sharing the resources of the course server and it can be a good idea to keep an eye on memory and processor usage (both to know if you're hogging resources with your processes and understand how the load looks before starting a job). A good way to do so is with the utility [htop](https://www.deonsworld.co.za/2012/12/20/understanding-and-using-htop-monitor-system-resources/), which provides a visual representation of this information (to open htop just type `htop` at the command prompt and to exit, you can simply hit the `q` key)
 - Each group should have their own folder on the server, in `/data/groups/{group name}`. For example, `/data/groups/bills1`
 - We've set up a shared python virtual environment for each group. This will automatically activate when you navigate to `/data/groups/{group_name}`. Or, manually activate it with `source /data/groups/{group_name}/dssg_env/bin/activate`.
+- When you first navigate to `/data/groups/{group_name}` you'll get a message prompting you to run `direnv allow`. Run this command to allow the automatic virtual environment switching.
 
 ## PostgreSQL
 If you're not too familiar with SQL or would like a quick review, we have an overview and intro [here](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/).
