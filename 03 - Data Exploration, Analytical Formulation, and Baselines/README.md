@@ -15,6 +15,11 @@ Required Reading for Tuesday:
 During the Wednesday session, you'll have time to work together with your project team to refine your scope and explore the data.
 
 ## Thursday: Analytical Formulation and Baseline
+
+Required Readings for Thursday:
+- [Recorded Lecture Video](https://youtu.be/-whVPGncD9c)
+- Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
+
 On Thursday, we'll discuss analytical formulation of policy projects. Distinct from the initial scoping, a true analytical formulation of your policy problem can
 only come after you have developed an understanding of the data at hand, which in turn will
 often result in a greater understanding of the problem itself. Here, you’ll ask how specifically
@@ -23,10 +28,6 @@ the appropriate baseline as simple as "random choice" or the population prevalen
 it should reflect what would be expected to happen otherwise: perhaps a simple decision rule
 that an expert would come up with or even a pre-existing statistical model that the current
 effort is seeking to replace.
-
-Required Readings for Thursday:
-- [Recorded Lecture Video](https://youtu.be/-whVPGncD9c)
-- Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
 
 Optional Readings:
 - Always Start with a Stupid Model, No Exceptions by
