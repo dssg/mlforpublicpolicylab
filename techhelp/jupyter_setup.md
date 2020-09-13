@@ -44,7 +44,7 @@ Finally, open a browser of your choice on your local machine and navigate to htt
 
 ![notebook browser login](/techhelp/img/jupyter-login.png)
 
-Note in the figure that I'm using local port 8999 because I already had another server running on 8888, but in most cases you'll be using 8888 there. If you successfully log in, you should see a directory listing where you started the notebook server on the remote server allowing you to create new python files.
+If you successfully log in, you should see a directory listing where you started the notebook server on the remote server allowing you to create new python files.
 
 To make sure packages you install in your group's python virtualenv are available, we have created a kernel with each group's name that uses this virtualenv. **Be sure you're selecting the kernel with your group name when creating a notebook** (we'll eventually be deleting the "Python 3" kernel to avoid confusion as well):
 
