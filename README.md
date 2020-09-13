@@ -4,11 +4,11 @@
  
 ### Fall 2020: Tues & Thurs, 3:20-4:40pm, Remote through Zoom (see canvas for link)
 
-This is a project-based course designed to provide students training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
+This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
-Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping, through modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
+Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping,  to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
 
-**Pre-Requisites**: Students will be expected to know Python, and have prior coursework in machine learning. This course assumes that you have taken Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with SQL, *nix command line, git(hub), and working on remote machines will be helpful.
+**Pre-Requisites**: Students will be expected to know Python (for data analysis), and have prior graduate coursework in machine learning. This course assumes that you have taken graduate Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with SQL, *nix command line, git(hub), and working on remote machines will be helpful and is highly recommended.
 
 **[DRAFT SYLLABUS](/syllabus.pdf)**
 
