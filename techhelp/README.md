@@ -51,6 +51,12 @@ We'll use github to collaborate on the code all semester. You will have a projec
 A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
 
 
+## Jupyter Notebooks
+Although not a good environment for running your ML pipeline and models, jupyter notebooks can be useful for exploratory data analysis as well as visualizing modeling results. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating an SSH tunnel (because the course server can only be accessed via the SSH protocol) so you can access it via your local browser.
+
+One important note: **be sure to explicitly shut down the kernels when you're done working with a notebook** as "zombie" notebook sessions can end up using up a lot of processed!
+
+You can find some details about using jupyter with the class server [here](jupyter_setup.md)
 
 
 
