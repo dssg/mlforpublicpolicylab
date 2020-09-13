@@ -25,11 +25,12 @@ that an expert would come up with or even a pre-existing statistical model that 
 effort is seeking to replace.
 
 Required Readings for Thursday:
+- [Recorded Lecture Video](youtube)
 - Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
-- Always Start with a Stupid Model, No Exceptions by
-  Ameisen, E. Medium. [Available Online](https://blog.insightdatascience.com/always-start-with-a-stupid-model-no-exceptions-3a22314b9aaa)
 
 Optional Readings:
+- Always Start with a Stupid Model, No Exceptions by
+  Ameisen, E. Medium. [Available Online](https://blog.insightdatascience.com/always-start-with-a-stupid-model-no-exceptions-3a22314b9aaa)
 - Create a Common-Sense Baseline First by Ramakrishnan. Medium. [Available Online](https://towardsdatascience.com/first-create-a-common-sense-baseline-e66dbf8a8a47)
 - Data Science for Business by Provost and Fawcett. O’Reilly. 2013. Chapter 2: Business
 Problems and Data Science [Available Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html)
