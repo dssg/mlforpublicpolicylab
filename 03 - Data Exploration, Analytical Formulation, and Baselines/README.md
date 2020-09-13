@@ -25,6 +25,7 @@ that an expert would come up with or even a pre-existing statistical model that 
 effort is seeking to replace.
 
 Required Readings for Thursday:
+- [Recorded Lecture Video](youtube)
 - Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](https://science.sciencemag.org/content/sci/366/6464/447.full.pdf)
 
 Optional Readings:
