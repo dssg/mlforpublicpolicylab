@@ -1,4 +1,24 @@
 # Using Jupyter Notebooks
+
+## tl;dr
+1. start jupyter server on the server from your project directory and select a port number **between 1024 and 65535** (more details below if you get an error) 
+```bash
+cd /data/groups/{group-name}/
+jupyter notebook --no-browser --port {YOUR_PORT}
+```
+
+Take note of token once the command finishes running. it will be in a string similar to ``[I 04:14:21.181 NotebookApp] http://localhost8:888/?token=65d0e5010af61874004ddeea962cd727992a593b82bc4e1b``
+
+2. Set up an SSH tunnel to connect to the server from your laptop:
+
+```bash
+ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@mlpolicylab.dssg.io
+```
+
+3. Open browser on laptop and type in http://localhost:8888/ and enter token from step 1. Make sure to select the kernel with your group name when creating a notebook
+
+## Before you get started
+
 Although not a good environment for running your ML pipeline and models, jupyter notebooks can be useful for exploratory data analysis as well as visualizing modeling results. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating an SSH tunnel (because the course server can only be accessed via the SSH protocol) so you can access it via your local browser.
 
 One important note: **be sure to explicitly shut down the kernels when you're done working with a notebook** (you can do this from the notebook directory listing: see the figure below) as "zombie" notebook sessions can end up using up a lot of processed!
