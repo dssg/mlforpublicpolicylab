@@ -14,6 +14,7 @@ will provide a very brief introduction to the expansive field of
 algorithmic fairness. 
 
 Required Readings for Tuesday:
+- *Bias and Fairness in ML* [Available Online](https://textbook.coleridgeinitiative.org/chap-bias.html)
 - *Fairness Definitions Explained* by Verma, S and Rubin, J. [Available Online](https://dl.acm.org/citation.cfm?doid=3194770.3194776)
 - *A Theory of Justice* by Rawls, J. 1971. Chapter 1: Justice as Fairness, pp. 1-19. [Available Online](https://blogs.baruch.cuny.edu/eng2100kmwd/files/2015/12/A-Theory-of-Justice-Excerpts.pdf)
 - *Racial Equity in Algorithmic Criminal Justice* by Huq, A. Duke Law Journal. 2018. [Available Online](https://heinonline.org/HOL/Page?handle=hein.journals/duklr68&id=1067&div=33&collection=journals) [Focus on sections: I.B.2, all of section II, III introduction, III.B, and III.D.3]
