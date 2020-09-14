@@ -19,9 +19,10 @@ jupyter notebook --no-browser --port {YOUR_PORT}
 ```
 or
 ```bash
-source /data/grouds/{group-name}/dssg_env/bin/activate
+source /data/groups/{group-name}/dssg_env/bin/activate
 jupyter notebook --no-browser --port {YOUR_PORT}
 ```
+Your group name is bills1, schools1, etc.
 
 Note that whatever directory you're in when you start the server is where your notebooks will be stored. Starting the server will print out a message indicating that the server is starting and giving you a token you can use to access it, which looks something like this:
 
