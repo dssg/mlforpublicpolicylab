@@ -11,8 +11,8 @@ We'll also dedicate about 30 minutes during class on Tuesday for you to meet wit
 Required Reading for Tuesday:
 - *Practical Statistics for Data Scientists* by Bruce, A. and Bruce, P. O'Reilly (2017). Chapter 1: Exploratory Data Analysis [Available Online](https://learning.oreilly.com/library/view/practical-statistics-for/9781491952955/ch01.html#EDA)
 
-## Wednesday: Project Work
-During the Wednesday session, you'll have time to work together with your project team to refine your scope and explore the data.
+## Wednesday: Project Work and Check-ins
+During the Wednesday session, you'll have time to work together with your project team to refine your scope and explore the data. We will also use this time to meet with every project team to go over project and data details.
 
 ## Thursday: Analytical Formulation and Baseline
 
@@ -23,8 +23,7 @@ Required Readings for Thursday:
 On Thursday, we'll discuss analytical formulation of policy projects. Distinct from the initial scoping, a true analytical formulation of your policy problem can
 only come after you have developed an understanding of the data at hand, which in turn will
 often result in a greater understanding of the problem itself. Here, you’ll ask how specifically
-your target variable (if relevant) is defined in the data, what types of information are available as predictors, and what baseline you’ll be measure performance against. Very rarely is
-the appropriate baseline as simple as "random choice" or the population prevalence. Rather,
+your target variable (if relevant) is defined in the data, what types of information are available as predictors, and what baseline you’ll be measure performance  against. Very rarely is the appropriate baseline as simple as "random choice" or the population prevalence. Rather,
 it should reflect what would be expected to happen otherwise: perhaps a simple decision rule
 that an expert would come up with or even a pre-existing statistical model that the current
 effort is seeking to replace.
