@@ -4,6 +4,11 @@
  
 ### Fall 2020: Tues & Thurs, 3:20-4:40pm, Remote through Zoom (see canvas for link)
 
+### Important 
+ - **All content will be on github here**
+ - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/18465)**
+ - **Class comunication and announcements will be primarily through Slack**
+
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
 Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping,  to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
