@@ -7,7 +7,7 @@
 ### Important 
  - **All content will be on github here**
  - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/18465)**
- - **Class comunication and announcements will be primarily through Slack**
+ - **Class communication and announcements will be primarily through Slack**
 
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
