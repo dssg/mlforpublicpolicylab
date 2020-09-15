@@ -1,7 +1,7 @@
 ## Project Work
 At this point in your project work, you should be developing your initial end-to-end pipeline.
 
-**Due Friday (Sep 25)**: Project proposal with scope and descriptive statistics.
+**Due Friday (Sep 25)**: [Project proposal with scope and descriptive statistics.](https://canvas.cmu.edu/courses/18465/assignments/268653)
 
 ## Tuesday: Machine Learning Pipelines
 On Tuesday ([Lecture Slides](Machine-Learning-Pipelines.pptx)), we’ll describe the components of typical machine learning pipelines. End-to-end ML Pipelines can quickly become unwieldy with several moving pieces and well-structured, modular code is often critical to detecting and fixing bugs in the process.  This session will provide an overview of the pipeline, each underlying element, and some best practices for building them.
