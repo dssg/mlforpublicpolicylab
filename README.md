@@ -1,8 +1,9 @@
 # 10718, 94889: Machine Learning for Public Policy Lab
 
-### Previous Versions: [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
+** Previous Versions: [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)**
  
-### Fall 2020: Tues & Thurs, 3:20-4:40pm, Remote through Zoom (see canvas for link)
+### Fall 2020: Tues & Thurs, 3:20-4:40pm, Project Sections: Wednesday 5:10-6:30pm or 6:40-8pm 
+** All sessions are remote through Zoom (see canvas for link)**
 
 ### Important 
  - **All content will be on github here**
@@ -30,7 +31,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 | --- | --- | 
 | <img src='/amartyab.jpg' width='200' height='200' /> <br /> Office Hours: ([Zoom](https://cmu.zoom.us/my/hannibal.lecter)): <br /> Tue 1-2pm ET, Sat 1-2pm ET | <img src='/adunmore.jpeg' width='200' height='200' /> <br /> Office Hours ([Zoom](https://cmu.zoom.us/j/8511355129)): <br /> Wed 1-2pm ET, Fri 1-2pm ET |
 
-## Tentative Schedule
+## Schedule
 
 See the **[syllabus](/syllabus.pdf)** for much more detail as well, including information about group projects, grading, and helpful optional readings.
 
