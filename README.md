@@ -370,7 +370,7 @@ tags will be replaced.-->
   Work</td>
   <td class=xl70 width=241 style='border-top:none;border-left:none;width:181pt'><a
   href="https://github.com/dssg/mlforpublicpolicylab/tree/master/03%20-%20Data%20Exploration%2C%20Analytical%20Formulation%2C%20and%20Baselines#thursday-analytical-formulation-and-baseline"><span
-  style='color:#1155CC'>Analytical Formulation / Baselines</span></a></td>
+  style='color:#1155CC'>Analytical Formulation and Baselines</span></a></td>
   <td class=xl77 width=196 style='border-top:none;border-left:none;width:147pt'><a
   href="https://canvas.cmu.edu/courses/18465/assignments/268647"><span
   style='color:#1155CC'>ACS Data ETL (Friday)</span></a></td>
