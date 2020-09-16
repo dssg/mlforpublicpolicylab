@@ -24,6 +24,20 @@ A couple of quick pointers that might be helpful:
 - We've set up a shared python virtual environment for each group. This will automatically activate when you navigate to `/data/groups/{group_name}`. Or, manually activate it with `source /data/groups/{group_name}/dssg_env/bin/activate`.
 - When you first navigate to `/data/groups/{group_name}` you'll get a message prompting you to run `direnv allow`. Run this command to allow the automatic virtual environment switching.
 
+## github
+We'll use github to collaborate on the code all semester. You will have a project repository based on your projhect assignment.
+
+#### common (extremely simple) workflow
+
+- When you start working:
+  - The first time, clone an existing repo: `git clone`
+  - Every time, get changes since last time: `git pull`
+- Add new files: `git add` or make changes to existing files
+- Make a local checkpoint: `git commit`
+- Push to the remote repository: `git push`
+
+A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
+
 ## PostgreSQL
 If you're not too familiar with SQL or would like a quick review, we have an overview and intro [here](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/).
 
@@ -45,20 +59,39 @@ A couple quick usage pointers:
 dbeaver is a free tool that gives you a slightly nicer and visual interface to the database. [Instructions for installinfg and set up are here]
 (https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
-## github
-We'll use github to collaborate on the code all semester. You will have a project repository based on your projhect assignment.
+## Connecting to the database from python
+The `psycopg2` module provides an interface to connect to a postgres database from python. You'll can install it in your virtualenv with:
+```
+pip install psycopg2-binary
+```
+(Note that `psycopg2-binary` comes packaged with its dependencies, so you should install it rather than the base `psycopg2` module)
 
-#### common (extremely simple) workflow
+A simple usage pattern might look like:
+```python
+import psycopg2 as pg2
 
-- When you start working:
-  - The first time, clone an existing repo: `git clone`
-  - Every time, get changes since last time: `git pull`
-- Add new files: `git add` or make changes to existing files
-- Make a local checkpoint: `git commit`
-- Push to the remote repository: `git push`
+# read parameters from a secrets file, don't hard-code them!
+db_params = get_secrets('db')
+conn = pg2.connect(
+  host=db_params['host'],
+  port=db_params['port'],
+  dbname=db_params['database'],
+  user=db_params['user'],
+  password=db_params['password']
+)
+cur = conn.cursor()
+cur.execute("SELECT * FROM your_table LIMIT 100;")
+for record in cur.fetchall():
+  process_record(record)
 
-A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
+# Close communication with the database
+cur.close()
+conn.close()
+```
 
+If you're changing data in the database, note that you may need to use `conn.commit()` to ensure that changes persist. You can find more information in the [psycopg2 docs](https://www.psycopg.org/docs/usage.html)
+
+Note that the connection object can also be used with other utilities that interact with the database, such as ohio or pandas (though the latter can be very inefficient/slow)
 
 ## Jupyter Notebooks
 Although not a good environment for running your ML pipeline and models, jupyter notebooks can be useful for exploratory data analysis as well as visualizing modeling results. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating an SSH tunnel (because the course server can only be accessed via the SSH protocol) so you can access it via your local browser.
