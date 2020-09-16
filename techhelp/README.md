@@ -81,7 +81,7 @@ conn = pg2.connect(
 )
 cur = conn.cursor()
 cur.execute("SELECT * FROM your_table LIMIT 100;")
-for record in cur.fetchall():
+for record in cur:
   process_record(record)
 
 # Close communication with the database
