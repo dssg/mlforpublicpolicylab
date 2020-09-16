@@ -32,6 +32,15 @@ Additionally, check out these [notes and tips about using the course database](c
 ## psql
 PSQL is a command line tool to connect to the postgresql databvase server we're using for class. You will bneed to be on the server through assh first and then type `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID databasename` where `databasename` is the database for your project that you will receive after your project assignment. To test it you can use `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database` - make sure to change `YOUR_ANDREW_ID`
 
+A couple quick usage pointers:
+- `\dn` will list the schemas in the database you're connected to
+- `\dt {schema_name}.*` will list the tables in schema `{schema_name}`
+- `\d {schema_name}.{table_name}` will list the columns of table `{schema_name}.{table_name}`
+- `\x` can be used to enter "extended display mode" to view results in a tall, key-value format
+- For cleaner display of wide tables, you can launch `psql` using: `PAGER='less -S' psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID databasename` (then use the left and right arrows to navigate columns of wide results)
+- `\?` will show help about psql meta-commands
+- `\q` will exit
+
 ## dbeaver
 dbeaver is a free tool that gives you a slightly nicer and visual interface to the database. [Instructions for installinfg and set up are here]
 (https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
