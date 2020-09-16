@@ -6,7 +6,7 @@
 ** All sessions are remote through Zoom (see canvas for link)**
 
 ### Important 
- - **All content will be on github in this repo including [schedule]() and [tech setup instructions](techhelp/)**
+ - **All content will be on github in this repo including [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
  - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/18465)**
  - **Class communication and announcements will be primarily through Slack**
 
