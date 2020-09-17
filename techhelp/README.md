@@ -100,7 +100,8 @@ One important note: **be sure to explicitly shut down the kernels when you're do
 
 You can find some details about using jupyter with the class server [here](jupyter_setup.md)
 
-
+## Handling Secrets
+You'll need access to various secrets (such as database credentials) in your code, but keeping these secrets out of the code itself is an important part of keeping your infrastructure and data secure. You can find a few tips about different ways to do so [here](handling_secrets.md)
 
 
 
