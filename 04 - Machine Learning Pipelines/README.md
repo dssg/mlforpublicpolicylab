@@ -6,7 +6,8 @@ At this point in your project work, you should be developing your initial end-to
 ## Tuesday: Machine Learning Pipelines
 On Tuesday ([Lecture Slides](Machine-Learning-Pipelines.pptx)), we’ll describe the components of typical machine learning pipelines. End-to-end ML Pipelines can quickly become unwieldy with several moving pieces and well-structured, modular code is often critical to detecting and fixing bugs in the process.  This session will provide an overview of the pipeline, each underlying element, and some best practices for building them.
 
-Required Reading for Tuesday:
+Required Readings for Tuesday:
+- Review the lecture slides before class: [Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/Machine-Learning-Pipelines.pptx)
 - *Architecting a Machine Learning Pipeline* by Koen, S. (Medium) [Available Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7)
 
 ## Wednesday and Thursday: Project Work
