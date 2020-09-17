@@ -8,7 +8,6 @@ On Tuesday ([Lecture Slides](Machine-Learning-Pipelines.pptx)), we’ll describe
 
 Required Readings for Tuesday:
 - Review the lecture slides before class: [Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/Machine-Learning-Pipelines.pptx)
-- *Architecting a Machine Learning Pipeline* by Koen, S. (Medium) [Available Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7)
 
 Useful examples:
 - [Triage](http://www.datasciencepublicpolicy.org/triage)
@@ -16,6 +15,7 @@ Useful examples:
   - [Tutorial](https://dssg.github.io/triage/dirtyduck/)
 
 Optional Reading:
+- *Architecting a Machine Learning Pipeline* by Koen, S. (Medium) [Available Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7)
 - *Meet Michelangelo: Uber's Machine Learning Platform* by Hermann, J and Del Balso, M. [Available Online](https://eng.uber.com/michelangelo/)
 
 ## Wednesday and Thursday: Project Work
