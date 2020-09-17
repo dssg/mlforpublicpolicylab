@@ -10,9 +10,16 @@ Required Readings for Tuesday:
 - Review the lecture slides before class: [Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/Machine-Learning-Pipelines.pptx)
 - *Architecting a Machine Learning Pipeline* by Koen, S. (Medium) [Available Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7)
 
+Useful examples:
+- [Triage](http://www.datasciencepublicpolicy.org/triage)
+  - [Code on github](http://github.com/dssg/triage)
+  - [Tutorial](https://dssg.github.io/triage/dirtyduck/)
+
+Optional Reading:
+- *Meet Michelangelo: Uber's Machine Learning Platform* by Hermann, J and Del Balso, M. [Available Online](https://eng.uber.com/michelangelo/)
+
 ## Wednesday and Thursday: Project Work
 During the Wednesday and Thursday sessions, you'll have time to work with your group on the proposal due this week as well as your initial pipeline.
 
 Optional Readings:
 - *Data Analysis, Exploratory* by Brillinger. [Available Online](https://www.stat.berkeley.edu/~brill/Papers/EDASage.pdf)
-- *Meet Michelangelo: Uber's Machine Learning Platform* by Hermann, J and Del Balso, M. [Available Online](https://eng.uber.com/michelangelo/)
