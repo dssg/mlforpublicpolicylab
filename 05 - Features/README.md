@@ -9,11 +9,11 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 most data sets you’ll encounter in practice are littered with outliers, inconsistencies, and missingness. Handling these data issues in a smart way can be critical to a project’s success.
 
 Required Readings for Tuesday:
-
+- [Short Video Lecture](https://www.youtube.com/watch?v=kluqz_1GN5c) and corresponding [slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/05%20-%20Features/features-and-imputation.pptx?raw=true)
 
 
 ## Wednesday: Remote Workflows Tech Session
-On Wednesday, the TAs will lead a tutorial on remote technical workflows. We'll also plan to hold an additional session sometime this week about using Python and SQL together.
+On Wednesday, the TAs will lead tutorials on remote technical workflows and using Python and SQL together.
 
 ## Thursday: Project Work
 On Thursday, you'll have time to work together with your project team.
