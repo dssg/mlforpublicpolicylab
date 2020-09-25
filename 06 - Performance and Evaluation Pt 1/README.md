@@ -2,7 +2,7 @@
 By this week, your group should have a very simple version of an end-to-end pipeline with
 preliminary results for a single model specification.
 
-**Due Friday, Oct. 9:** Skeleton pipeline code.
+**Due Friday, Oct. 9:** Skeleton pipeline code, one-sentence analytical formulation, and baselines.
 
 ## Tuesday: Performance Metrics and Evaluation, Pt I
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
@@ -16,8 +16,6 @@ Required Readings for Tuesday:
 
 - Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic
 structure by Roberts, DR, Bahn, V, et al. Ecography 40:2017. [Available Online](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.02881)
-- The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
-2019. [Available Online](https://arxiv.org/abs/1906.01998)
 
 ## Wednesday Group Check-Ins
 On Wednesday, we’ll start our regular group check-ins to provide feedback on your project progress.
@@ -27,5 +25,8 @@ Thursday, we’ll meet together as a class to do a deep dive on temporal validat
 
 Optional Readings:
 
-- Big Data and Social Science edited by Foster, Ghani, et al. Chapter 5: Machine Learning.
+- Time Series Nested Cross-Validation by Cochrane, C. Medium. [Available Online](https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9)
+- The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
+2019. [Available Online](https://arxiv.org/abs/1906.01998)
+- Big Data and Social Science (2nd edition) edited by Foster, Ghani, et al. Chapter 7: Machine Learning. [Available Online](https://textbook.coleridgeinitiative.org/chap-ml.html)
 
