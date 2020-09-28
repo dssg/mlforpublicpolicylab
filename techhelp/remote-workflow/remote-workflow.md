@@ -4,7 +4,7 @@ This document will provide you with tools for comfortably using our remote envir
 
 ### Common Tasks
 1. Write code
-  - Python
+  - Python: You can use any editor you want (vim, emacs, sublime). We will cover VSCode today if you don't have anything set up.
   - SQL
 2. Share code with your team
   - github
