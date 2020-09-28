@@ -5,10 +5,11 @@ This document will provide you with tools for comfortably using our remote envir
 ### Common Tasks
 1. Write code
   - Python: You can use any editor you want (vim, emacs, sublime). We will cover VSCode today if you don't have anything set up.
-  - SQL
+  - SQL: You can use psql on the server or DBeaver on your laptop.
 2. Share code with your team
-  - github
+  - github. You can write code on your laptop (or server) and push to github.
 3. Run code
+ - 
 4. Linux tasks
 
 **Agenda:**
