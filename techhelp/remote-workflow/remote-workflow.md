@@ -2,6 +2,15 @@
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
 
+### Common Tasks
+1. Write code
+ - Python
+ - SQL
+2. Share code with your team
+ - github
+3. Run code
+4. Linux tasks
+
 **Agenda:**
 1. Using VSCode for remote development
 2. Using Jupyter remotely, with SSH tunneling
