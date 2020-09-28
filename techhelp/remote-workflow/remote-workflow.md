@@ -4,10 +4,10 @@ This document will provide you with tools for comfortably using our remote envir
 
 ### Common Tasks
 1. Write code
- - Python
- - SQL
+  - Python
+  - SQL
 2. Share code with your team
- - github
+  - github
 3. Run code
 4. Linux tasks
 
