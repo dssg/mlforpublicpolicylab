@@ -2,15 +2,24 @@
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
 
-### Common Tasks
-1. Write code
-  - Python: You can use any editor you want (vim, emacs, sublime). We will cover VSCode and Jupyter today if you don't have anything set up.
-  - SQL: You can use psql on the server or DBeaver on your laptop.
-2. Share code with your team
-  - github. You can write code on your laptop (or server) and push to github.
-3. Run code
- - 
-4. Navigating the linux operating system
+### Basic tools for common tasks
+
+We're providing setup instructions and support for "good enough" tools for each of the common tasks in the workflow for this class.
+
+1. Writing code:
+  - Python: This tutorial introduces VSCode, an editor with good Python support, and some tools that make reomte development easy. 
+  - However, feel free to use any editor you want (vim, emacs, sublime, pycharm). 
+  - SQL: In other tutorials, we've introduced psql (for writing sql on the server) and DBeaver (on your laptop).
+2. Jupyter notebooks:
+  - In this tutorial, we show how to set up Jupyter through a browser.
+  - Many Python IDEs (such as VSCode, Pycharm) have good Jupyter support - feel free to use one of these!
+3. Share code with your team:
+  - Use the git CLI to push to your team github repository.
+  - Many IDEs (including VSCode) have git integration.
+4. Run code:
+  - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
+  - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
+
 
 **Agenda:**
 1. Using VSCode for remote development
