@@ -45,16 +45,21 @@ This has several advantages:
    
    ![](img/vscode-open-connect-to-host.png)
    2. Select `Add New SSH Host...`
-    ![](img/vscode-connect-to-host.png)
+   
+   ![](img/vscode-connect-to-host.png)
    3. Enter `ssh {andrewid}@mlpolicylab.dssg.io` 
+   
    ![](img/vscode-enter-login.png)
    4. Select the first option to store your login config: 
+   
    ![](img/vscode-update-config.png)
 4. Connect VSCode to the course server:
    1. Connect to the CMU Full VPN
    2. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
+   
    ![](img/vscode-open-connect-to-host.png)
    3. Select the ssh config we just created: `mlpolicylab.dssg.io`
+   
    ![](img/vscode-select-host.png)
    4. You should be connected to the course server. This should be indicated in the bottom of your VSCode window: 
    ![](img/vscode-ssh-connected.png)
@@ -78,25 +83,25 @@ This has several advantages:
    1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Python: Select Interpreter`
    
    ![](img/vscode-select-interpreter.png)
-   1. Select `Enter interpreter path`
+   2. Select `Enter interpreter path`
    
    ![](img/vscode-select-interpreter-path.png)
-   1. Select `Find...`
+   3. Select `Find...`
    
    ![](img/vscode-click-find.png)
-   1. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
+   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
    
         If you're using your groups virtual environment, the path will be `/data/groups/{group_name}/dssg_env/bin/python`
 
         ![](img/vscode-enter-venv-path.png)
-   2. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
+   5. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
    
    ![](img/vscode-changed-interpreter.png)
 7. Run python!
    1. Open the folder menu and select a python file (or press `ctrl+n` (Linux/Windows) or `⌘+n` (MacOS) to create a new one) 
    
    ![](img/vscode-select-python.png)
-   1. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
+   2. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
    
    ![](img/vscode-run-python.png)
 
