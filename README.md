@@ -411,7 +411,7 @@ tags will be replaced.-->
   <td class=xl71 width=196 style='border-top:none;border-left:none;width:147pt'><a
   href="https://canvas.cmu.edu/courses/18465/assignments/268654"><span
   style='color:blue'><font class="font5">Proposal Reviews </font><font
-  class="font0">(Friday)</font></span></a></td>
+  class="font0">(Monday)</font></span></a></td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>Iteration
   1 - Build End to End Code Pipeline<br>
     (Focus on end-to-end shell)</td>
