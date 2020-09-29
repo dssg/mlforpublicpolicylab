@@ -156,7 +156,14 @@ Conceptually, this similar to how VSCode works over SSH:
    1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
       - http://0.0.0.0:8888/
       - http://127.0.0.1:8888/
-   2. This should take you to a login page asking you to enter the token generated in step 4.2 - if that's the case, you're ready to go!
+   2. If this is your first time opening Jupyter, this should take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
+   3. In the next screen (which should be a view of the folders and files in your working directory):
+      - To create a new notebook, click the `New` dropdown, and select your group's name. This will create a new notebook using your group's virtual environment.
+
+      ![](img/jupyter_kernel.png)
+      - Double click an existing notebook to open it. Inside, navigate to `Kernel` -> `Change kernel` -> select your group's name. This will ensure the open notebook runs with your group's virtual environment
+
+      ![](img/jupyter-notebook-kernel.png)
 
 ## Living in the command line
 
@@ -232,69 +239,68 @@ Opens the manual page for the command in question. Many commands also offer a he
 
 ### Some key command line tools
 
-At first, it can be tough to do basic things like browsing folders or editing text in the command line. But Linux includes a lot of helpful tools for these kinds of tasks. Here are a few to get you started:
+At first, it can be tough to do basic things like browsing folders or editing text in the command line. But Linux includes a lot of helpful tools for these kinds of tasks. In this section, we'll show how to use some of these tools to get around the terminal.
+
+Follow along by executing the commands on the numbered lines.
+
+1. Connect to the course server with SSH (if you aren't already)
+
 
 **Getting oriented:**
 
-Tools for navigating the filesystem:
+Let's start by getting our bearings inside of the filesystem.
 
-```
+First, let's figure out where we are, with `pwd`:
+
+`pwd` prints the **absolute path** of the current working directory.
+
+2. Print your current working directory: `pwd`
+
+Next, let's find out what's in our current directory, with `ls`:
+
+```bash
 ls {some_folder (by default, the working directory)}
 ``` 
-List the files in a directory (by default, lists files in the current directory).
+lists the files in a directory.
 
-```
-pwd
-``` 
-Print the **absolute path** of the current working directory.
-
-```
-cd {some path}
-```
-
-Change the working directory
+3. List the files in your home directory: `ls`
 
 **Making files**
 
-```
+Let's start doing some work. Start by using `mkdir` to make a new directory:
+
+```bash
 mkdir {folder_name}
 ``` 
-Create a new folder
+Creates a new folder
+
+4. Make a new directory: `mkdir my_test_dir`
+
+Now, let's change into our new directory to do some work, with `cd`:
+
+```bash
+cd {some path}
 ```
+Changes the working directory
+
+5. Move to your new directory: `cd my_test_dir`
+
+Make a new empty file with `touch`:
+
+```bash
 touch {file_name}
 ``` 
 Create a new file
 
-**Moving, copying and deleting**
+6. Make a new (empty) file: `touch a_test_file`
 
-```
-mv {source} {destination}
-```
-Move the file or folder at source to destination.
-```
-cp {source} {destination}
-```
-Copy the file at source to destination.
-```
-rm {file}
-```
-Remove (delete!) a file
-
-
-```
-cat {filename}
-```
-
-Print the contents of a file (works best with text-based files)
-
-
-**Editing files with Nano**
+**Editing text in the command line**
 
 Nano is a barebones text editor available on most Linux computers. While it's not as nice to use as something like VSCode, it's still quite convenient for making quick edits from the command line.
 
 Start Nano like any other command line tool:
 
-```
+```bash
 nano filename
 ```
 
@@ -308,21 +314,55 @@ If you make changes and exit, Nano will display the following message, asking if
 
 ![](img/bash-nano-save.png)
 
-### Try it out:
-1. Log into the course server with SSH
-2. Print your current working directory: `pwd`
-3. List the files in your home directory: `ls`
-4. Make a new directory: `mkdir my_test_dir`
-5. Move to your new directory: `cd my_test_dir`
-6. Make a new (empty) file: `touch a_test_file`
-7. Open it with `nano`, and put some text in it:
+
+**Let's try it out:**
+
+7. Open the file you created in step 6 with `nano`, and put some text in it:
    1. `nano a_test_file`
    2. Type something you learned in this tech session
    3. press `ctrl+c`, then `y` to save and exit
+
+Let's use `cat` to make sure our changes worked:
+
+```bash
+cat {filename}
+```
+
+Prints the contents of a file (works best with text-based files)
+
 8. Print the contents: `cat a_test_file`
-9. Make a copy: `cp a_test_file another_one`
+
+**Moving files**
+
+Let's learn some tools for manipulating existing files.
+
+Let's start by copying our text file, with `cp`:
+
+```bash
+cp {source} {destination}
+```
+Copies the file at source to destination.
+
+9.  Make a copy of your file, named "another_one": `cp a_test_file another_one`
+
+Now, let's move that new file, with `mv`:
+
+```bash
+mv {source} {destination}
+```
+Moves the file or folder at source to destination.
+
 10. Move the copy to your home directory: `mv another_one ~/`
+
+Finally, let's delete that file with `rm` (turns out we didn't need it after all)
+
+```bash
+rm {file}
+```
+Remove (delete!) a file
+
 11. Remove the copy file: `rm ~/another_one`
+
 
 ## Understanding the 10718 remote workflow
 
