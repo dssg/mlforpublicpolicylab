@@ -363,6 +363,81 @@ Remove (delete!) a file
 
 11. Remove the copy file: `rm ~/another_one`
 
+### Background tasks with screen
+
+In this class, you'll often want to run long-running jobs in the terminal. However, by default, any tasks left running when you log out of ssh will be closed.
+
+We can get around this with a Linux utility called `screen`. Screen is a "terminal multiplexer". That is, it allows you to keep run multiple terminal sessions, and keep them active even after you've logged off. 
+
+Screen allows us to start a process (like a long-running python script), put it in the background, and log off without cancelling the script
+
+**Running `screen`**
+
+1. Log into the course server with ssh
+2. Open a new screen session:
+
+```
+$ screen
+```
+
+You should see a screen with information about `screen` (licensing, a plea for free beer, etc). Press enter to bypass this. This will open a fresh terminal session, with your terminal history should be cleared out.
+
+3. Verify that you're in a screen session by listing the open sessions owned by your account:
+
+```
+$ screen -ls
+>There is a screen on:
+>        18855.pts-44.ip-10-0-1-213      (09/30/20 18:32:05)     (Attached)
+>1 Socket in /run/screen/S-adunmore.
+```
+
+One session is listed. It's labeled as `(Attached)`, which means you're logged into it.
+
+4. Let's give our system some work to do. Run the following command, which will start a useless but friendly infinite loop:
+
+```
+$ while :; do echo "howdy do!"; sleep 1; done
+```
+
+Note that at this point, you could safely log off of `ssh`. Your loop would still be here when you logged back on.
+
+5. Now that your screen session is busy, let's go back to our default session to get some work done.
+
+pres `ctrl+a`, release those keys, and press `d`.
+
+You should return to your original terminal prompt.
+
+6. Check that your screen session is still there: run `screen -ls` to list open sessions again. This time, the single open session should be labeled as `(Detached)`, which means that you're not viewing it.
+
+Note the 5-digit number printed at the beginning of the line referring to your screen session. We'll use that number to log back into that session.
+
+7. Let's return to our session and kill that loop - we don't need it anymore.
+
+We'll use `screen -r`. This reattaches the named screen. Use the 5-digit number from step 6 to refer to that session: 
+
+```
+screen -r {screen session number}
+```
+
+You should now be back in your old terminal session, where that loop has been "howdy"-ing away.
+
+Press `ctrl-c` to close that loop.
+
+8. Now we can close this screen session. Simply type `exit` in the command line.
+
+This should kill our session and return us to the command prompt. If you'd like, confirm that your session is closed with `screen -ls`.
+
+**Some notes:**
+
+- You can name your session, with the `-S` flag:
+
+```
+$ screen -S some_name
+```
+
+Once you've assigned a name, you can use it to reattach your screen sessions, which is easier than remembering/looking up a number.
+
+- You can use `screen` (and any of the utilities introduced here) in your VSCode terminal. Just press `ctrl+c` to exit your python session (if you're in one), and you'll be able to enter these commands just like a regular terminal session.
 
 ## Understanding the 10718 remote workflow
 
