@@ -4,17 +4,17 @@ This document will provide you with tools for comfortably using our remote envir
 
 ### Basic tools for common tasks
 
-We're providing setup instructions and support for "good enough" tools for each of the common tasks in the workflow for this class.
+We're providing setup instructions and support for "good enough" tools for each of the common tasks in the workflow for this class but if you're comfortable with other tools, feel free to use them.
 
 1. Writing code:
-  - Python: This tutorial introduces VSCode, an editor with good Python support, and some tools that make reomte development easy. 
+  - Python: This tutorial introduces ``VSCode``, an editor with good Python support, and some tools that make reomte development easy. 
   - However, feel free to use any editor you want (vim, emacs, sublime, pycharm). 
   - SQL: In other tutorials, we've introduced psql (for writing sql on the server) and DBeaver (on your laptop).
 2. Jupyter notebooks:
-  - In this tutorial, we show how to set up Jupyter through a browser.
+  - In this tutorial, we will show how to set up ``Jupyter`` through a browser on your local machine.
   - Many Python IDEs (such as VSCode, Pycharm) have good Jupyter support - feel free to use one of these!
 3. Share code with your team:
-  - Use the git CLI to push to your team github repository.
+  - Use the git command line interface to push to your team github repository.
   - Many IDEs (including VSCode) have git integration.
 4. Run code:
   - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
@@ -46,7 +46,7 @@ This has several advantages:
 - You don't have to copy code between your computer and the course server. Instead, VSCode lets you edit files where they're stored on the course server.
 - VSCode makes it convenient to run code stored on the course server. When you're developing this way, you'll always have access to the database and your group's virtual environment.
 
-**Note**: This workflow isn't required - it's just one "good enough" approach that we think many of you will find convenient. Please feel free to explore other workflows. 
+**Note**: This workflow isn't required - it's just one "good enough" approach that we think many of you will find convenient. Please feel free to use other workflows if you're already set up and comfortable with them. 
 
 ### Configuring VSCode SSH
 1. [Download and install](https://code.visualstudio.com/Download) VSCode
