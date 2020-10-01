@@ -4,7 +4,7 @@ preliminary results for a single model specification.
 
 **Due Friday, Oct. 9:** Skeleton pipeline code, analytical formulation, and baselines.
 
-## Tuesday: Performance Metrics and Evaluation, Pt I
+## Tuesday: Performance Metrics and Evaluation, Part I
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
 can be brought to bear on your modeling question. How do you decide which models are better than others and how can you be confident this decision will generalize  into the future when the model is deployed? How should you balance considerations of performance (``accuracy``) and
 fairness when making these decisions? Are models that are performing similarly well giving
@@ -19,9 +19,8 @@ structure by Roberts, DR, Bahn, V, et al. Ecography 40:2017. [Available Online](
 Optional Readings:
 
 - Time Series Nested Cross-Validation by Cochrane, C. Medium. [Available Online](https://towardsdatascience.com/time-series-nested-cross-validation-76adba623eb9)
-- The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998.
-2019. [Available Online](https://arxiv.org/abs/1906.01998)
 - Section 7 of Chapter 7 in Data and Social Science (2nd edition) edited by Foster, Ghani, et al. Chapter 7: Machine Learning. [Available Online](https://textbook.coleridgeinitiative.org/chap-ml.html)
+- The Secrets of Machine Learning by Rudin, C. and Carlson, D. arXiv preprint: 1906.01998. 2019. [Available Online](https://arxiv.org/abs/1906.01998)
 
 
 ## Wednesday Group Check-Ins
