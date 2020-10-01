@@ -2,7 +2,7 @@
 By this week, your group should have a very simple version of an end-to-end pipeline that can generate
 preliminary results for a single model specification.
 
-**Due Friday, Oct. 9:** Skeleton pipeline code, analytical formulation, and baselines.
+**Due Friday, Oct. 9:** [Skeleton pipeline code, analytical formulation, and baselines](https://canvas.cmu.edu/courses/18465/assignments/297595)
 
 ## Tuesday: Performance Metrics and Evaluation, Part I
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
