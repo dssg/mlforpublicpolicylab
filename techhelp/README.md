@@ -60,38 +60,38 @@ dbeaver is a free tool that gives you a slightly nicer and visual interface to t
 (https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
 ## Connecting to the database from python
-The `psycopg2` module provides an interface to connect to a postgres database from python. You'll can install it in your virtualenv with:
+The `sqlalchemy` module provides an interface to connect to a postgres database from python (you'll also need to install `psycopg2` in order to talk to postgres specifically). You'll can install it in your virtualenv with:
 ```
-pip install psycopg2-binary
+pip install psycopg2-binary sqlalchemy
 ```
 (Note that `psycopg2-binary` comes packaged with its dependencies, so you should install it rather than the base `psycopg2` module)
 
 A simple usage pattern might look like:
 ```python
-import psycopg2 as pg2
+from sqlalchemy import create_engine
 
 # read parameters from a secrets file, don't hard-code them!
 db_params = get_secrets('db')
-conn = pg2.connect(
+engine = create_engine('postgres://{user}:{password}@{host}:{port}/{dbname}'.format(
   host=db_params['host'],
   port=db_params['port'],
-  dbname=db_params['database'],
+  dbname=db_params['dbname'],
   user=db_params['user'],
-  password=db_params['password']
-)
-cur = conn.cursor()
-cur.execute("SELECT * FROM your_table LIMIT 100;")
-for record in cur:
+  password=db_params['password']    
+))
+result_set = engine.execute("SELECT * FROM your_table LIMIT 100;")
+for record in result_set:
   process_record(record)
 
 # Close communication with the database
-cur.close()
-conn.close()
+engine.dispose()
 ```
 
-If you're changing data in the database, note that you may need to use `conn.commit()` to ensure that changes persist. You can find more information in the [psycopg2 docs](https://www.psycopg.org/docs/usage.html)
+If you're changing data in the database, note that you may need to use `engine.execute("COMMIT")` to ensure that changes persist.
 
-Note that the connection object can also be used with other utilities that interact with the database, such as ohio or pandas (though the latter can be very inefficient/slow)
+Note that the engine object can also be used with other utilities that interact with the database, such as ohio or pandas (though the latter can be very inefficient/slow)
+
+**For a more detailed walk-through of using python and postgresql together, check out the [Python+SQL tech session notebook](python_sql_tech_session.ipynb)**
 
 ## Jupyter Notebooks
 Although not a good environment for running your ML pipeline and models, jupyter notebooks can be useful for exploratory data analysis as well as visualizing modeling results. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating an SSH tunnel (because the course server can only be accessed via the SSH protocol) so you can access it via your local browser.
