@@ -491,7 +491,7 @@ tags will be replaced.-->
   style='color:#1155CC'>Model Interpretability Part 1: global + postmodeling</span></a></td>
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
-  <td class=xl76 width=241 style='border-top:none;border-left:none;width:181pt'>Project
+  <td class=xl76 width=241 style='border-top:none;border-left:none;width:181pt'>Eberly Course Feedback Session and Project
   Work</td>
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>Fixed
   V0 Results, Models and Hyperparameters (Monday)</td>
