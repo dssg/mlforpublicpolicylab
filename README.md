@@ -1,4 +1,4 @@
-# 10718, 94889: Machine Learning for Public Policy Lab
+# 10718, 94889: Data Analysis / Machine Learning for Public Policy Lab
 
 ** Previous Versions: [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)**
  
