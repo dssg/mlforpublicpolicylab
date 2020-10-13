@@ -441,9 +441,7 @@ tags will be replaced.-->
   style='color:#1155CC'>Performance Metrics / Evaluation Pt. II (audition)</span></a></td>
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
-  <td class=xl76 width=241 style='border-top:none;border-left:none;width:181pt'>Eberly
-  Session<br>
-    <br>
+  <td class=xl76 width=241 style='border-top:none;border-left:none;width:181pt'>
     Project Work</td>
   <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>Iteration
