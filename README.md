@@ -470,12 +470,12 @@ tags will be replaced.-->
     Th: Oct<span style='display:none'> 29</span></td>
   <td class=xl68 width=184 style='border-top:none;border-left:none;width:138pt'><a
   href="https://github.com/dssg/mlforpublicpolicylab/tree/master/09%20-%20Project%20Update%20Presentations#project-update-presentations"><span
-  style='color:#1155CC'>Mid term Project Progress Presentation</span></a></td>
+  style='color:#1155CC'>No Class (Watch Recordings of Mid term Project Progress Presentations and Submit Questions and Feedback)</span></a></td>
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
   <td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'><a
-  href="https://github.com/dssg/mlforpublicpolicylab/tree/master/09%20-%20Project%20Update%20Presentations#project-update-presentations"><span
-  style='color:#1155CC'>Mid term Project Progress Presentation</span></a></td>
+  href=""><span
+  style='color:#1155CC'>ML Pipelines and sklearn deep dive</span></a></td>
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>V0
   Results, Train Test Splits, Model Selection Metric(s) (Monday)</td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>Iteration
