@@ -4,7 +4,7 @@ preliminary results for a single model specification.
 
 **Due Friday, Oct. 9:** [Skeleton pipeline code, analytical formulation, and baselines](https://canvas.cmu.edu/courses/18465/assignments/297595)
 
-## Tuesday: Performance Metrics and Evaluation, Part I
+## Tuesday: Performance Metrics and Evaluation, Part I [Zoom video](https://cmu.zoom.us/rec/play/SnGljUp1WBKvDXbaiOOeVFxHmYpj2-CYxH0eZVIQmyJd73VBTAVyfI8HSES8qHMoF5K7k5gsS2O7b5Sj.9rgpGOFjOwyRLLD)
 In most cases, a vast array of methods — each with a number of tunable hyperparameters —
 can be brought to bear on your modeling question. How do you decide which models are better than others and how can you be confident this decision will generalize  into the future when the model is deployed? How should you balance considerations of performance (``accuracy``) and
 fairness when making these decisions? Are models that are performing similarly well giving
