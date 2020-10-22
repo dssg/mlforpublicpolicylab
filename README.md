@@ -34,14 +34,23 @@ Through lectures, discussions, readings, and project assignments, students will 
 ## Grading 
 
 Data Loading Assignment	5.0%
+
 Proposal	10.0%
+
 Peer Reviews 	2.5%
+
 Weekly Project Assignments	15.0%
+
 Midterm presentation	7.5%
+
 Final Presentation	10.0%
+
 Final Report and code	20.0%
+
 Quizzes	10.0%
+
 Class Attendance and Participation	15.0%
+
 Weekly feedback forms	5.0%
 
 ## Schedule
