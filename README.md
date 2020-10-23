@@ -496,7 +496,7 @@ tags will be replaced.-->
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
   <td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'><a
-  href=""><span
+  href="https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md"><span
   style='color:#1155CC'>ML Pipelines and sklearn deep dive</span></a></td>
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>V0
   Results, Train Test Splits, Model Selection Metric(s) (Monday)</td>
