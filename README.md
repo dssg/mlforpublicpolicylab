@@ -496,9 +496,9 @@ tags will be replaced.-->
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
 	
-<td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'>
+<td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'>Project check-in and
 <a href="https://github.com/dssg/mlforpublicpolicylab/tree/master/04%20-%20Machine%20Learning%20Pipelines#advanced-version"><span
-  style='color:#1155CC'>ML Pipelines</span></a> and <a
+  style='color:#1155CC'>ML Pipelines</span></a>=, <a
   href="https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md"><span
   style='color:#1155CC'>sklearn</span></a> videos</td>
   
