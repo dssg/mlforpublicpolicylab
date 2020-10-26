@@ -500,7 +500,7 @@ tags will be replaced.-->
 <a href="https://github.com/dssg/mlforpublicpolicylab/tree/master/04%20-%20Machine%20Learning%20Pipelines#advanced-version"><span
   style='color:#1155CC'>ML Pipelines</span></a> and <a
   href="https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md"><span
-  style='color:#1155CC'>sklearn</span></a></td>
+  style='color:#1155CC'>sklearn</span></a>)</td>
   
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>V0
   Results, Train Test Splits, Model Selection Metric(s) (Monday)</td>
