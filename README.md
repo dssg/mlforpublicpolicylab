@@ -53,9 +53,9 @@ Class Attendance and Participation	15.0%
 
 Weekly feedback forms	5.0%
 
-## Indidividual Team Check-In Times
+## Individual Team Check-In Times
 
-**Wednesdays:**
+**Wednesdays:**<br />
 All Wednesday check-ins will use the normal class zoom link
 
 *With Rayid* <br />
@@ -74,7 +74,7 @@ All Wednesday check-ins will use the normal class zoom link
 7:30-7:45 Turnout4<br />
 7:45-8:00 Turnout5
 
-**Thursdays:**
+**Thursdays:**<br />
 We'll reserve 10 minutes at the beginning in case we need time for any class announcements or questions (we'll let you know on slack beforehand if we need to use this time)
 
 Thursday check-ins with Rayid will use the normal class zoom link; Thursday check-ins with Kit will use a separate zoom link (see Canvas)
