@@ -23,3 +23,7 @@ During the Wednesday and Thursday sessions, you'll have time to work with your g
 
 Optional Readings:
 - *Data Analysis, Exploratory* by Brillinger. [Available Online](https://www.stat.berkeley.edu/~brill/Papers/EDASage.pdf)
+
+
+## Advanced Version
+[ML Pipeline (archictecture) video](http://)
