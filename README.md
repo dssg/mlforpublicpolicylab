@@ -53,6 +53,38 @@ Class Attendance and Participation	15.0%
 
 Weekly feedback forms	5.0%
 
+## Indidividual Team Check-In Times
+
+**Wednesdays:**
+All Wednesday check-ins will use the normal class zoom link
+
+*With Rayid*
+5:10-5:25 Schools1
+5:25-5:40 Schools2
+5:40-5:55 Schools3
+5 minute buffer/break
+6:00-6:15 Schools4
+6-15-6:30 Schools5
+
+*With Kit*
+6:40-6:55 Turnout1
+6:55-7:10 Turnout2
+7:10-7:25 Turnout3
+5 minute buffer/break
+7:30-7:45 Turnout4
+7:45-8:00 Turnout5
+
+**Thursdays:**
+We'll reserve 10 minutes at the beginning in case we need time for any class announcements or questions (we'll let you know on slack beforehand if we need to use this time)
+
+Thursday check-ins with Rayid will use the normal class zoom link; Thursday check-ins with Kit will use a separate zoom link (see Canvas)
+
+*With Rayid and Kit in parallel*
+3:30:3:45 Bills1, EPA1
+3:45-4:00 Bills2, EPA2
+4:00-4:15 Bills3, EPA3
+4:15-4:30 Bills4, EPA4
+
 ## Schedule
 
 See the **[syllabus](/syllabus.pdf)** for much more detail as well, including information about group projects, grading, and helpful optional readings.
