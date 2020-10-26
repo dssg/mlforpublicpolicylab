@@ -26,4 +26,4 @@ Optional Readings:
 
 
 ## Advanced Version
-[ML Pipeline (archictecture) video](http://)
+[ML Pipeline (archictecture) video](https://www.youtube.com/watch?v=9653dXoqSpI&ab_channel=DataScienceforSocialGood)
