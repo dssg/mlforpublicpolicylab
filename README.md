@@ -497,7 +497,7 @@ tags will be replaced.-->
   Check-Ins</td>
   <td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'><a
   href="https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md"><span
-  style='color:#1155CC'>Project Check-in and [ML Pipelines](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/README.md#advanced-version), [sklearn deep dive](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md) (videos)</span></a></td>
+  style='color:#1155CC'>Project Check-in and [ML Pipelines](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/README.md#advanced-version), [sklearn deep dive](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md) Videos</span></a></td>
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>V0
   Results, Train Test Splits, Model Selection Metric(s) (Monday)</td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>Iteration
