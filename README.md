@@ -495,8 +495,7 @@ tags will be replaced.-->
   style='color:#1155CC'>No Class (Watch Recordings of Mid term Project Progress Presentations and Submit Questions and Feedback)</span></a></td>
   <td class=xl79 width=192 style='border-top:none;border-left:none;width:144pt'>Group
   Check-Ins</td>
-  <td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'><a
-  href="https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md"><span
+  <td class=xl68 width=241 style='border-top:none;border-left:none;width:181pt'><span
   style='color:#1155CC'>Project Check-in and [ML Pipelines](https://github.com/dssg/mlforpublicpolicylab/blob/master/04%20-%20Machine%20Learning%20Pipelines/README.md#advanced-version), [sklearn deep dive](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/sklearn.md) Videos</span></a></td>
   <td class=xl81 width=196 style='border-top:none;border-left:none;width:147pt'>V0
   Results, Train Test Splits, Model Selection Metric(s) (Monday)</td>
