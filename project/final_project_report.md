@@ -1,6 +1,6 @@
 # Final Project Report
 
-**NOTE: This is the assignment from last for reference. It may change slightly for this semester, but should generally be the same.**
+**NOTE: This is the assignment from last semester for reference. It may change slightly for this semester, but should generally be the same.**
 
 The final project report should be approximately 10-15 pages in length and cover the following topics:
 
