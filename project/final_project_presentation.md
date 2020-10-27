@@ -1,5 +1,7 @@
 # Final Project Presentation
 
+**NOTE: This is the assignment from last for reference. It may change slightly for this semester, but should generally be the same.**
+
 Each team will have 10 minutes for their presentation and 3 minutes for questions:
 
 ## Timing
