@@ -24,7 +24,7 @@ Please include  the following details in an appendix so we can better evaluate t
 - List of *all* features generated
 - Model grid used: models and hyper-parameters. You can give the grid or a list of all model-hyperparameter combinations
 - List of train/validation sets (table with the dates)
-- The temporal graph of your primary evaluation metric  (precision at k)  for each validation set for all the models in the grid (line color by model type) - it's the slide from Update 5 (Links to an external site.) 
+- The temporal graph of your primary evaluation metric  (precision at k)  for each validation set for all the models in the grid (line color by model type) - it's the slide from Update 5
 - Criteria used to select top models (mean precision at k for example)
 - For those top 5 models + smart baseline, please provide:
   - What are they
