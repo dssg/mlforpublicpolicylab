@@ -627,7 +627,7 @@ tags will be replaced.-->
   <td class=xl72 width=192 style='border-top:none;border-left:none;width:144pt'>&nbsp;</td>
   <td class=xl80 width=241 style='border-top:none;border-left:none;width:181pt'>Final
   Presentations</td>
-  <td class=xl83 style='border-top:none;border-left:none'>Presentations</td>
+  <td class=xl83 style='border-top:none;border-left:none'><a href="project/final_project_presentation.md">Presentation</a></td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>&nbsp;</td>
  </tr>
  <tr height=37 style='height:28.0pt'>
@@ -636,7 +636,7 @@ tags will be replaced.-->
   <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl72 width=192 style='border-top:none;border-left:none;width:144pt'>&nbsp;</td>
   <td class=xl72 width=241 style='border-top:none;border-left:none;width:181pt'>&nbsp;</td>
-  <td class=xl83 style='border-top:none;border-left:none'>Final Report Due</td>
+  <td class=xl83 style='border-top:none;border-left:none'><a href="project/final_project_report.md">Final Report Due</a></td>
   <td class=xl72 width=248 style='border-top:none;border-left:none;width:186pt'>Final
   Report, Code, Repo, Documentation</td>
  </tr>
