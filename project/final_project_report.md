@@ -1,6 +1,6 @@
 # Final Project Report
 
-**DUE: December 17, 11:59pm**
+**Due: December 17, 11:59pm EST**
 
 The final project report should be approximately 10-15 pages in length (excluding appendix and references) and cover the following topics:
 
