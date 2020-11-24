@@ -14,7 +14,7 @@ questions in the rapidly-developing field.
 
 Required Readings for Tuesday:
 - *A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions* by Chouldechova, A, Putnam-Hornstein, E, et al. PMLR. 2018. [Available Online](http://proceedings.mlr.press/v81/chouldechova18a/chouldechova18a.pdf)
-- *Equality of Opportunity in Supervised Learning* by Hardt, M. and Price, E. NIPS 2016. [Available Online](http://papers.nips.cc/paper/6373-equality-of-opportunity-in-supervised-learning)
+- *Equality of Opportunity in Supervised Learning* by Hardt, M. and Price, E. NIPS 2016. [Available Online](https://papers.nips.cc/paper/2016/file/9d2682367c3935defcb1f9e247a97c0d-Paper.pdf)
 
 Optional Readings:
 - *Classification with fairness constraints: A meta-algorithm with provable guarantees* by Celis, E, Huang, L, et al. FAT\* 2019. [Available Online](https://dl.acm.org/citation.cfm?doid=3287560.3287586)
