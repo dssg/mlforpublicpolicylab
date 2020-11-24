@@ -12,6 +12,10 @@ This week, we’ll continue our discussion of bias and fairness with a
 very brief survey of practical considerations and open research
 questions in the rapidly-developing field.
 
+Link to [slides for this week](FALL%2020%20-%20ethics%20bias%20fairness%20-%20part%202.pptx).
+
+Although we won't have time to cover these in class, you may want to check out these [additional slides covering some other important topics in data & ML/AI ethics](FALL%2020%20-%20other%20ML%20ethics%20issues.pptx).
+
 Required Readings for Tuesday:
 - *A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions* by Chouldechova, A, Putnam-Hornstein, E, et al. PMLR. 2018. [Available Online](http://proceedings.mlr.press/v81/chouldechova18a/chouldechova18a.pdf)
 - *Equality of Opportunity in Supervised Learning* by Hardt, M. and Price, E. NIPS 2016. [Available Online](https://papers.nips.cc/paper/2016/file/9d2682367c3935defcb1f9e247a97c0d-Paper.pdf)
