@@ -5,12 +5,12 @@
 3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database`
 4. setting up dbeaver (a visual ide to the database) [instructions are here](https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
-**Detailed instructions** are in [slack post](https://mlppfall2020.slack.com/files/T01A8J5N01E/F01A4RF49U4?origin_team=T01A8J5N01E&origin_channel=C019AFXU9NK)
+**Detailed instructions** are [available here](infrastructure_quickstart.md) and will be covered at the first Wednesday tech 
 
-**[Slides from week 1 tech session](https://docs.google.com/presentation/d/1MEP-UF9dHuEfoIWWKIphFAYI23miVHCovLJgndPLgvE/edit#slide=id)**
+**[Slides from week 1 tech session](https://docs.google.com/presentation/d/1Cgu0eskH9ebzJRr3nH-06nCokwxM7MO8zL2ojW5KPPg/edit?usp=sharing)**
 
 ## ssh
-`ssh your_andrew_id@mlpolicylab.dssg.io`
+`ssh your_andrew_id@server.mlpolicylab.dssg.io`
 
 ssh is what you'll use to connect to the class server, which is where you will do all the work. You will need to give us your ssh key, using the instructions we sent, and then you'll be good to go. Based on which operating system you're using, you can google for which tool is the best (command line, terminal, putty, etc.)
 
@@ -44,7 +44,7 @@ If you're not too familiar with SQL or would like a quick review, we have an ove
 Additionally, check out these [notes and tips about using the course database](class_db_pointers.md).
 
 ## psql
-PSQL is a command line tool to connect to the postgresql databvase server we're using for class. You will bneed to be on the server through assh first and then type `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID databasename` where `databasename` is the database for your project that you will receive after your project assignment. To test it you can use `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database` - make sure to change `YOUR_ANDREW_ID`
+PSQL is a command line tool to connect to the postgresql databvase server we're using for class. You will bneed to be on the server through assh first and then type `psql -h database.mlpolicylab.dssg.io -U YOUR_ANDREW_ID databasename` where `databasename` is the database for your project that you will receive after your project assignment. To test it you can use `psql -h mlpolicylab.db.dssg.io -U YOUR_ANDREW_ID group_students_database` - make sure to change `YOUR_ANDREW_ID`
 
 A couple quick usage pointers:
 - `\dn` will list the schemas in the database you're connected to
