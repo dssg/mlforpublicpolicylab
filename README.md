@@ -42,13 +42,13 @@ Peer reviews of three peer project proposals (2.5%)
 
 Midterm project update presentation (7.5%)
 
-Brief project progress update assignments (15%)
+Brief project progress update assignments (20%)
 
 Final group presentation of results targeted towards policy stakeholders (10%)
 
 Written final project report and code (20%)
 
-Quizzes on readings and lecture videos (10%)
+Quizzes on readings and assigned videos (5%)
 
 Class attendance and participation (15%)
 
