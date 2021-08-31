@@ -5,17 +5,17 @@ NOTE: The course infrastructure is **only accessible from the CMU VPN (or on cam
 
 Once connected, here are a couple of commands you could run and expected output to verify that you're on the server (only type the commands after the "$" prompt and the output is shown on the next line):
 ```
-andrewid@ip-10-0-1-233:~$ hostname
-ip-10-0-1-213
+andrewid@mlpolicylab-94889:~$ hostname
+mlpolicylab-94889
 
-andrewid@ip-10-0-1-233:~$ ec2metadata | grep "security-groups"
+andrewid@mlpolicylab-94889:~$ ec2metadata | grep "security-groups"
 security-groups: cmu-10718sp20-sg
 ```
 
 ## Reaching the Course Database
 Most of the data for the course projects will be provided in a postgres database. Once you're connected to the server, you can reach the database using the psql command line utility. The database server is at `database.mlpolicylab.dssg.io` and your username is again your Andrew ID. Here's an example of connecting to the database:
 ```
-andrewid@ip-10-0-1-233:~$ PAGER='less -S' psql -h database.mlpolicylab.dssg.io -U {YOUR_ANDREW_ID} group_students_database 
+andrewid@mlpolicylab-94889:~$ PAGER='less -S' psql -h database.mlpolicylab.dssg.io -U {YOUR_ANDREW_ID} group_students_database 
 psql (11.6 (Ubuntu 11.6-1.pgdg18.04+1), server 11.5)
 SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
 Type "help" for help.
