@@ -21,170 +21,26 @@ We're providing setup instructions and support for "good enough" tools for each 
   - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
 
 
-**Agenda:**
+## Agenda
+
+![](img/class_infra.png)
+
+1. Navigating the course server using the command line
+1. Using Jupyter remotely, with SSH tunneling
 1. Using VSCode for remote development
-2. Using Jupyter remotely, with SSH tunneling
-3. Navigating the course server using the command line
-4. Remote development concepts - how exactly does all of this work?
+1. Remote development concepts - how exactly does all of this work?
 
-## Remote development with VSCode
-
-### Why VSCode over SSH?
-
-For the first assignment, many people had trouble running their code on the course server. We heard a lot of questions, like "how do I run code saved on my laptop on the course server?"
-
-This section will introduce one convenient workflow for developing code on the remote server. 
-
-VSCode is an IDE that provides a lot of useful tools for developing Python, including autocomplete, syntax highlighting, support for virtual environments, and shortcuts to run python files.
-
-With the VSCode SSH extension, VSCode can access code and other files stored on a remote computer. Furthermore, it can run any code stored on the remote machine.
-
-![](img/vscode-remote-diagram.png)
-
-This has several advantages:
-- You don't have to keep any code stored on your local computer - you only need one copy, stored on the course server
-- You don't have to copy code between your computer and the course server. Instead, VSCode lets you edit files where they're stored on the course server.
-- VSCode makes it convenient to run code stored on the course server. When you're developing this way, you'll always have access to the database and your group's virtual environment.
-
-**Note**: This workflow isn't required - it's just one "good enough" approach that we think many of you will find convenient. Please feel free to use other workflows if you're already set up and comfortable with them. 
-
-### Configuring VSCode SSH
-1. [Download and install](https://code.visualstudio.com/Download) VSCode
-2. Install the `Remote - SSH` extension:
-   1. Press `ctrl+shift+x` (Linux/Windows) or `⌘+shift+x` (MacOS) to open the extensions menu
-   2. Search for and install `Remote - SSH`
-    
-   ![](img/vscode-remote-ssh-install.png)
-
-   1. At this time, also search for and install the microsoft `Python` extension.
-3. Configure our course server as an SSH host:
-
-    With the SSH plugin installed, we can tell VSCode how to log into the server. In this step we'll be entering our connection string and saving it in a file, making it easy to connect in the future.
-
-   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
-   
-   ![](img/vscode-open-connect-to-host.png)
-
-   2. Select `Add New SSH Host...`
-   
-   ![](img/vscode-connect-to-host.png)
-
-   3. Enter `ssh -i {path to your private key} {andrewid}@mlpolicylab.dssg.io` 
-   
-   ![](img/vscode-enter-login.png)
-
-   4. Select the first option to store your login config: 
-   
-   ![](img/vscode-update-config.png)
-
-4. Connect VSCode to the course server:
-   1. Connect to the CMU Full VPN
-   2. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
-   
-   ![](img/vscode-open-connect-to-host.png)
-
-   3. Select the ssh config we just created: `mlpolicylab.dssg.io`
-   
-   ![](img/vscode-select-host.png)
-
-   4. Enter your private key passcode if VSCode prompts you to (it will open a box at the top of the screen). 
-
-   5. You should be connected to the course server. This should be indicated in the bottom of your VSCode window: 
-   ![](img/vscode-ssh-connected.png)
-
-5. Open a workspace folder:
-
-    Now that VSCode is connected via SSH, you can browse all of the files and folders on the course server. In this step, we select a folder containing some code to edit and test.
-
-   1. Select the folder menu button
-   
-   ![](img/vscode-file-menu.png)
-
-   2. Select `Open Folder`
-   
-         ![](img/vscode-open-folder.png)
-
-   3. Select a folder to work in
-   
-   ![](img/vscode-select-folder.png)
-
-6. Select your python virtual environment:
-   
-   VSCode can be configured to automatically run python code in a virtual environment. Here, we'll select and activate our group virtual environments.
-
-   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Python: Select Interpreter`
-   
-   ![](img/vscode-select-interpreter.png)
-
-   2. Select `Enter interpreter path`
-   
-   ![](img/vscode-select-interpreter-path.png)
-
-   3. Select `Find...`
-   
-   ![](img/vscode-click-find.png)
-
-   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
-   
-        If you're using your groups virtual environment, the path will be `/data/groups/{group_name}/dssg_env/bin/python`
-
-        ![](img/vscode-enter-venv-path.png)
-
-   5. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
-   
-   ![](img/vscode-changed-interpreter.png)
-
-7. Run python!
-   1. Open the folder menu and select a python file (or press `ctrl+n` (Linux/Windows) or `⌘+n` (MacOS) to create a new one) 
-   
-   ![](img/vscode-select-python.png)
-
-   2. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
-   
-   ![](img/vscode-run-python.png)
-
-## Remote development with Jupyter
-
-### How's it work?
-
-Conceptually, this similar to how VSCode works over SSH:
-- The remote machine (our course server) hosts a jupyter notebook server that does things like loads files, runs python, activates virtual environments
-- Your web browser connects to that server and presents a frontend interface for opening, editing, and running notebooks
-- These connect using SSH (inside the CMU VPN)
-  
-### Setting it up
-1. Connect to the CMU VPN
-2. Connect to the course server using SSH
-3. Find an open port on the course server to send your Jupyter traffic through:
-   1. In the terminal (on the course server) type `ss -lntu`. This will list all ports 
-   2. Pick a port number between 1024 and 65535 that is NOT on that list.
-   
-   ![](img/jupyter-port-selection.png)
-   (numbers in this box are ports currently in use)
-   
-4. On the course server, start your notebook server: 
-   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}`
-   2. When the server starts, take note of the token printed in the server terminal output:
- 
-   ![](img/jupyter-token.png)
-   (the token is printed multiple times)
-5. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **local** terminal (not via ssh): type `ssh i- {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@mlpolicylab.dssg.io`
-   2. If you use putty, you'll need to follow a different set of steps. [Here's a tutorial for that](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/). Enter `8888` in the `Source port` field. In `Destination`, enter `localhost:{your port from step 3}`
-6. Open the notebook on your local machine:
-   1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
-      - http://0.0.0.0:8888/
-      - http://127.0.0.1:8888/
-   2. If this is your first time opening Jupyter, this should take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
-   3. In the next screen (which should be a view of the folders and files in your working directory):
-      - To create a new notebook, click the `New` dropdown, and select your group's name. This will create a new notebook using your group's virtual environment.
-
-      ![](img/jupyter_kernel.png)
-      - Double click an existing notebook to open it. Inside, navigate to `Kernel` -> `Change kernel` -> select your group's name. This will ensure the open notebook runs with your group's virtual environment
-
-      ![](img/jupyter-notebook-kernel.png)
 
 ## Living in the command line
+
+![](img/class_ssh.png)
+
+### Getting started: SSH to the server
+
+Open up a terminal/powershell and connect to the server with:
+```
+ssh -i /path/to/your/private_sssh_key {andrew_id}@server.mlpolicylab.dssg.io
+```
 
 ### Some key Linux concepts
 
@@ -210,9 +66,9 @@ A relative path specifies the path to some folder or file, *relative to* the cur
 To use a relative path, specify a path *not* starting with a `/`
 
 An example:
-- I start in `/home/adunmore/mlforpublicpolicylab`
+- I start in `/home/krodolfa/mlforpublicpolicylab`
 - I use `cd project` (note: doesn't start with `/`)
-- I've changed directories to `/home/adunmore/mlforpublicpolicylab/project`
+- I've changed directories to `/home/krodolfa/mlforpublicpolicylab/project`
 
 ![](img/bash-absolute-path.png)
 
@@ -223,7 +79,7 @@ In Linux, each user has a "home directory". This is the default directory a user
 You can access your home directory with the command `cd ~`. 
 
 You can also specify absolute paths in a similar way:
-- My home directory is `/home/adunmore`
+- My home directory is `/home/krodolfa`
 - I can access the folder `mlforpublicpolicylab` stored in my home directory with `cd ~/mlforpublicpolicylab`
 
 #### Anatomy of a Linux command
@@ -458,7 +314,171 @@ Once you've assigned a name, you can use it to reattach your screen sessions, wh
 
 - You can use `screen` (and any of the utilities introduced here) in your VSCode terminal. Just press `ctrl+c` to exit your python session (if you're in one), and you'll be able to enter these commands just like a regular terminal session.
 
-## Understanding the 10718 remote workflow
+
+## Remote development with Jupyter
+
+![](img/class_jupyter.png)
+
+### How's it work?
+
+Conceptually, this similar to how VSCode works over SSH:
+- The remote machine (our course server) hosts a jupyter notebook server that does things like loads files, runs python, activates virtual environments
+- Your web browser connects to that server and presents a frontend interface for opening, editing, and running notebooks
+- These connect using SSH (inside the CMU VPN)
+  
+### Setting it up
+1. Connect to the CMU VPN
+2. Connect to the course server using SSH
+3. Find an open port on the course server to send your Jupyter traffic through:
+   1. In the terminal (on the course server) type `ss -lntu`. This will list all ports 
+   2. Pick a port number between 1024 and 65535 that is NOT on that list.
+   
+   ![](img/jupyter-port-selection.png)
+   (numbers in this box are ports currently in use)
+   
+4. On the course server, start your notebook server: 
+   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}`
+   2. When the server starts, take note of the token printed in the server terminal output:
+ 
+   ![](img/jupyter-token.png)
+   (the token is printed multiple times)
+5. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
+   1. In a **local** terminal (not via ssh): type `ssh i- {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
+   2. If you use putty, you'll need to follow a different set of steps. [Here's a tutorial for that](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/). Enter `8888` in the `Source port` field. In `Destination`, enter `localhost:{your port from step 3}`
+6. Open the notebook on your local machine:
+   1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
+      - http://0.0.0.0:8888/
+      - http://127.0.0.1:8888/
+   2. If this is your first time opening Jupyter, this should take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
+   3. In the next screen (which should be a view of the folders and files in your working directory):
+      - To create a new notebook, click the `New` dropdown, and select your group's name. This will create a new notebook using your group's virtual environment.
+
+      ![](img/jupyter_kernel.png)
+      - Double click an existing notebook to open it. Inside, navigate to `Kernel` -> `Change kernel` -> select your group's name. This will ensure the open notebook runs with your group's virtual environment
+
+      ![](img/jupyter-notebook-kernel.png)
+
+
+## Remote development with VSCode
+
+![](class_editor.png)
+
+### Why VSCode over SSH?
+
+In past semesters, many people had trouble running their code on the course server. We heard a lot of questions, like "how do I run code saved on my laptop on the course server?"
+
+This section will introduce one convenient workflow for developing code on the remote server. 
+
+VSCode is an IDE that provides a lot of useful tools for developing Python, including autocomplete, syntax highlighting, support for virtual environments, and shortcuts to run python files.
+
+With the VSCode SSH extension, VSCode can access code and other files stored on a remote computer. Furthermore, it can run any code stored on the remote machine.
+
+![](img/vscode-remote-diagram.png)
+
+This has several advantages:
+- You don't have to keep any code stored on your local computer - you only need one copy, stored on the course server
+- You don't have to copy code between your computer and the course server. Instead, VSCode lets you edit files where they're stored on the course server.
+- VSCode makes it convenient to run code stored on the course server. When you're developing this way, you'll always have access to the database and your group's virtual environment.
+
+**Note**: This workflow isn't required - it's just one "good enough" approach that we think many of you will find convenient. Please feel free to use other workflows if you're already set up and comfortable with them. 
+
+### Configuring VSCode SSH
+1. [Download and install](https://code.visualstudio.com/Download) VSCode
+2. Install the `Remote - SSH` extension:
+   1. Press `ctrl+shift+x` (Linux/Windows) or `⌘+shift+x` (MacOS) to open the extensions menu
+   2. Search for and install `Remote - SSH`
+    
+   ![](img/vscode-remote-ssh-install.png)
+
+   1. At this time, also search for and install the microsoft `Python` extension.
+3. Configure our course server as an SSH host:
+
+    With the SSH plugin installed, we can tell VSCode how to log into the server. In this step we'll be entering our connection string and saving it in a file, making it easy to connect in the future.
+
+   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
+   
+   ![](img/vscode-open-connect-to-host.png)
+
+   2. Select `Add New SSH Host...`
+   
+   ![](img/vscode-connect-to-host.png)
+
+   3. Enter `ssh -i {path to your private key} {andrewid}@mlpolicylab.dssg.io` 
+   
+   ![](img/vscode-enter-login.png)
+
+   4. Select the first option to store your login config: 
+   
+   ![](img/vscode-update-config.png)
+
+4. Connect VSCode to the course server:
+   1. Connect to the CMU Full VPN
+   2. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
+   
+   ![](img/vscode-open-connect-to-host.png)
+
+   3. Select the ssh config we just created: `mlpolicylab.dssg.io`
+   
+   ![](img/vscode-select-host.png)
+
+   4. Enter your private key passcode if VSCode prompts you to (it will open a box at the top of the screen). 
+
+   5. You should be connected to the course server. This should be indicated in the bottom of your VSCode window: 
+   ![](img/vscode-ssh-connected.png)
+
+5. Open a workspace folder:
+
+    Now that VSCode is connected via SSH, you can browse all of the files and folders on the course server. In this step, we select a folder containing some code to edit and test.
+
+   1. Select the folder menu button
+   
+   ![](img/vscode-file-menu.png)
+
+   2. Select `Open Folder`
+   
+         ![](img/vscode-open-folder.png)
+
+   3. Select a folder to work in
+   
+   ![](img/vscode-select-folder.png)
+
+6. Select your python virtual environment:
+   
+   VSCode can be configured to automatically run python code in a virtual environment. Here, we'll select and activate our group virtual environments.
+
+   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Python: Select Interpreter`
+   
+   ![](img/vscode-select-interpreter.png)
+
+   2. Select `Enter interpreter path`
+   
+   ![](img/vscode-select-interpreter-path.png)
+
+   3. Select `Find...`
+   
+   ![](img/vscode-click-find.png)
+
+   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
+   
+        If you're using your groups virtual environment, the path will be `/data/groups/{group_name}/dssg_env/bin/python`
+
+        ![](img/vscode-enter-venv-path.png)
+
+   5. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
+   
+   ![](img/vscode-changed-interpreter.png)
+
+7. Run python!
+   1. Open the folder menu and select a python file (or press `ctrl+n` (Linux/Windows) or `⌘+n` (MacOS) to create a new one) 
+   
+   ![](img/vscode-select-python.png)
+
+   2. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
+   
+   ![](img/vscode-run-python.png)
+
+
+## Understanding the 94889 remote workflow
 
 ### Your machine is a client
 
