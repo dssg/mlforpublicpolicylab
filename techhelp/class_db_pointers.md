@@ -2,7 +2,7 @@
 
 Each group has their own database, named `{group_name}_database`. For example, team bills1 has `bills1_database`. Log in the same way you log into group_students_database: 
 ```bash
-psql -h mlpolicylab.db.dssg.io -U {andrewid} -d {group_name}_database 
+psql -h database.mlpolicylab.dssg.io -U {andrewid} -d {group_name}_database 
 ```
 Or, if using DBeaver, simply update the Database field to your group's database name.
 
