@@ -403,7 +403,7 @@ This has several advantages:
    
    ![](img/vscode-connect-to-host.png)
 
-   3. Enter `ssh -i {path to your private key} {andrewid}@mlpolicylab.dssg.io` 
+   3. Enter `ssh -i {path to your private key} {andrewid}@server.mlpolicylab.dssg.io` 
    
    ![](img/vscode-enter-login.png)
 
@@ -417,7 +417,7 @@ This has several advantages:
    
    ![](img/vscode-open-connect-to-host.png)
 
-   3. Select the ssh config we just created: `mlpolicylab.dssg.io`
+   3. Select the ssh config we just created: `server.mlpolicylab.dssg.io`
    
    ![](img/vscode-select-host.png)
 
