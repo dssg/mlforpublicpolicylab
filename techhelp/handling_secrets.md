@@ -18,7 +18,7 @@ import os
 db_pass = os.getenv('PGPASSWORD')
 ```
 
-If you don't want to set the environment variables by time every time you start a new terminal session, you could also store them in a shell script that would load them up when run, for instance, you might have a file called `environment.sh` with contents:
+If you don't want to set the environment variables by hand every time you start a new terminal session, you could also store them in a shell script that would load them up when run, for instance, you might have a file called `environment.sh` with contents:
 
 ```bash
 export FOO="HELLO WORLD"
@@ -39,7 +39,7 @@ A second option involves storing your secrets in a config file that can be read 
 
 ```yaml
 db:
-  host: mlpolicylab.db.dssg.io
+  host: database.mlpolicylab.dssg.io
   port: 5432
   dbname: group_students_database
   user: andrewid
