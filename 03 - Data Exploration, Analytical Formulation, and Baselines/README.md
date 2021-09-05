@@ -11,8 +11,17 @@ We'll also dedicate about 30 minutes during class on Tuesday for you to meet wit
 Required Reading for Tuesday:
 - *Practical Statistics for Data Scientists* by Bruce, A. and Bruce, P. O'Reilly (2017). Chapter 1: Exploratory Data Analysis [Available Online](https://learning.oreilly.com/library/view/practical-statistics-for/9781491952955/ch01.html#EDA)
 
+## Wednesday: SQL + Github
+During the Wednesday session, we will lead a tutorial on using SQL and github for your class project.
+**[Slides for the git and SQL session](https://docs.google.com/presentation/d/11fXNBGCgp26XjLgJOmtyXf8MgAtjrIY2ThA92vzca70/edit#slide=id.g957ac0b37e_0_0)**
+
+- Useful github tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/)
+- [Basic SQL tutorial](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/)
+
+<!--
 ## Wednesday: Project Work and Check-ins
 During the Wednesday session, you'll have time to work together with your project team to refine your scope and explore the data. We will also use this time to meet with every project team to go over project and data details.
+-->
 
 ## Thursday: Analytical Formulation and Baseline
 
