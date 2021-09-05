@@ -12,7 +12,7 @@ Take note of token once the command finishes running. it will be in a string sim
 2. Set up an SSH tunnel to connect to the server from your laptop:
 
 ```bash
-ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@mlpolicylab.dssg.io
+ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@server.mlpolicylab.dssg.io
 ```
 
 3. Open browser on laptop and type in http://localhost:8888/ and enter token from step 1. Make sure to select the kernel with your group name when creating a notebook
@@ -54,7 +54,7 @@ Take note of the token (outlined with the red box in the image), as you'll need 
 Now, on your local machine, you'll need to set up an SSH tunnel to connect to the server:
 
 ```bash
-ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@mlpolicylab.dssg.io
+ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@server.mlpolicylab.dssg.io
 ```
 
 Note that if you already have a local notebook server running, you may need to choose a different port than 8888 to map to, but we'll assume this is open here. Also, you may need to specify the "-i" parameter to provide the path to your private key file. If you're on windows, you may need to do this using PuTTY -- [see the instructions here](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/)
