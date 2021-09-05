@@ -12,12 +12,9 @@ Practical examples can provide a great way to gain an understanding of the nuanc
 - *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning* by Potash, E, et al. KDD 2015. [Available Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf), [Short 3 minute video](https://www.youtube.com/watch?v=DbplLXRQquI)
 - *What Happens When an Algorithm Cuts Your Health Care* by Lecher, C. 2018. (The Verge) [Available Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
-## Wednesday: SQL + Github
-During the Wednesday session, the TAs will lead a tutorial on using SQL and github for your class project.
-**[Slides for the git and SQL session](https://docs.google.com/presentation/d/11fXNBGCgp26XjLgJOmtyXf8MgAtjrIY2ThA92vzca70/edit#slide=id.g957ac0b37e_0_0)**
-
-- Useful github tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/)
-- [Basic SQL tutorial](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/)
+## Wednesday: Remote Workflows
+During the Wednesday session, we will lead a tutorial on a few tools for working on remote servers that will be useful for your project: the linux command line, jupyter notebooks, and VSCode.
+**[Materials for the Remote Workflows Session](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/remote-workflow/remote-workflow.md)**
 
 ## Thursday: Data Acquisition and Integration
 (*[Lecture Slides](data.pptx)*)
