@@ -56,8 +56,7 @@ A couple quick usage pointers:
 - `\q` will exit
 
 ## dbeaver
-dbeaver is a free tool that gives you a slightly nicer and visual interface to the database. [Instructions for installinfg and set up are here]
-(https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
+dbeaver is a free tool that gives you a slightly nicer and visual interface to the database. [Instructions for installing and set up are here](https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
 ## Connecting to the database from python
 The `sqlalchemy` module provides an interface to connect to a postgres database from python (you'll also need to install `psycopg2` in order to talk to postgres specifically). You'll can install it in your virtualenv with:
