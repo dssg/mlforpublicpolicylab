@@ -26,7 +26,7 @@ On Thursday, we’ll delve into some of the details of acquiring data, protectin
 During class on Thursday, we'll also talk a little bit about working together with your project team.
 
 ### Optional Readings:
- *Broken Promises of Privacy* by Ohm, P. UCLA Law Review. 2009. Introduction and Section 1. [Available Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&g_sent=1&casa_token=&collection=journals)
+- *Broken Promises of Privacy* by Ohm, P. UCLA Law Review. 2009. Introduction and Section 1. [Available Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&g_sent=1&casa_token=&collection=journals)
 - *Data Matching* by Christen, P. Springer (2012). Chapter 2: The Data Matching Process [Available Online](https://link.springer.com/book/10.1007\%2F978-3-642-31164-2)
 - *Big Data and Social Science* edited by Foster, Ghani, et al. Chapter 4: Databases.
 - *Challenges in Administrative Data Linkage for Research*.  Harron, Katie, et al. Big Data & Society,. Dec. 2017 [Available Online](https://journals.sagepub.com/doi/full/10.1177/2053951717745678)
