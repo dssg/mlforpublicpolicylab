@@ -8,7 +8,7 @@ This week, we’ll break up into project teams and begin project work
 Practical examples can provide a great way to gain an understanding of the nuance of applying machine learning to policy problems, so Tuesday will focus on a class discussion of the a case study of recent applications that have been deployed in the real world.
 
 ### Required Reading:
-- *Fine-grained dengue forecasting using telephone triage services* by Rehman, NA, et al. Sci. Adv. 2016. [Available Online](https://nyunetworks.github.io/Pubs/rehman-science16.pdf)
+- *Fine-grained dengue forecasting using telephone triage services* by Rehman, NA, et al. Sci. Adv. 2016. [Available Online](RehmanDengue.pdf)
 
 ### Optional Readings:
 - *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning* by Potash, E, et al. KDD 2015. [Available Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf), [Short 3 minute video](https://www.youtube.com/watch?v=DbplLXRQquI)
