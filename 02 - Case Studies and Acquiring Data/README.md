@@ -3,6 +3,8 @@ This week, we’ll break up into project teams and begin project work
 
 
 ## Tuesday: Case Studies
+(*[Lecture Slides](casestudies.pptx)*)
+
 Practical examples can provide a great way to gain an understanding of the nuance of applying machine learning to policy problems, so Tuesday will focus on a class discussion of the a case study of recent applications that have been deployed in the real world.
 
 ### Required Reading:
@@ -18,8 +20,6 @@ During the Wednesday session, we will lead a tutorial on a few tools for working
 
 ## Thursday: Data Acquisition and Integration
 (*[Lecture Slides](data.pptx)*)
-
-Required: (*[Pre-watch lecture video](https://youtu.be/BCnut05L5OA)*)
 
 On Thursday, we’ll delve into some of the details of acquiring data, protecting privacy, and linking records across data sources. Acquiring data from an external (or even an internal) organization is often an involved process with a number of legal and technical aspects.  Researchers need to understand how the data acquired may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure that the privacy of individuals in the dataset is protected(potentially both through access restrictions and techniques like anonymization).  One datahas been acquired, it often needs to be transformed to ingest into the system used for analy-sis, records from multiple data sources linked, and data structured for further analysis.
 
