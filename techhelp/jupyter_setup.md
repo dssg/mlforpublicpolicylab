@@ -21,7 +21,7 @@ ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@server.mlpolicyl
 
 Although not a good environment for running your ML pipeline and models, jupyter notebooks can be useful for exploratory data analysis as well as visualizing modeling results. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating an SSH tunnel (because the course server can only be accessed via the SSH protocol) so you can access it via your local browser.
 
-One important note: **be sure to explicitly shut down the kernels when you're done working with a notebook** (you can do this from the notebook directory listing: see the figure below) as "zombie" notebook sessions can end up using up a lot of processed!
+One important note: **be sure to explicitly shut down the kernels when you're done working with a notebook** (you can do this from the notebook directory listing: see the figure below) as "zombie" notebook sessions can end up using up a lot of resources!
 
 ![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
 
@@ -66,10 +66,6 @@ Finally, open a browser of your choice on your local machine and navigate to htt
 ![notebook browser login](/techhelp/img/jupyter-login.png)
 
 If you successfully log in, you should see a directory listing where you started the notebook server on the remote server allowing you to create new python files.
-
-To make sure packages you install in your group's python virtualenv are available, we have created a kernel with each group's name that uses this virtualenv. **Be sure you're selecting the kernel with your group name when creating a notebook** (we'll eventually be deleting the "Python 3" kernel to avoid confusion as well):
-
-![creating a new notebook](/techhelp/img/jupyter-new-nb.png)
 
 ## Shutting down
 You'll need to do two things to shut down your notebook server:
