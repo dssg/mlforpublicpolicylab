@@ -343,7 +343,7 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-token.png)
    (the token is printed multiple times)
 5. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **local** terminal (not via ssh): type `ssh i- {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
+   1. In a **local** terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
    2. If you use putty, you'll need to follow a different set of steps. [Here's a tutorial for that](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/). Enter `8888` in the `Source port` field. In `Destination`, enter `localhost:{your port from step 3}`
 6. Open the notebook on your local machine:
    1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
