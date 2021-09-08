@@ -337,7 +337,7 @@ Conceptually, this similar to how VSCode works over SSH:
    (numbers in this box are ports currently in use)
    
 4. On the course server, start your notebook server: 
-   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}`
+   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
    2. When the server starts, take note of the token printed in the server terminal output:
  
    ![](img/jupyter-token.png)
@@ -350,13 +350,13 @@ Conceptually, this similar to how VSCode works over SSH:
       - http://0.0.0.0:8888/
       - http://127.0.0.1:8888/
    2. If this is your first time opening Jupyter, this should take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
+   ![notebook browser login](/techhelp/img/jupyter-login.png)
    3. In the next screen (which should be a view of the folders and files in your working directory):
-      - To create a new notebook, click the `New` dropdown, and select your group's name. This will create a new notebook using your group's virtual environment.
+      - To create a new notebook, click the `New` dropdown, and select `Python 3`. This will create a new notebook using your group's virtual environment.
+      - Or you can double click an existing notebook to open it.
+7. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
 
-      ![](img/jupyter_kernel.png)
-      - Double click an existing notebook to open it. Inside, navigate to `Kernel` -> `Change kernel` -> select your group's name. This will ensure the open notebook runs with your group's virtual environment
-
-      ![](img/jupyter-notebook-kernel.png)
+![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
 
 
 ## Remote development with VSCode
