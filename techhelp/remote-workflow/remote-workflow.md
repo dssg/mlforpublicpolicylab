@@ -336,16 +336,18 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-port-selection.png)
    (numbers in this box are ports currently in use)
    
-4. On the course server, start your notebook server: 
+4. Change to your group project directory (e.g., `/data/groups/{group_name}) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
+   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
+5. On the course server, start your notebook server: 
    1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
    2. When the server starts, take note of the token printed in the server terminal output:
  
    ![](img/jupyter-token.png)
    (the token is printed multiple times)
-5. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **local** terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
+6. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
+   1. In a **new local** terminal/powershell (not via ssh): type `ssh -i {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
    2. If you use putty, you'll need to follow a different set of steps. [Here's a tutorial for that](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/). Enter `8888` in the `Source port` field. In `Destination`, enter `localhost:{your port from step 3}`
-6. Open the notebook on your local machine:
+7. Open the notebook on your local machine:
    1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
       - http://0.0.0.0:8888/
       - http://127.0.0.1:8888/
@@ -354,7 +356,7 @@ Conceptually, this similar to how VSCode works over SSH:
    3. In the next screen (which should be a view of the folders and files in your working directory):
       - To create a new notebook, click the `New` dropdown, and select `Python 3`. This will create a new notebook using your group's virtual environment.
       - Or you can double click an existing notebook to open it.
-7. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
+8. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
 
 ![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
 
