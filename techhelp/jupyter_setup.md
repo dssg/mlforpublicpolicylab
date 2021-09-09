@@ -70,4 +70,4 @@ If you successfully log in, you should see a directory listing where you started
 ## Shutting down
 You'll need to do two things to shut down your notebook server:
 1. Kill the notebook server on the remote machine (return to the terminal/screen window where the server is running and type control-C then `y` when prompted if you reall want to shut down)
-1. Close the SSH tunnel on your local machine: on linux/macos, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. With putty on windows, you should simply be able to close the putty session.
+1. Close the SSH tunnel on your local machine: on linux/macos, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. With putty or powershell on windows, you should simply be able to close the window where you started the tunnel.
