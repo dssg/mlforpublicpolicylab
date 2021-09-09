@@ -368,7 +368,7 @@ You'll need to do two things to shut down your notebook server:
 
 ## Remote development with VSCode
 
-![](class_editor.png)
+![](img/class_editor.png)
 
 ### Why VSCode over SSH?
 
