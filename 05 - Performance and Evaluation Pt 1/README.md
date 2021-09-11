@@ -4,6 +4,8 @@ Pipeline development should be continuing in your project, with a focus on produ
 **Due Friday, Oct. 1:** Peer Reviews of Three Project Proposals
 
 ## Tuesday: Performance Metrics and Evaluation, Part I
+[Lecture Slides](Model%20Selection%20and%20Validation%20-%20Part%20I.pptx)
+
 In most cases, a vast array of methods --- each with a number of tunable hyperparameters --- can be brought to bear on your modeling question. How do you decide which models are better than others and how can you be confident this decision will carry forward into the future when the model is deployed? How should you balance considerations of performance and fairness when making these decisions? Are models that are performing similarly well giving similar predictions? What should you do if they are not? In this week, we'll begin to answer these questions, focusing on the choice of performance metrics.
 
 Required Readings for Tuesday: 
