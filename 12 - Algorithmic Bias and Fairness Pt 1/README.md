@@ -5,7 +5,7 @@ beginning to look at bias and disparities in your models.
 **Due Monday, Nov 15**: Weekly project update.
 
 ## Tuesday: Algorithmic Bias and Fairness, Part I
-[Lecture Slides](ethics%20bias%20fairness%20-%20part%201.pptx)
+[Lecture Slides](FALL%2020%20-%20ethics%20bias%20fairness%20-%20part%201.pptx)
 
 Just as important as assessing whether your model is making accurate predictions is determining whether it is doing so in a fair manner. But, what do we mean by fairness? How can you measure it and what can you do to mitigate any disparities you might find? Where in your pipeline can bias be introduced? (spoiler: everywhere). This week will provide a very brief introduction to the expansive field of algorithmic fairness. 
 
