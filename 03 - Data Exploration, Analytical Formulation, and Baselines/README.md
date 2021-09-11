@@ -29,6 +29,7 @@ During the Wednesday session, you'll have time to work together with your projec
 Required Readings for Thursday:
 <!-- - [Recorded Lecture Video](https://youtu.be/-whVPGncD9c) -->
 - Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations by Obermeyer, Z., Powers, B., et al. Science. 2019. [Available Online](ObermeyerBias.pdf)
+- Late addition but worth reading: Problem Formulation and Fairness. Passi and Barocas. Conference on Fairness, Accountability, and Transparency (FAT* '19), [Available Online](https://arxiv.org/pdf/1901.02547.pdf)
 
 On Thursday, we'll discuss analytical formulation of policy projects. Distinct from the initial scoping, a true analytical formulation of your policy problem can
 only come after you have developed an understanding of the data at hand, which in turn will
