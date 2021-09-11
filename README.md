@@ -28,6 +28,8 @@ Through lectures, discussions, readings, and project assignments, students will 
 | <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  Tue 12-1, Wed 2-3 | <img src='/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11-12, Thu 12-1 |
 
 ### Teaching Assistants
+Teaching Assistants are responsible for managing the compute infrastructure and help with logging in, scaling the infrastructure, and connection issues.
+
 | Riyaz Panjwani | Abhishek Parikh |
 | --- | --- | 
 | <img src='/riyaz_panjwani.jpeg' /> <br /> Office Hours: <br /> Mon 12-1, Fri 10-11 <br /> by GHC 8th Fl. Printer | <img src='abhishek-parikh_400x400.jpeg' width='200' height='200' /> <br /> Office Hours: <br /> Mon 11-12, Fri 2-3 <br /> by GHC 8th Fl. Printer |
