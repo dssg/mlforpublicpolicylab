@@ -19,4 +19,5 @@ The proposal should be 4-5 pages (pdf) and should contain:
 - What are some ethical considerations here around privacy, equity, transparency, and accountability? How do you plan on dealing with them?
 - Caveats (due to data limitations, analysis limitations, time limitations, etc.)
 - Policy recommendations: what kind of recommendations do you hope to give to policymakers based on this analysis/project. How will you validate whether what you are proposing will have the desired impact?
+- **Appendix:** Include a completed [scoping worksheet](http://www.datasciencepublicpolicy.org/wp-content/uploads/2020/07/ProjectScopingWorksheetBlank.pdf) for your project as an appendix to your proposal (not included in the page limit)
  
