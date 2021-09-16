@@ -37,7 +37,7 @@ We'll use github to collaborate on the code all semester. You will have a projec
   - Every time, get changes since last time: `git pull`
 - Add new files: `git add` or make changes to existing files
 - Make a local checkpoint: `git commit`
-- Push to the remote repository: `git push`
+- Pull any new remote updates from your teammates (`git pull`) then push to the remote repository: `git push`
 
 A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
 
