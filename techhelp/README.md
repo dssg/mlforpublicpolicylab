@@ -39,7 +39,7 @@ We'll use github to collaborate on the code all semester. You will have a projec
 - Make a local checkpoint: `git commit`
 - Pull any new remote updates from your teammates (`git pull`) then push to the remote repository: `git push`
 
-A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Other useful tutorials are [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/)
+A [more advanced cheatsheet](https://gist.github.com/jedmao/5053440). Another useful tutorial is [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/git-and-github/basic_git_tutorial/) and you might want to check out [this interactive walk-through](https://learngitbranching.js.org/) (however some of the concepts it focuses on go beyond what you'll need for class)
 
 ## PostgreSQL
 If you're not too familiar with SQL or would like a quick review, we have an overview and intro [here](https://dssg.github.io/hitchhikers-guide/curriculum/software/basic_sql/).
