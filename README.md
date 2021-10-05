@@ -4,7 +4,7 @@
 - **[Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)**
 - **[Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020)**
  
-### Fall 2021: Tues & Thurs, 3:05-4:25pm (HBH 2008), Lab Section: Wednesday 6:20-8pm (HBH 1202)
+### Fall 2021: Tues & Thurs, 3:05-4:25pm (HBH 2008), Lab Section: Wednesday 6:20-8pm (See Below)
 
 ### Important 
  - **All content will be on github in this repo including [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
