@@ -105,5 +105,15 @@ You can find some details about using jupyter with the class server [here](jupyt
 ## Handling Secrets
 You'll need access to various secrets (such as database credentials) in your code, but keeping these secrets out of the code itself is an important part of keeping your infrastructure and data secure. You can find a few tips about different ways to do so [here](handling_secrets.md)
 
+## Triage Pointers
+We'll be using `triage` as a machine learning pipeline tool for this class. Below are a couple of links to resources that you might find helpful as you explore and use `triage` for your project:
+- An [example experiment configuration](https://github.com/dssg/triage/blob/master/example/config/experiment.yaml), with lots of detailed comments about the various parameters and options available
+- The [triage documentation site](https://dssg.github.io/triage/), in particular the [deeper look at triage](https://dssg.github.io/triage/dirtyduck/triage_intro/) and [experiment configuration](https://dssg.github.io/triage/experiments/experiment-config/) pages
+- The [triage homepage](http://www.datasciencepublicpolicy.org/projects/triage/) has some high-level details about the project and links out to a few example previous projects we've done that might be helpful
 
+Also, here are a few tips as you're working on your project:
+- Start simple and build your configuration file up iteratively. For initial runs, focus on a smaller number of training/validation splits, features, model types, etc.
+- If you want to perform some basic checks on your experiment configuration file without actually running the model grid, you can use `experiment.validate()` to do so. There are some details in the [documentation here](https://dssg.github.io/triage/experiments/running/#validating-an-experiment)
+- Because storing entity-level predictions for every model configuration you run can be costly, you might want to consider running with `save_predictions=False` at first, then adding predictions later only for models of interest.
+- Generally you can use any classification model offered by `sklearn` as well as anything with an `sklearn`-style API. Triage also provides a couple of useful built-in model types including some [baseline models](https://github.com/dssg/triage/tree/master/src/triage/component/catwalk/baselines) and [classifiers](https://github.com/dssg/triage/tree/master/src/triage/component/catwalk/estimators)
 
