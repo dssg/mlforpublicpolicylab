@@ -11,6 +11,17 @@
  - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/25318)**
  - **Class communication and announcements will be primarily through Slack**
 
+### Wednesday Sessions
+Going forward, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. Below is the timing and location for each project:
+
+**With Kit in GHC 8115**
+- 6:20 – 6:50 EPA Teams
+- 6:50 – 7:20 Turnout Teams
+
+**With Rayid in GHC 8228**
+- 6:20 – 6:50 Schools Teams
+- 6:50 – 7:20 Bills Teams
+
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
 Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping,  to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, and evaluating the impact of deployed models.
