@@ -10,8 +10,7 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 most data sets you’ll encounter in practice are littered with outliers, inconsistencies, and missingness. Handling these data issues in a smart way can be critical to a project’s success.
 
 Required Readings for Tuesday:
-- [Short Video Lecture](https://www.youtube.com/watch?v=kluqz_1GN5c) and corresponding [slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/05%20-%20Features/features-and-imputation.pptx?raw=true)
-
+- [Short Video Lecture](https://www.youtube.com/watch?v=kluqz_1GN5c) and corresponding [slides](features-and-imputation.pptx)
 
 ## Wednesday: Group Check-Ins
 
