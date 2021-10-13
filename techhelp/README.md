@@ -116,4 +116,5 @@ Also, here are a few tips as you're working on your project:
 - If you want to perform some basic checks on your experiment configuration file without actually running the model grid, you can use `experiment.validate()` to do so. There are some details in the [documentation here](https://dssg.github.io/triage/experiments/running/#validating-an-experiment)
 - Because storing entity-level predictions for every model configuration you run can be costly, you might want to consider running with `save_predictions=False` at first, then adding predictions later only for models of interest.
 - Generally you can use any classification model offered by `sklearn` as well as anything with an `sklearn`-style API. Triage also provides a couple of useful built-in model types including some [baseline models](https://github.com/dssg/triage/tree/master/src/triage/component/catwalk/baselines) and [classifiers](https://github.com/dssg/triage/tree/master/src/triage/component/catwalk/estimators)
+- [Example jupyter notebook](visualize_timechops_example.ipynb) to visualize the training and validation splits computed by triage's Timechop component.
 
