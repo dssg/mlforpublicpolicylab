@@ -1,6 +1,6 @@
 # Final Project Report
 
-**Due: December 17, 11:59pm EST**
+**Due: December 9, 11:59pm EST**
 
 The final project report should be approximately 10-15 pages in length (excluding appendix and references) and cover the following topics:
 
@@ -15,16 +15,16 @@ The final project report should be approximately 10-15 pages in length (excludin
 1. Brief (1-2 paragraph) design of a field trial to evaluate the accuracy of the model you built and selected in practice, as well as its ability to help the organization achieve its goals. It's not enough to say we'll do an A/B test or a randomized trial.
 1. Policy Recommendations based on your analysis/models
 1. Limitations, caveats, future work to improve on what you've done.
-1. Optionally, you may also wish to include a proposal for future avenues of research beyond the scope of this work, for instance on novel machine learning methods to improve on the current work, new policy interventions to evaluate or explore, or other related research opportunities.
 
 ## Appendix
 Please include  the following details in an appendix so we can better evaluate the work you've done and not just evaluate the outputs:
 
-- Exact definition of label: 1) how did you decide from the database what was a positive example and negative example. 2) over what time
-- List of *all* features generated
-- Model grid used: models and hyper-parameters. You can give the grid or a list of all model-hyperparameter combinations
-- List of train/validation sets (table with the dates)
-- The temporal graph of your primary evaluation metric  (precision at k)  for each validation set for all the models in the grid (line color by model type) - it's the slide from Update 5
+- Your triage configuration file -- be sure it's well-commented describing in words what each piece (temporal, cohort, label, features) is doing along with any underlying assumptions. This should include:
+  - Exact definition of label: 1) how did you decide from the database what was a positive example and negative example. 2) over what time
+  - List of *all* features generated
+  - Model grid used: models and hyper-parameters. You can give the grid or a list of all model-hyperparameter combinations
+- Separately, include a list of train/validation sets (table with the dates)
+- The temporal graph of your primary evaluation metric  (precision at k)  for each validation set for all the models in the grid (line color by model type) - it's the slide from Update 6
 - Criteria used to select top models (mean precision at k for example)
 - For those top 5 models + smart baseline, please provide:
   - What are they
