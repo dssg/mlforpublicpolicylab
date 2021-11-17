@@ -1,8 +1,8 @@
 # Final Project Presentation
 
-**NOTE: Presentations will take place during class on December 8 and 10 (we'll decide which group for each day when it gets closer). Please upload your slides on canvas before the presentation.**
+**NOTE: Presentations will take place during class on Wednesday, December 1. Please upload your slides on canvas before the presentation.**
 
-Each team will have 8 minutes for their presentation. We will need to be strict on the timing to make sure everyone has enough time to present:
+Each team will have 10 minutes for their presentation (plus 3 minutes for questions). We will need to be strict on the timing to make sure everyone has enough time to present:
 
 ## Timing
 Practice your timing before and have a plan for the last 30 seconds. If you're out of time, what do you want to say in the last 30 seconds?
@@ -19,9 +19,9 @@ The presentation should be clear, well-organized, and **at an appropriate level 
     - what are your rows, what are your labels, what are your features
     - how did you validate - training/validation splits, evaluation metrics, sensible baseline
     - results – performance, important features, and bias audit
-1. Caveats: based on the limitations of your data or analysis (1 minutes)
+1. Caveats: based on the limitations of your data or analysis (2 minutes)
 1. Policy Recommendations: concrete recommendations based on your analysis (1 minutes)
-1. Future Work < 1 minute
+1. Future Work (1 minute)
 
 # Evaluation Criteria
 
