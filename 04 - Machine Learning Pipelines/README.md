@@ -24,9 +24,6 @@ During the Wednesday session, we'll talk about using [triage](http://github.com/
 ## Thursday: Project Work
 During the Thursday sessions, you'll have time to work with your group on the proposal due this week as well as your initial pipeline.
 
-Optional Readings:
-- *Data Analysis, Exploratory* by Brillinger. [Available Online](https://www.stat.berkeley.edu/~brill/Papers/EDASage.pdf)
-
 
 ## Advanced Version
 [ML Pipeline (archictecture) video](https://www.youtube.com/watch?v=9653dXoqSpI&ab_channel=DataScienceforSocialGood)
