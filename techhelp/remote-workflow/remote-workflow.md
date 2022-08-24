@@ -37,7 +37,7 @@ We're providing setup instructions and support for "good enough" tools for each 
 
 ### Getting started: SSH to the server
 
-Open up a terminal/powershell and connect to the server with:
+Open up a wsl/*nix terminal and connect to the server with:
 ```
 ssh -i /path/to/your/private_sssh_key {andrew_id}@server.mlpolicylab.dssg.io
 ```
@@ -345,7 +345,7 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-token.png)
    (the token is printed multiple times)
 6. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **new local** terminal/powershell (not via ssh): type `ssh -i {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
+   1. In a **new local** wsl/*nix terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:8888:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
    2. If you use putty, you'll need to follow a different set of steps. [Here's a tutorial for that](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/). Enter `8888` in the `Source port` field. In `Destination`, enter `localhost:{your port from step 3}`
 7. Open the notebook on your local machine:
    1. Open a web browser and navigate to http://localhost:8888. If that doesn't work, try:
@@ -363,7 +363,7 @@ Conceptually, this similar to how VSCode works over SSH:
 ### Shutting down
 You'll need to do two things to shut down your notebook server:
 1. Kill the notebook server on the remote machine (return to the terminal/screen window where the server is running and type control-C then `y` when prompted if you reall want to shut down)
-1. Close the SSH tunnel on your local machine: on linux/macos, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. With putty or powershell on windows, you should simply be able to close the window where you started the tunnel.
+1. Close the SSH tunnel on your local machine: on linux/macos/windows wsl, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. If you're using putty or powershell on windows by any chance, you should simply be able to close the window where you started the tunnel.
 
 
 ## Remote development with VSCode
