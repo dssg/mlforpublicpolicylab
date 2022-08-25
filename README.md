@@ -1,9 +1,6 @@
 # 94889: Machine Learning for Public Policy Lab
 
-**Previous Versions:**
-- **[Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)**
-- **[Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020)**
-- **[Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021)**
+**Previous Versions:** [Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021) | [Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020) | [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
  
 ### Fall 2022: Tues & Thurs, 4:40-6:00pm (HBH 1005), Lab Section: Wednesday 6:20-8pm (See Below)
 
