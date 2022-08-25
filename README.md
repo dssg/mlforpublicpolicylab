@@ -33,7 +33,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 Ryan Steed |  
 | --- | 
-| <img src='ryan.jpeg' width="200" /> <br /> Office Hours: <br /> TBD<br /> TBD | 
+| <img src='https://github.com/dssg/MLinPractice/raw/main/ryan.jpeg' width="200" /> <br /> Office Hours: <br /> TBD<br /> TBD | 
 
 ## Grading 
 Throughout the semester, students will work together in small groups on
