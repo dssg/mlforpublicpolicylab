@@ -19,7 +19,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 **Pre-Requisites**: Students will be expected to know Python (for data analysis and machine learning),SQL, and have prior graduate coursework in machine learning. This course assumes that you have taken graduate Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with *nix command line, git(hub), and working on remote machines will be helpful and is highly recommended.
 
-**[DRAFT SYLLABUS](/syllabus.pdf)**
+**[DRAFT SYLLABUS](https://github.com/dssg/mlforpublicpolicylab/blob/master/README.md#applied-ml-project)**
 
 ## People
 
@@ -69,7 +69,7 @@ of it) to disk on a local machine.
 
 ## Schedule
 
-See the **[syllabus](/syllabus.pdf)** for much more detail as well, including information about group projects, grading, and helpful optional readings.
+See the **[syllabus](https://github.com/dssg/mlforpublicpolicylab/blob/master/README.md#applied-ml-project)** for much more detail as well, including information about group projects, grading, and helpful optional readings.
 
 | Week | Dates                          | Tuesday                                                                 | Wednesday                                                                                                                                            | Thursday                                                                             | Assignments                                                            | Project Focus                                                                  |
 | ---- | ------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
