@@ -72,7 +72,7 @@ of it) to disk on a local machine.
 
 ## Schedule
 
-See the **[syllabus](https://github.com/dssg/mlforpublicpolicylab/blob/master/README.md#applied-ml-project)** for much more detail as well, including information about group projects, grading, and helpful optional readings.
+See the **[syllabus](https://github.com/dssg/mlforpublicpolicylab/blob/master/README.md#applied-ml-project)** for much more detail as well, including **links to required readings** as well as information about group projects, grading, and helpful optional readings.
 
 | Week | Dates                          | Tuesday                                                                 | Wednesday                                                                                                                                            | Thursday                                                                             | Assignments                                                            | Project Focus                                                                  |
 | ---- | ------------------------------ | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
