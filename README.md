@@ -27,13 +27,13 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Rayid Ghani | Kit Rodolfa |
 | --- | --- |
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  Tue 12-1, Wed 2-3 | <img src='/img/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11-12, Thu 1:30-2:30 <br /> On [Zoom](https://cmu.zoom.us/j/99938617437?pwd=K0hoQ2FSVGV2R2pVRWRURFhDMEtXUT09) |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br />  Tue 12-1, Wed 2-3 | <img src='/img/kit_rodolfa.png' /> <br /> GHC 8018 <br /> Office Hours: <br /> Wed 11-12, Thu 1:30-2:30|
 
 ### Teaching Assistant
 
 Ryan Steed |  
 | --- | 
-| <img src='https://github.com/dssg/MLinPractice/raw/main/ryan.jpeg' width="200" /> <br /> Office Hours: <br /> Mon 4-5 <br /> Fri 2-3 | 
+| <img src='https://github.com/dssg/MLinPractice/raw/main/ryan.jpeg' width="200" /> <br /> Office Hours: <br /> Mon 4-5 <br /> Fri 2-3 <br /> On [Zoom](https://cmu.zoom.us/j/99938617437?pwd=K0hoQ2FSVGV2R2pVRWRURFhDMEtXUT09) | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
