@@ -22,7 +22,9 @@ We're providing setup instructions and support for "good enough" tools for each 
 
 ## Pre-Session Prep
 
-To ensure the tech session runs smoothly and everyone is starting from the same point, please complete the following steps (and submit the results through canvas) before the session. If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot. If all goes smoothly, feel free to come to the session at 6:45pm for the new material.
+To ensure the tech session runs smoothly and everyone is starting from the same point, please complete the following steps (and submit the results through canvas) before the session. 
+
+*If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot. If all goes smoothly, feel free to come to the session at 6:45pm for the new material.*
 
 **1. Make sure you can SSH to the class server**
 
@@ -80,6 +82,22 @@ Feel free to work through the other pieces below if you'd like as well, but so l
 
 
 ## WSL vs Windows Command Prompt -- What's the difference?
+
+We've asked everyone using windows to install and use `WSL` locally and wanted to take a moment to discuss why we've done so and what the difference is between WSL, the Windows Command Prompt, and PowerShell:
+
+- Windows Command Prompt is a commandline interface for interacting with your computer through text commands. It inherits from earlier versions of DOS (Disk Operating System) that Windows ran on top of for many years and has a very different set of commands and syntax than other linux-derived systems
+  - When you're in the Windows Command Prompt, the prompt you'll see will look something like `C:\>`
+- WSL (Windows Subsystem for Linux) is actually running linux (in our case, a version called Ubuntu) within a virtual machine on your laptop, allowing you to use the full set of common commands and functionality of linux to interact with your windows environment
+  - When you're in WSL, the command prompt you'll see will look something like `user@machine:/mnt/c/$`
+- Finally, PowerShell is sort of a hybrid -- native to windows, but with an interface more like linux, albeit only with a subset of the commands.
+
+
+A couple WSL pitfalls to watch out for:
+
+- Slashes go the other way in a path -- `/` in WSL (vs `\` in windows)
+- The C drive is located at `/mnt/c/` not `C:\`
+- Your user's home directory is in a different place in WSL than it is in windows (because it's inside a virtual machine)
+
 
 ## Living in the command line
 
