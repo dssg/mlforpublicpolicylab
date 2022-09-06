@@ -20,16 +20,66 @@ We're providing setup instructions and support for "good enough" tools for each 
   - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
   - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
 
+## Pre-Session Prep
+
+To ensure the tech session runs smoothly and everyone is starting from the same point, please complete the following steps (and submit the results through canvas) before the session. If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot. If all goes smoothly, feel free to come to the session at 6:45pm for the new material.
+
+**1. Make sure you can SSH to the class server**
+
+Using WSL (on Windows) or terminal (on Mac/Linux), connect to the server via the command below (replacing the parameters in curly brackets (`{...}`) with your info):
+```bash
+ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
+```
+
+Once there, confirm that you're in the right place with the command:
+```bash
+echo "$(whoami)@$(hostname)"
+```
+
+This should return your andrew id at the server hostname (`mlpp`): **please paste this output into the submission textbox in canvas.**
+
+**2. Make sure you can reach the class database via DBeaver**
+
+Using DBeaver (or another database GUI if you've set one up), connect to the class database and run:
+```sql
+SELECT
+'Hello, my name is '||CURRENT_USER||', and I''m connected to '||current_database()||' via '||application_name
+FROM pg_stat_activity
+WHERE usename=CURRENT_USER
+AND state='active';
+```
+
+This should output a friendly message identifying you on the database: **please paste this output into the submission textbox in canvas.**
+
+**3. Initial setup of VSCode**
+
+We'll be setting up VSCode as an editor to work with files remotely over SSH during the session. As a first step beforehand, please install VSCode and the Remote-SSH and Microsoft's python extensions using the instructions below. **Please save a screenshot of remote-ssh install window and upload it to the assignment in canvas as well.**
+
+1. [Download and install](https://code.visualstudio.com/Download) VSCode
+2. Install the `Remote - SSH` extension:
+   1. Press `ctrl+shift+x` (Linux/Windows) or `⌘+shift+x` (MacOS) to open the extensions menu
+   2. Search for and install `Remote - SSH`
+    
+   ![](img/vscode-remote-ssh-install.png)
+
+   1. At this time, also search for and install the microsoft `Python` extension.
+
+**That's it for now -- see you at the tech session!**
+Feel free to work through the other pieces below if you'd like as well, but so long as you've completed the steps above, you should be all set for this week's session.
+
 
 ## Agenda
 
 ![](img/class_infra.png)
 
+1. WSL vs Windows Command Prompt -- What's the difference?
 1. Navigating the course server using the command line
 1. Using Jupyter remotely, with SSH tunneling
 1. Using VSCode for remote development
 1. Remote development concepts - how exactly does all of this work?
 
+
+## WSL vs Windows Command Prompt -- What's the difference?
 
 ## Living in the command line
 
