@@ -24,7 +24,9 @@ We're providing setup instructions and support for "good enough" tools for each 
 
 To ensure the tech session runs smoothly and everyone is starting from the same point, please complete the following steps (and submit the results through canvas) before the session. 
 
-*If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot. If all goes smoothly, feel free to come to the session at 6:45pm for the new material.*
+*If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot these first three pre-session setup steps.* 
+
+*If you're able to complete those three steps, feel free to come to the session at 6:45pm for the new material.*
 
 **1. Make sure you can SSH to the class server**
 
