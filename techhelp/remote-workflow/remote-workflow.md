@@ -4,6 +4,8 @@ This document will provide you with tools for comfortably using our remote envir
 
 ### Basic tools for common tasks
 
+![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
+
 We're providing setup instructions and support for "good enough" tools for each of the common tasks in the workflow for this class but if you're comfortable with other tools, feel free to use them.
 
 1. Writing code:
@@ -87,14 +89,14 @@ Feel free to work through the other pieces below if you'd like as well, but so l
 
 We've asked everyone using windows to install and use `WSL` locally and wanted to take a moment to discuss why we've done so and what the difference is between WSL, the Windows Command Prompt, and PowerShell:
 
-- Windows Command Prompt is a commandline interface for interacting with your computer through text commands. It inherits from earlier versions of DOS (Disk Operating System) that Windows ran on top of for many years and has a very different set of commands and syntax than other linux-derived systems
-  - When you're in the Windows Command Prompt, the prompt you'll see will look something like `C:\>`
-- WSL (Windows Subsystem for Linux) is actually running linux (in our case, a version called Ubuntu) within a virtual machine on your laptop, allowing you to use the full set of common commands and functionality of linux to interact with your windows environment
-  - When you're in WSL, the command prompt you'll see will look something like `user@machine:/mnt/c/$`
-- Finally, PowerShell is sort of a hybrid -- native to windows, but with an interface more like linux, albeit only with a subset of the commands.
+|<!-- --> |<!-- --> |
+|---------|---------|
+| ![](https://upload.wikimedia.org/wikipedia/commons/0/0a/MS_DOS.JPG) | **Windows Command Prompt** is a commandline interface for interacting with your computer through text commands. It inherits from earlier versions of DOS (Disk Operating System) that Windows ran on top of for many years and has a very different set of commands and syntax than other linux-derived systems<br /><br />When you're in the Windows Command Prompt, the prompt you'll see will look something like `C:\>` |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tux_Enhanced.svg/154px-Tux_Enhanced.svg.png) | **WSL (Windows Subsystem for Linux)** is actually running linux (in our case, a version called Ubuntu) within a virtual machine on your laptop, allowing you to use the full set of common commands and functionality of linux to interact with your Windows machine<br /><br />When you're in WSL, the command prompt you'll see will look something like `user@machine:/mnt/c/$` |
+| ![](https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png) | Finally, **PowerShell** is sort of a hybrid -- native to Windows, but with an interface more like linux, albeit only with a subset of the commands. Generally, we recommend using WSL over PowerShell to allow you to use the full range of linux functionality.<br /><br />When you're in the Windows Command Prompt, the prompt you'll see will look something like `PS C:\>` |
 
 
-A couple WSL pitfalls to watch out for:
+**A couple WSL pitfalls to watch out for:**
 
 - Slashes go the other way in a path -- `/` in WSL (vs `\` in windows)
 - The C drive is located at `/mnt/c/` not `C:\`
@@ -553,6 +555,8 @@ This has several advantages:
 
 
 ## Understanding the 94889 remote workflow
+
+![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
 
 ### Your machine is a client
 
