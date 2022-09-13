@@ -266,7 +266,7 @@ related project work.
     
       - *Deconstructing Statistical Questions* by Hand, D.J. J. Royal
         Stat Soc. A 157(3) 1994. [Available
-        Online](http://stat688.bio5.org/sites/default/files/fall2014/hand-deconstructin.pdf)
+        Online](https://www.jstor.org/stable/pdf/2983526.pdf)
 
   - **Week 2 (Sep 6,8): Case Studies and Acquiring Data**  
     This week, we’ll organize groups and begin project work  
