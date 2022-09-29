@@ -74,7 +74,7 @@ from sqlalchemy import create_engine
 
 # read parameters from a secrets file, don't hard-code them!
 db_params = get_secrets('db')
-engine = create_engine('postgres://{user}:{password}@{host}:{port}/{dbname}'.format(
+engine = create_engine('postgresql://{user}:{password}@{host}:{port}/{dbname}'.format(
   host=db_params['host'],
   port=db_params['port'],
   dbname=db_params['dbname'],
