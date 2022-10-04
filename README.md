@@ -33,7 +33,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 Ryan Steed |  
 | --- | 
-| <img src='https://github.com/dssg/MLinPractice/raw/main/ryan.jpeg' width="200" /> <br /> Office Hours: <br /> Mon 4-5 @ [Zoom](https://cmu.zoom.us/j/99938617437?pwd=K0hoQ2FSVGV2R2pVRWRURFhDMEtXUT09) <br /> Fri 1-2 @ GHC 8228 | 
+| <img src='https://github.com/dssg/MLinPractice/raw/main/ryan.jpeg' width="200" /> <br /> Office Hours: <br /> Mon 4:00-5:30 @ [Zoom](https://cmu.zoom.us/j/99938617437?pwd=K0hoQ2FSVGV2R2pVRWRURFhDMEtXUT09) <br /> Fri 12:30-2:00 @ GHC 8228 | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
