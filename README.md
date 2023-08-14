@@ -33,7 +33,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 Catalina Vajiac |  
 | --- | 
-| <img src='https://github.com/dssg/mlforpublicpolicylab/assets/940149/0b62d8a0-5ce7-43f4-b772-2f275d036ba1'
+| <img src='http://catvajiac.me/authors/admin/avatar_huefa40cd8f2a1bac27d9779963fc2943f_776687_250x250_fill_q90_lanczos_center.jpeg'
  width="200" /> <br /> Office Hours: <br /> TBD  | 
 
 ## Grading
