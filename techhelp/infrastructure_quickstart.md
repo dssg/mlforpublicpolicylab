@@ -8,8 +8,8 @@ Once connected, here are a couple of commands you could run and expected output 
 andrewid@mlpolicylab-94889:~$ hostname
 mlpolicylab-94889
 
-andrewid@mlpolicylab-94889:~$ ec2metadata | grep "security-groups"
-security-groups: cmu-10718sp20-sg
+andrewid@mlpolicylab-94889:~$ lscpu | grep "name"
+Model name: Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz
 ```
 
 ## Reaching the Course Database
