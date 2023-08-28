@@ -8,8 +8,8 @@ Once connected, here are a couple of commands you could run and expected output 
 andrewid@mlpolicylab-94889:~$ hostname
 mlpolicylab-94889
 
-andrewid@mlpolicylab-94889:~$ lscpu | grep "name"
-Model name: Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz
+andrewid@mlpolicylab-94889:~$ pwd
+/home/{andrew_id}
 ```
 
 ## Reaching the Course Database
