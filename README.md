@@ -27,13 +27,13 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Rayid Ghani | 
 | --- | 
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours: <br /> TBD |
+| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours:  <br /> Tue 2-3, Thu 1-2 (GHC8023) |
 
 ### Teaching Assistant
 
 Catalina Vajiac |  
 | --- | 
-| <img src='http://catvajiac.me/authors/admin/avatar_huefa40cd8f2a1bac27d9779963fc2943f_776687_250x250_fill_q90_lanczos_center.jpeg' width="200" /> <br /> Office Hours: <br /> TBD  | 
+| <img src='http://catvajiac.me/authors/admin/avatar_huefa40cd8f2a1bac27d9779963fc2943f_776687_250x250_fill_q90_lanczos_center.jpeg' width="200" /> <br /> Office Hours: Monday 2-3pm, Thursday 2-3pm <br /> GHCF 8018  | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
