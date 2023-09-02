@@ -8,7 +8,7 @@
 **Detailed instructions** are [available here](infrastructure_quickstart.md) and will be covered at the first Wednesday tech 
 
 **Tech Session Materials:**
-- **[Slides from week 1 tech session - getting set up](https://docs.google.com/presentation/d/1U9f1fYxrF8lbr2y1U5gcM7gRvuPkPfQdjj75UNAfvRc/edit#slide=id.p)**
+- **[Slides from week 1 tech session - getting set up](https://docs.google.com/presentation/d/1000fsCMmJ6duWJDdGrOwQpuoR1DQnfIfg3aodAzbVtE/edit#slide=id.g27781b3f361_0_13)**
 - **[Materials from week 2 tech session - remote workflows](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/remote-workflow/remote-workflow.md)**
 - **[Slides from week 3 tech session - git + sql](https://docs.google.com/presentation/d/1VSAawzq87t55lIsMJYIv7XjTj-yvrOLu33_ViIC47wI/edit#slide=id.p)**
 
