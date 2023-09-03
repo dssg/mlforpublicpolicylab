@@ -3,7 +3,7 @@
 1. Make sure you are on cmu vpn (Full VPN group)
 2. Connect to class server: mlpolicylab.dssg.io (command line/terminal/putty) : type `ssh your_andrew_id@server.mlpolicylab.dssg.io`
 3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type `psql -h database.mlpolicylab.dssg.io -U YOUR_ANDREW_ID group_students_database`
-4. setting up dbeaver (a visual ide to the database) [instructions are here](https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
+4. Setting up dbeaver or dbvisualizer (a visual ide to the database) [instructions are here](https://github.com/dssg/mlforpublicpolicylab/raw/master/techhelp/dbeaver_instructions.pdf)
 
 **Detailed instructions** are [available here](infrastructure_quickstart.md) and will be covered at the first Wednesday tech 
 
@@ -15,13 +15,13 @@
 ## ssh
 `ssh your_andrew_id@server.mlpolicylab.dssg.io`
 
-ssh is what you'll use to connect to the class server, which is where you will do all the work. You will need to give us your ssh key, using the instructions we sent, and then you'll be good to go. Based on which operating system you're using, you can google for which tool is the best (command line, terminal, putty, etc.)
+ssh is what you'll use to connect to the class server, which is where you will do all the work. You will need to give us your **public** ssh key, using the instructions we sent, and then you'll be good to go. Based on which operating system you're using, you can google for which tool is the best (command line, terminal, putty, etc.)
 
 ## Linux Command Line (Bash)
 If you're not too familiar with working at the command line, we have a quick overview and intro [here](https://dssg.github.io/hitchhikers-guide/curriculum/setup/command-line-tools/)
 
 A couple of quick pointers that might be helpful:
-- One of the most useful linux utilities is `screen`, which allows you to create sessions that persist even when disconnect from ssh. This can be handy for things like long-running jobs, notebook servers, or even just to guard against your internet connection dropping and losing your work. Here's a quick [video intro](https://www.youtube.com/watch?v=3txYaF_IVZQ) with the basics and a more [in-depth tutorial](https://linuxize.com/post/how-to-use-linux-screen/) (note that screen is already installed, so you can ignore those details).
+- One of the most useful linux utilities is `screen` (or tmux), which allows you to create sessions that persist even when disconnect from ssh. This can be handy for things like long-running jobs, notebook servers, or even just to guard against your internet connection dropping and losing your work. Here's a quick [video intro](https://www.youtube.com/watch?v=3txYaF_IVZQ) with the basics and a more [in-depth tutorial](https://linuxize.com/post/how-to-use-linux-screen/) (note that screen is already installed, so you can ignore those details).
 - Everyone is sharing the resources of the course server and it can be a good idea to keep an eye on memory and processor usage (both to know if you're hogging resources with your processes and understand how the load looks before starting a job). A good way to do so is with the utility [htop](https://www.deonsworld.co.za/2012/12/20/understanding-and-using-htop-monitor-system-resources/), which provides a visual representation of this information (to open htop just type `htop` at the command prompt and to exit, you can simply hit the `q` key)
 - Each group should have their own folder on the server, in `/data/groups/{group name}`. For example, `/data/groups/bills1`
 - We've set up a shared python virtual environment for each group. This will automatically activate when you navigate to `/data/groups/{group_name}`. Or, manually activate it with `source /data/groups/{group_name}/dssg_env/bin/activate`.
@@ -30,11 +30,11 @@ A couple of quick pointers that might be helpful:
 ## github
 We'll use github to collaborate on the code all semester. You will have a project repository based on your projhect assignment.
 
-#### common (extremely simple) workflow
+### common (extremely simple) workflow
 
 - When you start working:
   - The first time, clone an existing repo: `git clone`
-  - Every time, get changes since last time: `git pull`
+  - Every time you want to start working, get changes since last time: `git pull`
 - Add new files: `git add` or make changes to existing files
 - Make a local checkpoint: `git commit`
 - Pull any new remote updates from your teammates (`git pull`) then push to the remote repository: `git push`
