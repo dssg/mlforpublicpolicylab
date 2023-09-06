@@ -487,7 +487,7 @@ This has several advantages:
 
    4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
    
-        If you're using your groups virtual environment, the path will be `/data/groups/{group_name}/dssg_env/bin/python`
+        If you're using your groups virtual environment, the path will be `/mnt/data/groups/{group_name}/dssg_env/bin/python`
 
         ![](img/vscode-enter-venv-path.png)
 
@@ -526,8 +526,8 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-port-selection.png)
    (numbers in this box are ports currently in use)
    
-4. Change to your group project directory (e.g., `/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
-   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
+4. Change to your group project directory (e.g., `/mnt/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
+   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/mnt/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
 5. On the course server, start your notebook server: 
    1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
    2. When the server starts, take note of the URL printed in the server terminal output:
