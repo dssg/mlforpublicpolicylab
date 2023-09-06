@@ -39,7 +39,7 @@ Once there, confirm that you're in the right place with the command:
 
 This should return your andrew id at the server hostname (`hyrule`)
 
-[!WARNING]  
+[:warning:]  
 If you get something else, let us know.
 
 **2. Make sure you can reach the class database via DBeaver**
