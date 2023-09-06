@@ -1,4 +1,4 @@
-## Intro to: Remote Workflow
+## Intro to Remote Workflow
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
 
@@ -9,12 +9,13 @@ This document will provide you with tools for comfortably using our remote envir
 We're providing setup instructions and support for "good enough" tools for each of the common tasks in the workflow for this class but if you're comfortable with other tools, feel free to use them.
 
 1. Writing code:
-  - Python: This tutorial introduces ``VSCode``, an editor with good Python support, and some tools that make reomte development easy. 
+  - Python: This tutorial introduces ``VSCode``, an editor with good Python support, and some tools that make remote development easy. 
   - However, feel free to use any editor you want (vim, emacs, sublime, pycharm). 
-  - SQL: In other tutorials, we've introduced psql (for writing sql on the server) and DBeaver (on your laptop).
+  - SQL: In other tutorials, we've introduced psql (for writing sql on the server) and DBeaver or DBVisualizer (on your laptop).
 2. Jupyter notebooks:
-  - In this tutorial, we will show how to set up ``Jupyter`` through a browser on your local machine.
-  - Many Python IDEs (such as VSCode, Pycharm) have good Jupyter support - feel free to use one of these!
+  - For now, the easiest way to use jupyter notebooks is through ``VSCode''
+  - If you're interested, you can use parts of this tutorial to set up ``Jupyter`` through a browser on your local machine (but we won't go through it).
+  - Many Python IDEs (such as, Pycharm) have good Jupyter support - feel free to use one of these!
 3. Share code with your team:
   - Use the git command line interface to push to your team github repository.
   - Many IDEs (including VSCode) have git integration.
@@ -22,13 +23,9 @@ We're providing setup instructions and support for "good enough" tools for each 
   - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
   - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
 
-## Pre-Session Prep
+## Recap from last week: 
 
-To ensure the tech session runs smoothly and everyone is starting from the same point, please complete the following steps (and submit the results through canvas) before the session. 
-
-*If you run into any trouble with them, we'll be using the first half hour of the session (6:20-6:50pm) as office hours to troubleshoot these first three pre-session setup steps.* 
-
-*If you're able to complete those three steps, feel free to come to the session at 6:45pm for the new material.*
+Let's try repeating what we did last week to get started:
 
 **1. Make sure you can SSH to the class server**
 
@@ -38,15 +35,16 @@ ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
 ```
 
 Once there, confirm that you're in the right place with the command:
-```bash
-echo "$(whoami)@$(hostname)"
-```
+``echo "$USER@$HOSTNAME"``
 
-This should return your andrew id at the server hostname (`mlpp`): **please paste this output into the submission textbox in canvas.**
+This should return your andrew id at the server hostname (`hyrule`)
+
+[!WARNING]  
+If you get something else, let us know.
 
 **2. Make sure you can reach the class database via DBeaver**
 
-Using DBeaver (or another database GUI if you've set one up), connect to the class database and run:
+Using DBeaver (or DBVisualizer), connect to the class database and run:
 ```sql
 SELECT
 'Hello, my name is '||CURRENT_USER||', and I''m connected to '||current_database()||' via '||application_name
@@ -55,11 +53,15 @@ WHERE usename=CURRENT_USER
 AND state='active';
 ```
 
-This should output a friendly message identifying you on the database: **please paste this output into the submission textbox in canvas.**
+This should output a friendly message identifying you on the database.
+
+[!WARNING]  
+If you get something else, let us know.
+
 
 **3. Initial setup of VSCode**
 
-We'll be setting up VSCode as an editor to work with files remotely over SSH during the session. As a first step beforehand, please install VSCode and the Remote-SSH and Microsoft's python extensions using the instructions below. **Please save a screenshot of remote-ssh install window and upload it to the assignment in canvas as well.**
+We'll be setting up VSCode as an editor to work with files remotely over SSH during the session. As a first step beforehand, please install VSCode and the Remote-SSH and Microsoft's python extensions using the instructions below. 
 
 1. [Download and install](https://code.visualstudio.com/Download) VSCode
 2. Install the `Remote - SSH` extension:
@@ -70,19 +72,15 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 
    1. At this time, also search for and install the microsoft `Python` extension.
 
-**That's it for now -- see you at the tech session!**
-Feel free to work through the other pieces below if you'd like as well, but so long as you've completed the steps above, you should be all set for this week's session.
-
-
 ## Agenda
 
 ![](img/class_infra.png)
 
 1. WSL vs Windows Command Prompt -- What's the difference?
-1. Navigating the course server using the command line
-1. Using Jupyter remotely, with SSH tunneling
-1. Using VSCode for remote development
-1. Remote development concepts - how exactly does all of this work?
+2. Navigating the course server using the command line
+3. Using VSCode for remote development
+4. Using Jupyter remotely, with SSH tunneling
+5. Remote development concepts - how exactly does all of this work?
 
 
 ## WSL vs Windows Command Prompt -- What's the difference?
@@ -387,53 +385,6 @@ Once you've assigned a name, you can use it to reattach your screen sessions, wh
 - You can use `screen` (and any of the utilities introduced here) in your VSCode terminal. Just press `ctrl+c` to exit your python session (if you're in one), and you'll be able to enter these commands just like a regular terminal session.
 
 
-## Remote development with Jupyter
-
-![](img/class_jupyter.png)
-
-### How's it work?
-
-Conceptually, this similar to how VSCode works over SSH:
-- The remote machine (our course server) hosts a jupyter notebook server that does things like loads files, runs python, activates virtual environments
-- Your web browser connects to that server and presents a frontend interface for opening, editing, and running notebooks
-- These connect using SSH (inside the CMU VPN)
-  
-### Setting it up
-1. Connect to the CMU VPN
-2. Connect to the course server using SSH
-3. Find an open port on the course server to send your Jupyter traffic through:
-   1. In the terminal (on the course server) type `ss -lntu`. This will list all ports 
-   2. Pick a port number between 1024 and 65535 that is NOT on that list.
-   
-   ![](img/jupyter-port-selection.png)
-   (numbers in this box are ports currently in use)
-   
-4. Change to your group project directory (e.g., `/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
-   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
-5. On the course server, start your notebook server: 
-   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
-   2. When the server starts, take note of the URL printed in the server terminal output:
- 
-   ![](img/jupyter-token.png)
-   (the token is printed multiple times)
-6. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **new local** wsl/*nix terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:{your port from step 3}:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
-7. Open the notebook on your local machine:
-   1. Open a web browser and navigate to URL generated when you started the server, including port and token (e.g., `http://localhost:{your port from step 3}?token={some long token}`). If `localhost` doesn't work, you may want to try `127.0.0.1` or `0.0.0.0` instead.
-   2. Note that if you're re-opening jupyter after a while, it may take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
-   ![notebook browser login](/techhelp/img/jupyter-login.png)
-   3. In the next screen (which should be a view of the folders and files in your working directory):
-      - To create a new notebook, click the `New` dropdown, and select `Python 3`. This will create a new notebook using your group's virtual environment.
-      - Or you can double click an existing notebook to open it.
-8. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
-
-![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
-
-### Shutting down
-You'll need to do two things to shut down your notebook server:
-1. Kill the notebook server on the remote machine (return to the terminal/screen window where the server is running and type control-C then `y` when prompted if you reall want to shut down)
-1. Close the SSH tunnel on your local machine: on linux/macos/windows wsl, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. If you're using putty or powershell on windows by any chance, you should simply be able to close the window where you started the tunnel.
-
 
 ## Remote development with VSCode
 
@@ -552,6 +503,55 @@ This has several advantages:
    2. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
    
    ![](img/vscode-run-python.png)
+
+   
+## Remote development with Jupyter
+
+![](img/class_jupyter.png)
+
+### How does it work?
+
+Conceptually, this similar to how VSCode works over SSH:
+- The remote machine (our course server) hosts a jupyter notebook server that does things like loads files, runs python, activates virtual environments
+- Your web browser connects to that server and presents a frontend interface for opening, editing, and running notebooks
+- These connect using SSH (inside the CMU VPN)
+  
+### Setting it up
+1. Connect to the CMU VPN
+2. Connect to the course server using SSH
+3. Find an open port on the course server to send your Jupyter traffic through:
+   1. In the terminal (on the course server) type `ss -lntu`. This will list all ports 
+   2. Pick a port number between 1024 and 65535 that is NOT on that list.
+   
+   ![](img/jupyter-port-selection.png)
+   (numbers in this box are ports currently in use)
+   
+4. Change to your group project directory (e.g., `/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
+   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
+5. On the course server, start your notebook server: 
+   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
+   2. When the server starts, take note of the URL printed in the server terminal output:
+ 
+   ![](img/jupyter-token.png)
+   (the token is printed multiple times)
+6. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
+   1. In a **new local** wsl/*nix terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:{your port from step 3}:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
+7. Open the notebook on your local machine:
+   1. Open a web browser and navigate to URL generated when you started the server, including port and token (e.g., `http://localhost:{your port from step 3}?token={some long token}`). If `localhost` doesn't work, you may want to try `127.0.0.1` or `0.0.0.0` instead.
+   2. Note that if you're re-opening jupyter after a while, it may take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
+   ![notebook browser login](/techhelp/img/jupyter-login.png)
+   3. In the next screen (which should be a view of the folders and files in your working directory):
+      - To create a new notebook, click the `New` dropdown, and select `Python 3`. This will create a new notebook using your group's virtual environment.
+      - Or you can double click an existing notebook to open it.
+8. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
+
+![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
+
+### Shutting down
+You'll need to do two things to shut down your notebook server:
+1. Kill the notebook server on the remote machine (return to the terminal/screen window where the server is running and type control-C then `y` when prompted if you reall want to shut down)
+1. Close the SSH tunnel on your local machine: on linux/macos/windows wsl, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. If you're using putty or powershell on windows by any chance, you should simply be able to close the window where you started the tunnel.
+
 
 
 ## Understanding the 94889 remote workflow
