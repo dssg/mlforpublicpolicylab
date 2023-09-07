@@ -1,6 +1,7 @@
 ## Intro to Remote Workflow
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
+Here's the [cheatsheet](#workflow-cheatsheet).
 
 ### Basic tools for common tasks
 
@@ -39,7 +40,7 @@ Once there, confirm that you're in the right place with the command:
 
 This should return your andrew id at the server hostname (`hyrule`)
 
-[!WARNING]  
+:warning: 
 If you get something else, let us know.
 
 **2. Make sure you can reach the class database via DBeaver**
@@ -55,7 +56,7 @@ AND state='active';
 
 This should output a friendly message identifying you on the database.
 
-[!WARNING]  
+:WARNING: 
 If you get something else, let us know.
 
 
@@ -487,7 +488,7 @@ This has several advantages:
 
    4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
    
-        If you're using your groups virtual environment, the path will be `/data/groups/{group_name}/dssg_env/bin/python`
+        If you're using your groups virtual environment, the path will be `/mnt/data/groups/{group_name}/dssg_env/bin/python`
 
         ![](img/vscode-enter-venv-path.png)
 
@@ -526,8 +527,8 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-port-selection.png)
    (numbers in this box are ports currently in use)
    
-4. Change to your group project directory (e.g., `/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
-   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
+4. Change to your group project directory (e.g., `/mnt/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
+   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/mnt/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
 5. On the course server, start your notebook server: 
    1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
    2. When the server starts, take note of the URL printed in the server terminal output:
@@ -583,3 +584,16 @@ Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ss
 ![](img/10718-workflow.png)
 
    **A diagram illustrating the class architecture.**
+
+
+## Workflow Cheatsheet
+Here's a typical workflow to get you started:
+1. ssh to the server
+2. go to your project directory ```cd /mnt/data/groups/mlpolicylab_fall23_mcrt1```
+3. go to your own directory inside where you cloned the github repo ``cd name_of_your_directory```
+4. do a git pull to get updates ```git pull```
+5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
+6. write/edit code
+7. go back to the ssh connection you have open in wsl or termianl. run the code with python (make sure you're in a screen session if it's a long run)
+8. if everything looks good, do a git commit and push
+
