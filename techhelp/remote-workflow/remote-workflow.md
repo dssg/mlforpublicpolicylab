@@ -1,6 +1,7 @@
 ## Intro to Remote Workflow
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
+Here's the [cheatsheet](#workflow-cheatsheet).
 
 ### Basic tools for common tasks
 
