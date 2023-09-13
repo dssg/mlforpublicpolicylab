@@ -10,7 +10,7 @@
 **Tech Session Materials:**
 - **[Slides from week 1 tech session - getting set up](https://docs.google.com/presentation/d/1000fsCMmJ6duWJDdGrOwQpuoR1DQnfIfg3aodAzbVtE/edit#slide=id.g27781b3f361_0_13)**
 - **[Materials from week 2 tech session - remote workflows](https://github.com/dssg/mlforpublicpolicylab/blob/master/techhelp/remote-workflow/remote-workflow.md)**
-- **[Slides from week 3 tech session - git](https://docs.google.com/presentation/d/1tdBxFn1ZSkZLRk8J2pN9O2zt2f9_1kAbhQGiin1908I/edit#slide=id.p)**
+- **[Slides from week 3 tech session - git](https://docs.google.com/presentation/d/1xhVaWl_paTed4F7A11Y3nwXZclpaAvSxA01iXwMuESM/edit#slide=id.p)**
 
 ## ssh
 `ssh your_andrew_id@server.mlpolicylab.dssg.io`
