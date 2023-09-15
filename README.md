@@ -79,7 +79,7 @@ See the **[syllabus](https://github.com/dssg/mlforpublicpolicylab/blob/master/RE
 | 1    | Tu: Aug 29<br>Th: Aug 31       | Intro/Overview + Project Overviews                                      | Basic Tech Setup: Make sure students can connect to the server through ssh, have access to github, and access the db both from psql and from dbeaver | Th: Scoping, Problem Definition, Balancing goals (equity, efficiency, effectiveness) | 1\. Survey (Monday)<br>2\. Project preferences + signature (Wednesday) | Get familiar with the class, goals, and understand project choices             |
 | 2    | Tu: Sep 5<br>Th: Sep 7         | Case Studies + Discussion                                               | Remote Tech Workflows                                                                                                                                | Acquiring Data, Privacy, Record Linkage                                              |                                                                        | Data Audit and Exploration                                                     |
 | 3    | Tu: Sep 12<br>Th: Sep 14       | Data Exploration<br><br>\+ 30 min project team meeting/coordination     | Git + GitHub                                                                                                                                         | Project Work                                                  |                                                                        | Data Stories and Finalize Project Scope                                        |
-| 4    | Tu: Sep 19<br>Th: Sep 21       | Analytical Formulation / Baselines                                                   | Triage Configuration Tech Session                                                                                                                    | Building ML Pipelines                                                                        | Project Proposal (Friday)                                              | Initial ML Pipeline Setup<br>Analytical Formulation and Baselines              |
+| 4    | Tu: Sep 19<br>Th: Sep 21       | Analytical Formulation / Baselines                                                   | Triage Configuration Tech Session                                                                                                                    | Building ML Pipelines                                                                        | Project Proposal (Tuesday)                                              | Initial ML Pipeline Setup<br>Analytical Formulation and Baselines              |
 | 5    | Tu: Sep 26<br>Th: Sep 28       | Performance Metrics / Evaluation Part 1: Choosing Metrics               | Python + SQL                                                                                                                                         | Project Work                                                                         | Proposal Reviews (Friday)                                              | Iteration 1 - Build End to End Code Pipeline<br>(Focus on end-to-end shell)    |
 | 6    | Tu: Oct 3<br>Th: Oct 5         | Performance Metrics / Evaluation Part 2: Model Selection and Validation | Group Check-Ins                                                                                                                                      | Temporal Deep Dive with projects                                                     | Analytic Formulation, Baselines, and Cohort/Label Queries (Friday)     |                                                                                |
 | 7    | Tu: Oct 10<br>Th: Oct 12       | Feature Engineering / Imputation                                        | Group Check-Ins                                                                                                                                      | Project Work                                                                         |                                                                        | Iteration 2 - End to End Code Pipeline<br>(Focus on feature development)       |
@@ -386,7 +386,7 @@ related project work.
     At this point in your project work, you should be developing your
     initial end-to-end pipeline.  
       
-    **Due Friday, Sep 22:** Project proposal with scope and descriptive
+    **Due Tuesday, Sep 19:** Project proposal with scope and descriptive
     statistics.  
       
     On Tuesday, we’ll describe the components of typical machine
@@ -405,7 +405,7 @@ related project work.
     together.
       
     On Thursday, you’ll have time to work with your group on the
-    proposal due this week as well as your initial pipeline.  
+    initial pipeline.  
       
     Optional Readings:
     
