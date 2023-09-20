@@ -4,12 +4,12 @@ SELECT
     total_price_excluding_optional_support,
     students_reached,
 
-    school_charter::INT AS charter,
-    school_magnet::INT AS magnet,
-    school_year_round::INT AS year_round,
-    school_nlns::INT AS nlns,
-    school_kipp::INT AS kipp,
-    school_charter_ready_promise::INT AS charter_ready,
+    school_charter AS charter,
+    school_magnet AS magnet,
+    school_year_round AS year_round,
+    school_nlns AS nlns,
+    school_kipp AS kipp,
+    school_charter_ready_promise AS charter_ready,
 
     CASE WHEN resource_type = 'Books' THEN 1 ELSE 0 END AS resource_books,
     CASE WHEN resource_type = 'Technology' THEN 1 ELSE 0 END AS resource_tech,
