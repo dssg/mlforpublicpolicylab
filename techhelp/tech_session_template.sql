@@ -23,5 +23,5 @@ FROM {table_schema}.{table_name}
 WHERE 
     school_state IN ({state_list})
     AND
-    date_posted BETWEEN '{start_dt}'::DATE AND '{end_dt}'::DATE
+    date_posted::DATE BETWEEN '{start_dt}'::DATE AND '{end_dt}'::DATE
 ;
