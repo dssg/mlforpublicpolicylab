@@ -419,11 +419,11 @@ related project work.
 
   - **Week 5 (Sep 26, Sep 28): Choosing Performance Metrics & Evaluating
     Classifiers, Part I**  
-    Pipeline development should be continuing in your project, with a
-    focus on producing the simplest-possible version of the full
+    Pipeline development should continue in your project, with a
+    focus on producing the simplest possible version of the full
     system.  
       
-    **Due Friday, Sep 29:** Peer reviews of three project proposals.  
+    **Due Wednesday, Sep 27:** Peer reviews of three project proposals.  
       
     In most cases, a vast array of methods — each with a number of
     tunable hyperparameters — can be brought to bear on your modeling
