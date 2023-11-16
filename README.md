@@ -532,12 +532,16 @@ related project work.
   - **Fall Break (Oct 17,29): No Classes**  
     No classes the week of October 16 for fall break.
 
-  - **Week 8 (Oct 24,26): ML Modeling in Practice**  
+ - **Week 8 (Oct 24,26): Feature Engineering in Triage**  
+
+  
+
+ - **Week 9 (Oct 31, Nov 2): ML Modeling in Practice**  
     During this week, your pipeline development and refinement should
     continue with a widening set of model specifications and features to
     explore.  
       
-    **Due Monday, Oct 23:** Technical modeling plan and detailed feature
+    **Due Monday:** Technical modeling plan and detailed feature
     list  
       
     On Tuesday, we’ll cover some practical tips about building machine
@@ -576,12 +580,12 @@ related project work.
         Models in Production* by Kervizic, J. KDnuggets. [Available
         Online](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
-  - **Week 9 (Oct 31, Nov 2): Choosing Performance Metrics & Evaluating
+  - **Week 10 (Nov 7,9): Choosing Performance Metrics & Evaluating
     Classifiers, Part III**  
     At this point, your group should be continuing to refine and expand
     on your preliminary modeling results.  
       
-    **Due Monday, Oct 30:** Weekly project update with updated
+    **Due Monday:** Weekly project update with updated
     validation splits, features, and “version 0” baseline results.  
       
     This week, we’ll return to our discussion of model selection,
@@ -595,23 +599,7 @@ related project work.
     On Wednesday, we’ll continue our group check-ins and on Thursday,
     you’ll time to work with your project group.
 
-  - **Week 10 (Nov 7,9): Project Update Presentations**  
-    By this week, your group should have a preliminary set of “correct
-    but crappy” results reflecting a relatively simple model grid and
-    the features you prioritized to build as a first pass.  
-      
-    **Due Monday, Nov 6:** Weekly project update with initial “version
-    0” results and a list of models and hyperparameters you’ll be
-    running.  
-      
-    This week, each group will give a presentation about the current
-    status of their project, covering the problem setting, approach, and
-    initial results. The presentations will be split between the Tuesday
-    and Thursday Sessions. On Wednesday, we’ll continue our group
-    check-ins and sometime this week we’ll hold an additional tech
-    session with a deep dive on building modeling pipelines.
-
-  - **Week 11 (Nov 14,16): Model Interpretability**  
+  - **Week 11 (Nov 14,16): Model Interpretability and Ethics Workshop (Thursday)**  
     By this week, project work should be beginning to focus more heavily
     on evaluation, model selection, and interpretation.  
       
@@ -677,7 +665,7 @@ related project work.
         arXiv preprint: arxiv/1905.04610. [Available
         Online](https://arxiv.org/pdf/1905.04610.pdf)
 
-  - **Week 12 (Nov 21): Algorithmic Bias and Fairness, Part I**  
+  - **Week 12 (Nov 21):  Bias and Fairness, Part I**  
     Note: No classes on Wednesday, Nov 23, or Thursday, Nov 24, for
     Thanksgiving.  
       
@@ -725,8 +713,8 @@ related project work.
         [Available
         Online](http://cowles.yale.edu/sites/default/files/files/pub/d19/d1921.pdf)
 
-  - **Week 13 (Nov 28, 30): Algorithmic Bias and Fairness, Part
-    II**  
+  - **Week 13 (Nov 28, 30):  Bias and Fairness, Part
+    II and Field Trials (Thursday)**  
     During this week, your group should be continuing to investigate any
     disparities in your model results as well as performing any other
     necessary post-modeling analyses.  
@@ -735,7 +723,7 @@ related project work.
       
     This week, we’ll continue our discussion of bias and fairness with a
     very brief survey of practical considerations and open research
-    questions in the rapidly-developing field.  
+    questions in the rapidly developing field.  
       
     Required Readings for Tuesday:
     
@@ -749,8 +737,12 @@ related project work.
         K.T., et al. FAT\* 2020. [Available
         Online](https://arxiv.org/pdf/2001.09233)
     
-    On Wednesday, we’ll continue our group check-ins and on Thursday,
-    you’ll time to work with your project group.  
+    On Wednesday, we’ll continue our group check-ins
+
+    On Thursday, we’ll use a little time to wrap up the class and briefly
+    touch on some of the topics we didn’t have time to cover (including
+    field trials, model deployment, and monitoring/maintaining the
+    system over time).  
       
     Optional Readings:
     
@@ -777,21 +769,17 @@ related project work.
         Online](https://www.liebertpub.com/doi/10.1089/big.2016.0047)
 
   - **Week 14 (Dec 5,7): Wrap-Up and Final Presentations**  
-    On Tuesday, we’ll use a little time to wrap up the class and briefly
-    touch on some of the topics we didn’t have time to cover (including
-    field trials, model deployment, and monitoring/maintaining the
-    system over time).  
+    On Tuesday, we'll give teams to do final project work and get ready for presentations.
       
-    On Wednesday, each group will give a presentation about their
+    On Thursday, each group will give a presentation about their
     applied ML project as described above.  
       
-    On Thursday, we won’t hold class to give the groups additional time
-    to work on their final reports.
+   
 
-  - **Finals Week (Date TBA): Final Report Due**  
+  - **Finals Week: Final Report Due**  
     Incorporating the results of your project work throughout the
     semester as well as feedback from your final presentation, each
-    group will write a final project report (due date TBA) as described
+    group will write a final project report as described
     above.  
 
 ## More Resources
