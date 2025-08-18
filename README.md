@@ -1,8 +1,8 @@
 # 94889: Machine Learning for Public Policy Lab
 
-**Previous Versions:** [Fall 2022](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2022) | [Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021) | [Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020) | [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
+**Previous Versions:** [Fall 2023](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2023) |[Fall 2022](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2022) | [Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021) | [Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020) | [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
  
-### Fall 2023: Tues & Thurs, 5:00-6:20pm (HBH 2008), Lab Section: Wednesday 6:30pm-8:10pm (HBH 1006)
+### Fall 2025: Tues & Thurs, 11am-12:20pm (HBH 2008), Lab Section: Wednesday 9:30-10:50am (HBH 2008)
 
 ### Important
  - **All content will be on github in this repo including [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
@@ -10,7 +10,7 @@
  - **Class communication and announcements will be primarily through Slack**
 
 ### Wednesday Sessions
-The first few weeks will be hands-on tech sessions in HBH 1006 and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. We'll post the timing and location for each project team here when it becomes available.
+The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. We'll post the timing and location for each project team here when it becomes available.
 
 ### Course Description
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
@@ -31,9 +31,9 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 ### Teaching Assistant
 
-Catalina Vajiac |  
+Logan Crowl |  
 | --- | 
-| <img src='http://catvajiac.me/authors/admin/avatar_huefa40cd8f2a1bac27d9779963fc2943f_776687_250x250_fill_q90_lanczos_center.jpeg' width="200" /> <br /> Office Hours: Monday 2-3pm, Thursday 2-3pm <br /> GHCF 8018  | 
+| <img src='https://avatars.githubusercontent.com/u/15335599?v=4****' width="200" /> <br /> Office Hours: <br />  | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
