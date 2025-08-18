@@ -24,16 +24,15 @@ Through lectures, discussions, readings, and project assignments, students will 
 ## People
 
 ### Instructor
-
 | Rayid Ghani | 
 | --- | 
-| <img src='http://www.datasciencepublicpolicy.org/wp-content/uploads/2018/05/RayidGhani-012-400x400.jpg' width='200' height='200' /> <br /> GHC 8023 <br /> Office Hours:  <br /> Tue 2-3, Thu 1-2 (GHC8023) |
+| <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> Office Hours: <br />   Tuesday 12:30-1:30pm Wednesday 3-4pm  | 
 
 ### Teaching Assistant
 
 Logan Crowl |  
 | --- | 
-| <img src='https://avatars.githubusercontent.com/u/15335599?v=4****' width="200" /> <br /> Office Hours: <br />  | 
+| <img src='https://avatars.githubusercontent.com/u/15335599?v=4****' width="200" /> <br /> Office Hours: TBD <br />  | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
