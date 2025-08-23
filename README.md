@@ -10,7 +10,7 @@
  - **Class communication and announcements will be primarily through Slack**
 
 ### Wednesday Sessions
-The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. We'll post the timing and location for each project team here when it becomes available.
+The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. 
 
 ### Course Description
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
@@ -47,7 +47,7 @@ Graded components will include:
 
   - Midterm project update presentation (10%)
 
-  - Brief project progress update assignments (20%)
+  - Brief project progress update assignments throughout the semester (20%)
 
   - Final group presentation of results targeted toward policy
     stakeholders (10%)
@@ -230,7 +230,7 @@ most sessions which may be of interest to students who wish to delve
 deeper in a given area as well as provide additional context for your
 related project work.
 
-  - **Week 1 (Aug 29, Aug 31): Introduction and Project Scoping**  
+  - **Week 1 (Aug 26, Aug 28): Introduction and Project Scoping**  
     On Tuesday, we’ll provide an introduction to the class, its goals,
     and an overview of the project options to help you decide what
     you’re interested in working on for the remainder of the
@@ -265,7 +265,7 @@ related project work.
         Stat Soc. A 157(3) 1994. [Available
         Online](https://www.jstor.org/stable/pdf/2983526.pdf)
 
-  - **Week 2 (Sep 5,7): Case Studies and Acquiring Data**  
+  - **Week 2 (Sep 2,4 ): Case Studies and Acquiring Data**  
     This week, we’ll organize groups and begin project work  
       
     Practical examples can provide a great way to gain an understanding
@@ -319,7 +319,7 @@ related project work.
       - *Big Data and Social Science* edited by Foster, Ghani, et al.
         Chapter 4: Databases.
 
-  - **Week 3 (Sep 12,14): Data Exploration, Analytical Formulation, and
+  - **Week 3 (Sep 9,11): Data Exploration, Analytical Formulation, and
     Baselines**  
     Work on your project during this week should include continuing to
     develop and refine your scope as you begin to explore the data.
@@ -382,7 +382,7 @@ related project work.
         2013. Chapter 2: Business Problems and Data Science [Available
         Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html)
 
-  - **Week 4 (Sep 19, 21): Machine Learning Pipeline Overview**  
+  - **Week 4 (Sep 16, 18): Machine Learning Pipeline Overview**  
     At this point in your project work, you should be developing your
     initial end-to-end pipeline.  
       
@@ -417,13 +417,13 @@ related project work.
         Hermann, J and Del Balso, M. [Available
         Online](https://eng.uber.com/michelangelo/)
 
-  - **Week 5 (Sep 26, Sep 28): Choosing Performance Metrics & Evaluating
+  - **Week 5 (Sep 23, Sep 25): Choosing Performance Metrics & Evaluating
     Classifiers, Part I**  
     Pipeline development should continue in your project, with a
     focus on producing the simplest possible version of the full
     system.  
       
-    **Due Wednesday, Sep 27:** Peer reviews of three project proposals.  
+    **Due Wednesday, Sep 24:** Peer reviews of three project proposals.  
       
     In most cases, a vast array of methods — each with a number of
     tunable hyperparameters — can be brought to bear on your modeling
@@ -452,13 +452,13 @@ related project work.
         [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/StaporEvaluating.pdf)
 
-  - **Week 6 (Oct 3,5): Choosing Performance Metrics & Evaluating
+  - **Week 6 (Sep 30, Oct 2): Choosing Performance Metrics & Evaluating
     Classifiers, Part II**  
     By this week, your group should have a very simple version of an
     end-to-end pipeline with preliminary results for a single model
     specification.  
       
-    **Due Friday, Oct 6:** Skeleton pipeline code/triage configuration
+    **Due Friday, Oct 3:** Skeleton pipeline code/triage configuration
     file, one-sentence analytical formulation, and baselines.  
       
     This week, we’ll continue our discussion from the previous week,
@@ -494,7 +494,7 @@ related project work.
         Ghani, et al. Chapter 7: Machine Learning. [Available
         Online](https://textbook.coleridgeinitiative.org/chap-ml.html)
 
-  - **Week 7 (Oct 10,12): Feature Engineering and Imputation**  
+  - **Week 7 (Oct 7,9): Feature Engineering and Imputation**  
     By this week, your group should have a very simple version of an
     end-to-end pipeline with preliminary results for a single model
     specification.  
@@ -529,14 +529,14 @@ related project work.
       - *Missing-data imputation* by Gelman, A. [Available
         Online](http://www.stat.columbia.edu/~gelman/arm/missing.pdf)
 
-  - **Fall Break (Oct 17,29): No Classes**  
-    No classes the week of October 16 for fall break.
+  - **Fall Break (Oct 14, 16): No Classes**  
+    No classes for fall break.
 
- - **Week 8 (Oct 24,26): Feature Engineering in Triage**  
+ - **Week 8 (Oct 21,23): Feature Engineering in Triage**  
 
   
 
- - **Week 9 (Oct 31, Nov 2): ML Modeling in Practice**  
+ - **Week 9 (Oct 28, Oct 30): ML Modeling in Practice**  
     During this week, your pipeline development and refinement should
     continue with a widening set of model specifications and features to
     explore.  
@@ -580,7 +580,7 @@ related project work.
         Models in Production* by Kervizic, J. KDnuggets. [Available
         Online](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
-  - **Week 10 (Nov 7,9): Choosing Performance Metrics & Evaluating
+  - **Week 10 (Nov 4,6): Choosing Performance Metrics & Evaluating
     Classifiers, Part III**  
     At this point, your group should be continuing to refine and expand
     on your preliminary modeling results.  
@@ -599,11 +599,11 @@ related project work.
     On Wednesday, we’ll continue our group check-ins and on Thursday,
     you’ll time to work with your project group.
 
-  - **Week 11 (Nov 14,16): Model Interpretability and Ethics Workshop (Thursday)**  
+  - **Week 11 (Nov 11,13): Model Interpretability and Ethics Workshop (Thursday)**  
     By this week, project work should be beginning to focus more heavily
     on evaluation, model selection, and interpretation.  
       
-    **Due Monday, Nov 13:** Weekly project update.  
+    **Due Monday, Nov 10:** Weekly project update.  
       
     Model interpretability can be thought of at two levels: global (how
     the model works in aggregate) and local (why an individual
@@ -665,14 +665,14 @@ related project work.
         arXiv preprint: arxiv/1905.04610. [Available
         Online](https://arxiv.org/pdf/1905.04610.pdf)
 
-  - **Week 12 (Nov 21):  Bias and Fairness, Part I**  
+  - **Week 12 (Nov 18, 20):  Bias and Fairness, Part I**  
     Note: No classes on Wednesday, Nov 23, or Thursday, Nov 24, for
     Thanksgiving.  
       
     By this week, you should be finalizing your modeling results and
     beginning to look at bias and disparities in your models.  
       
-    **Due Monday, Nov 20** Weekly project update.  
+    **Due Monday, Nov 17** Weekly project update.  
       
     Just as important as assessing whether your model is making accurate
     predictions is determining whether it is doing so in a fair manner.
@@ -713,13 +713,13 @@ related project work.
         [Available
         Online](http://cowles.yale.edu/sites/default/files/files/pub/d19/d1921.pdf)
 
-  - **Week 13 (Nov 28, 30):  Bias and Fairness, Part
-    II and Field Trials (Thursday)**  
+  - **Week 13 (Nov 25):  Bias and Fairness, Part
+    II **  
     During this week, your group should be continuing to investigate any
     disparities in your model results as well as performing any other
     necessary post-modeling analyses.  
       
-    **Due Monday, Nov 27:** Weekly project update.  
+    **Due Monday, Nov 24:** Weekly project update.  
       
     This week, we’ll continue our discussion of bias and fairness with a
     very brief survey of practical considerations and open research
