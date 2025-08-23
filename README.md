@@ -15,7 +15,7 @@ The first few weeks will be hands-on tech sessions and for the remainder of the 
 ### Course Description
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
-Through lectures, discussions, readings, and project assignments, students will learn about and experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the pipeline.
+Through lectures, discussions, readings, and project assignments, students will learn about and get habds-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
 
 **Pre-Requisites**: Students will be expected to know Python (for data analysis and machine learning),SQL, and have prior graduate coursework in machine learning. This course assumes that you have taken graduate Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with *nix command line, git(hub), and working on remote machines will be helpful and is highly recommended.
 
@@ -24,7 +24,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 ## People
 
 ### Instructor
-| Rayid Ghani | 
+| [Rayid Ghani](http://www.rayidghani.com) | 
 | --- | 
 | <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> Office Hours: <br />   Tuesday 12:30-1:30pm Wednesday 3-4pm  | 
 
@@ -36,7 +36,7 @@ Logan Crowl |
 
 ## Grading
 Throughout the semester, students will work together in small groups on
-an applied machine learning project that will illustrate the concepts
+a  policy project using machine learning that will illustrate the concepts
 discussed in class and readings.  
 
 Graded components will include:
@@ -116,13 +116,13 @@ devices are not permitted for use during the class. If you have a disability or 
 the use of a mobile device, please speak to one of the instructors or
 teaching assistants.  
   
-## Applied ML Project
+## Class Project
 
-Beginning in the second week of class, groups of 4 students will
+Beginning in the second week of class, groups of 3-4 students will
 work together on a machine learning project throughout the semester with
 one of several real-world public policy problems. Each week, every group
-will be expected to provide an update on their current status. In
-addition to helping connect readings and discussion topics to an applied
+will be expected to provide an update on its current status. In
+addition to helping connect readings and discussion topics to the policy
 domain, these updates and discussions will give you a chance to elicit
 input and feedback from your classmates about challenges you’re facing
 (and they likely are too\!) in your analyses.  
@@ -200,23 +200,18 @@ week:
   - During the Wednesday lab/recitation sessions, we’ll discuss
     technical skills and tools you’ll need for the project work early in
     the semester and then shift to check-ins with each team to discuss
-    the status of their project work, generally surround short update
+    the status of their project work, generally around short update
     assignments due on Monday (each team should review the updates of
-    all teams working on the same project and the discussion will
-    involve feedback from your peers and the instructors).
+    all teams working on the same project, and the discussion will
+    involve feedback from your peers and the instructors.
 
   - Early in the semester, Thursday sessions will also focus on lectures
     and discussions, but once the projects are underway, most weeks will
-    reserve this time for group meetings and project work (note that
-    attendance on zoom is still mandatory at this time – one piece of
-    feedback we received in the last iteration of the course was that
-    many groups had trouble coordinating regular meeting times, so we
-    wanted to find a way to dedicate some class time to help resolve
-    this challenge).  
+    reserve this time for group meetings and project work.
       
     Although we’re dedicating some time in class to work with your
     group, please note that successfully completing the project will
-    require considerable work outside of class time as well and will
+    require considerable work outside of class time as well, and will
     constitute the majority of the “homework” for the course.
 
 Below is a preliminary schedule of the course, including the readings
@@ -227,7 +222,7 @@ and generally we’ll only scratch the surface, but hopefully inspire you
 to delve deeper into areas that interest you (and you’ll find plenty of
 open research questions in each). Optional readings are also listed for
 most sessions which may be of interest to students who wish to delve
-deeper in a given area as well as provide additional context for your
+deeper into a given area, as well as provide additional context for your
 related project work.
 
   - **Week 1 (Aug 26, Aug 28): Introduction and Project Scoping**  
