@@ -33,7 +33,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Logan Crowl | 
 | --- | 
-| <img src="[img/rayidphoto.png](https://avatars.githubusercontent.com/u/15335599?v=4****)" width="200" /><br /> TBD <br /> Office Hours: <br />   TBD | 
+| <img src="img/logan.jpeg" width="200" /><br /> TBD <br /> Office Hours: <br />   TBD | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
