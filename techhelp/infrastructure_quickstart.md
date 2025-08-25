@@ -9,7 +9,7 @@ andrewid@mlpolicylab-94889:~$ hostname
 mlpolicylab-94889
 
 andrewid@mlpolicylab-94889:~$ pwd
-/home/{andrew_id}
+/class/{andrew_id}
 ```
 
 ## Reaching the Course Database
