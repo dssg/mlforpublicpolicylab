@@ -83,29 +83,5 @@ You should have received an invite to the "Machine Learning Public Policy Class"
 
 Once you have that working, your github access should be all set for the course.
 
-## Jupyter Notebook
-You may want to use jupyter notebooks for some data exploration and visualization throughout the course. Since the data needs to stay in the AWS environment, you'll need to do so by running a notebook server on the remote machine and creating a tunnel so you can access it via your local browser. Let's test that out:
-On the course server, you'll want to choose an open port for your notebook server (so you can consistently access it in the same place). You can see the ports currently in use with:
-```
-ss -lntu
-```
-Choose a port number **between 1024 and 65535** that is **NOT** on that list.
-
-Then, start your notebook server using:
-```
-jupyter notebook --no-browser --port {YOUR_PORT}
-```
-Note that this will print out a message indicating that the server is starting and giving you a token you can use to access it.
-
-Now, **on your local machine**, you'll need to set up an SSH tunnel to connect to the server:
-```
-ssh -N -L localhost:8888:localhost:{YOUR_PORT} {YOUR_ANDREW_ID}@server.mlpolicylab.dssg.io
-```
-Note that if you already have a local notebook server running, you may need to choose a different port than 8888 to map to, but we'll assume this is open here. Also, you may need to specify the "-i" parameter to provide the path to your private key file. If you're on windows, you may need to do this using PuTTY -- [see the instructions here](https://docs.bitnami.com/bch/faq/get-started/access-ssh-tunnel/)
-
-Finally, open a browser of your choice on your local machine and navigate to http://localhost:8888/ and you should get a jupyter notebook login page asking for the token that was generated when you started the server (if this doesn't work, you might also try http://0.0.0.0:8888/ or http://127.0.0.1:8888/ ). If this is successful, you should see a directory listing where you started the notebook server on the remote server allowing you to create new python files.
-
-Again, there's not too much more to do for the moment beyond confirming that you can connect, so at this point you can go ahead and kill the notebook server on the course server and the tunnel on your local machine (control-C should work for both).
-
 Anyway, once you can do all that, you should be in good shape for most of the technical resources you'll need for class! Please feel free to ping us on slack in the **#help** channel if you run into trouble with any of the steps here, and we'll be cover all of these details in the Wednesday tech session as well.
 
