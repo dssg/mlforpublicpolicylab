@@ -1,6 +1,6 @@
 # Tech Setup
 
-## [Slides from week 1 tech session - getting set up](https://docs.google.com/presentation/d/1000fsCMmJ6duWJDdGrOwQpuoR1DQnfIfg3aodAzbVtE/edit#slide=id.g27781b3f361_0_13)
+## [Slides from week 1 tech session - getting set up](https://docs.google.com/presentation/d/1WhP1E8O19P-lN_M5fgRx2A29Ut4yEomqg05xPx2zSOQ/edit?usp=sharing)
 
 
 ## Quick Recap
