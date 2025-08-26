@@ -5,9 +5,9 @@
 ### Fall 2025: Tues & Thurs, 11am-12:20pm (HBH 2008), Lab Section: Wednesday 9:30-10:50am (HBH 2008)
 
 ### Important
- - **All content will be on github in this repo including [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
- - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/49133)** https://canvas.cmu.edu/courses/49133
- - **Class communication and announcements will be primarily through Slack**
+ - **All content will be on github in this repo including the [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
+ - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/49133)** 
+ - **Class communication and announcements will be primarily through Slack and email**
 
 ### Wednesday Sessions
 The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. 
@@ -15,7 +15,7 @@ The first few weeks will be hands-on tech sessions and for the remainder of the 
 ### Course Description
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
-Through lectures, discussions, readings, and project assignments, students will learn about and get habds-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
+Through lectures, discussions, readings, and project assignments, students will learn about and get hands-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
 
 **Pre-Requisites**: Students will be expected to know Python (for data analysis and machine learning),SQL, and have prior graduate coursework in machine learning. This course assumes that you have taken graduate Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with *nix command line, git(hub), and working on remote machines will be helpful and is highly recommended.
 
@@ -37,7 +37,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
-a  policy project using machine learning that will illustrate the concepts
+a policy project using machine learning that will illustrate the concepts
 discussed in class and readings.  
 
 Graded components will include:
@@ -107,8 +107,7 @@ course. Students will be expected to store project code in a shared
 github repository, so you should create an account if you do not already
 have one ([github.com](https://www.github.com/)). Additionally, we will
 be making use of the machine learning pipeline package
-[triage](https://dssg.github.io/triage/) for modeling. **More Details to
-follow.**  
+[triage](https://dssg.github.io/triage/) for modeling. 
   
 **Phone, Laptop, and Device Policy**  
 Because much of the work in this course involves group discussions and
@@ -792,8 +791,6 @@ these are by no means required texts for the course:
     Nielsen
 
   - *Fairness and Machine Learning* by Barocas, Hardt, and Narayana
-
-  - *Weapons of Math Destruction* by O’Neil
 
   - *Exploratory Data Analysis* by Tukey  
 
