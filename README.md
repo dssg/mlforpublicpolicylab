@@ -24,10 +24,10 @@ Through lectures, discussions, readings, and project assignments, students will 
 ## People
 
 ### Instructor
+
 | Rayid Ghani | 
 | --- | 
-| <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> Office Hours: <br />   Tuesday 12:30-1:30pm Wednesday 3-4pm  | 
-
+| <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> **Office Hours:** <br />   Tuesday 12:30-1:30pm  <br /> Wednesday 3-4pm  <br /> Email me if you want to meet outside these hours | 
 
 ### Teaching Assistant
 
