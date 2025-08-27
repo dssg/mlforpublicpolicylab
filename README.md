@@ -828,7 +828,16 @@ raw data, queries containing identifiable information, or secrets (key
 files, database passwords, etc) to github. Should this occur, or should
 you have any reason to believe your personal computer or private key has
 been compromised, you must immediately notify the course staff of the
-issue.  
+issue. 
+
+**AI Use Policy:**  We want this class to reflect what solving problems with ML in the real world looks like, which means different policies depending on 1) where you're working 2) the data you’re using, and 3) the privacy and confidentiality requirements. For the data we are using in this class, please don't share or upload any confidential data information to any AI tool (on the web) but beyond that, you can use any tool you want. You're accountable for the output and the work you submit. Know that a lot of these models are trained on pretty bad ML code and practices :)
+
+We also want this class to help you understand what the AI tools are good for, where they fall short, and how to use them best to solve real-world problems. So use them, but be skeptical, review and test the output, and be ready to share what you find with others in the class.
+
+**tl;dr**
+- You can use anything you want (without uploading confidential data and information), but you're accountable and responsible for what you submit
+- Be prepared to disclose and share what you used and how you used it so others can learn
+
 
 ## Resources
 
