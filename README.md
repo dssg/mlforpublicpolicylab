@@ -248,7 +248,7 @@ related project work.
     Required Readings for Thursday:
     
       - *Data Science Project Scoping Guide* [Available
-        Online](http://www.datasciencepublicpolicy.org/home/resources/data-science-project-scoping-guide/)
+        Online](https://datasciencepublicpolicy.org/our-work/tools-guides/data-science-project-scoping-guide//)
     
       - *Using Machine Learning to Assess the Risk of and Prevent Water
         Main Breaks* by Kumar, A, Rizvi, SAA, et al. KDD 2018.
