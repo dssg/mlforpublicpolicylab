@@ -3,6 +3,11 @@
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
 Here's the [cheatsheet](#workflow-cheatsheet).
 
+We will be covering three things today:
+1. Using linux command line to navigate directories and files on the course server (and your project directory).
+2. installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly
+3. Making sure you access the project data on the coufrse database using psql and dbeaver.
+
 ### Basic tools for common tasks
 
 ![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
