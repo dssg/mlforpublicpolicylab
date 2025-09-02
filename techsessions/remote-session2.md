@@ -8,11 +8,8 @@ We will be covering three things today:
 2. Installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly
 3. Making sure you access the project data on the course database using psql and dbeaver.
 
-## Tasks for today
-1. [Repeat what we did last week](#recap-from-last-week): ssh to server, psql, dbeaver to make sure we remember
-2. 
 
-### Basic tools for common tasks
+## Basic tools for common tasks
 
 ![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
 
@@ -32,6 +29,15 @@ We're providing setup instructions and support for "good enough" tools for each 
 4. Run code:
   - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
   - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
+
+## Agenda for today
+![](img/class_infra.png)
+
+1. [Repeat what we did last week](#recap-from-last-week): ssh to server, psql, dbeaver to make sure we remember
+2. [Navigating the course server using the linux command line](#living-the-command-line) including the very important **screen** command
+3. [Using VSCode for remote development](#remote-development-with-vscode)
+4. [Remote development concepts](#understanding-the-class-remote-workflow) - how exactly does all of this work?
+
 
 ## Recap from last week: 
 
@@ -82,23 +88,13 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 
    1. At this time, also search for and install the microsoft `Python` extension.
 
-## Agenda
-
-![](img/class_infra.png)
-
-1. Navigating the course server using the command line
-2. Using VSCode for remote development
-3. Using Jupyter remotely, with SSH tunneling
-4. Remote development concepts - how exactly does all of this work?
-
-
-## Living in the command line
+## Living the command line
 
 ![](img/class_ssh.png)
 
 ### Getting started: SSH to the server
 
-Open up a wsl/*nix terminal and connect to the server with:
+Open up a wsl/*nix/gitbash terminal and connect to the server with:
 ```
 ssh -i /path/to/your/private_sssh_key {andrew_id}@server.mlpolicylab.dssg.io
 ```
@@ -498,6 +494,8 @@ This has several advantages:
    
 ## Remote development with Jupyter
 
+We're not going to cover this becuase you can use vscode for notebooks but leaving it here for those of you interested in doing it with jupyter.
+
 ![](img/class_jupyter.png)
 
 ### How does it work?
@@ -545,7 +543,7 @@ You'll need to do two things to shut down your notebook server:
 
 
 
-## Understanding the 94889 remote workflow
+## Understanding the class remote workflow
 
 ![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
 
@@ -579,7 +577,7 @@ Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ss
 ## Workflow Cheatsheet
 Here's a typical workflow to get you started:
 1. ssh to the server
-2. go to your project directory ```cd /mnt/data/groups/mlpolicylab_fall23_mcrt1```
+2. go to your project directory ```cd /mnt/data/groups/mlpolicylab_fall25_mcrt1```
 3. go to your own directory inside where you cloned the github repo ``cd name_of_your_directory```
 4. do a git pull to get updates ```git pull```
 5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
