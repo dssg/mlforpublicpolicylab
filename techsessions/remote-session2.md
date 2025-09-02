@@ -5,8 +5,12 @@ Here's the [cheatsheet](#workflow-cheatsheet).
 
 We will be covering three things today:
 1. Using linux command line to navigate directories and files on the course server (and your project directory).
-2. installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly
-3. Making sure you access the project data on the coufrse database using psql and dbeaver.
+2. Installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly
+3. Making sure you access the project data on the course database using psql and dbeaver.
+
+## Tasks for today
+1. [Repeat what we did last week](#recap-from-last-week): ssh to server, psql, dbeaver to make sure we remember
+2. 
 
 ### Basic tools for common tasks
 
@@ -82,29 +86,10 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 
 ![](img/class_infra.png)
 
-1. WSL vs Windows Command Prompt -- What's the difference?
-2. Navigating the course server using the command line
-3. Using VSCode for remote development
-4. Using Jupyter remotely, with SSH tunneling
-5. Remote development concepts - how exactly does all of this work?
-
-
-## WSL vs Windows Command Prompt -- What's the difference?
-
-We've asked everyone using windows to install and use `WSL` locally and wanted to take a moment to discuss why we've done so and what the difference is between WSL, the Windows Command Prompt, and PowerShell:
-
-|<!-- --> |<!-- --> |
-|---------|---------|
-| ![](https://upload.wikimedia.org/wikipedia/commons/0/0a/MS_DOS.JPG) | **Windows Command Prompt** is a commandline interface for interacting with your computer through text commands. It inherits from earlier versions of DOS (Disk Operating System) that Windows ran on top of for many years and has a very different set of commands and syntax than other linux-derived systems<br /><br />When you're in the Windows Command Prompt, the prompt you'll see will look something like `C:\>` |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Tux_Enhanced.svg/154px-Tux_Enhanced.svg.png) | **WSL (Windows Subsystem for Linux)** is actually running linux (in our case, a version called Ubuntu) within a virtual machine on your laptop, allowing you to use the full set of common commands and functionality of linux to interact with your Windows machine<br /><br />When you're in WSL, the command prompt you'll see will look something like `user@machine:/mnt/c/$` |
-| ![](https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png) | Finally, **PowerShell** is sort of a hybrid -- native to Windows, but with an interface more like linux, albeit only with a subset of the commands. Generally, we recommend using WSL over PowerShell to allow you to use the full range of linux functionality.<br /><br />When you're in the Windows Command Prompt, the prompt you'll see will look something like `PS C:\>` |
-
-
-**A couple WSL pitfalls to watch out for:**
-
-- Slashes go the other way in a path -- `/` in WSL (vs `\` in windows)
-- The C drive is located at `/mnt/c/` not `C:\`
-- Your user's home directory is in a different place in WSL than it is in windows (because it's inside a virtual machine)
+1. Navigating the course server using the command line
+2. Using VSCode for remote development
+3. Using Jupyter remotely, with SSH tunneling
+4. Remote development concepts - how exactly does all of this work?
 
 
 ## Living in the command line
