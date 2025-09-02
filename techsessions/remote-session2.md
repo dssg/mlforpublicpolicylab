@@ -576,7 +576,7 @@ Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ss
 Here's a typical workflow to get you started:
 1. ssh to the server
 2. go to your project directory ```cd /class/groups/{group_name}```
-3. go to your own directory inside where you cloned the github repo ``cd name_of_your_directory```
+3. go to your own directory inside where you cloned the github repo ```cd name_of_your_directory```
 4. do a git pull to get updates ```git pull```
 5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
 6. write/edit code
