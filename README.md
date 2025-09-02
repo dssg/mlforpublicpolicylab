@@ -78,7 +78,7 @@ See the **[syllabus](https://github.com/dssg/mlforpublicpolicylab/blob/master/RE
 
 | Week | Dates                    | Tuesday                                                                                                                    | Wednesday                                                                                                                                                                         | Thursday                                                                                                                                                               | Assignments                                                            | Project Focus                                                                  |
 | ---- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 1    | Tu: Aug 26<br>Th: Aug 28 | [Intro/Overview + Project Overviews](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/01-ClassOverview.pptx) | [Basic Tech Setup](#techsessions/session1.md): Make sure students can connect to the server through ssh, have access to github, and access the db both from psql and from dbeaver | Th: [Scoping, Problem Definition, Balancing goals](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/02-Scoping.pptx) (equity, efficiency, effectiveness) | 1\. Survey (Monday)<br>2\. Project preferences + signature (Wednesday) | Get familiar with the class, goals, and understand project choices             |
+| 1    | Tu: Aug 26<br>Th: Aug 28 | [Intro/Overview + Project Overviews](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/01-ClassOverview.pptx) | [Basic Tech Setup](#techsessions/session1.md): Make sure students can connect to the server through ssh, have access to github, and access the db both from psql and from dbeaver | Th: [Scoping, Problem Definition, Balancing goals](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/02-Scoping.pptx) (equity, efficiency, effectiveness) | 1\. Survey (Monday)<br>2\. Project preferences + signature (Wednesday) | Get familiar with the class, goals, and understand project choices             |
 | 2    | Tu: Sep 2<br>Th: Sep 4   | [Case Studies + Discussion](#case-studies-and-acquiring-data)                                                              | [Remote Tech Workflows](#case-studies-and-acquiring-data)                                                                                                                         | [Acquiring Data, Privacy, Record Linkage](#case-studies-and-acquiring-data)                                                                                            |                                                                        | Data Audit and Exploration                                                     |
 | 3    | Tu: Sep 9<br>Th: Sep 11  | [Data Exploration](#data-exploration-and-teamwork)<br>\+ 30 min project team meeting/coordination                          | Git + GitHub                                                                                                                                                                      | Project Work                                                                                                                                                           |                                                                        | Data Stories and Finalize Project Scope                                        |
 | 4    | Tu: Sep 16<br>Th: Sep 18 | [Analytical Formulation / Baselines](#analytical-formulation-baselines-and-machine-learning-pipeline-overview)             | Python + SQL                                                                                                                                                                      | [Building ML Pipelines](#analytical-formulation-baselines-and-machine-learning-pipeline-overview)                                                                      | Project Proposal (tuesday)                                             | Initial ML Pipeline Setup<br>Analytical Formulation and Baselines              |
@@ -252,7 +252,7 @@ related project work.
   - **Week 1 (Aug 26, Aug 28)** Introduction and Project Scoping
     ### Introduction and Project Scoping
 
-    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/01-ClassOverview.pptx)**
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/01-ClassOverview.pptx)**
 
     On Tuesday, we’ll provide an introduction to the class, its goals,
     and an overview of the project options to help you decide what
@@ -264,7 +264,7 @@ related project work.
     During the Wednesday session, we’ll help ensure everyone is set up
     to access the class technical resources.  
       
-    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/02-Scoping.pptx)**
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/02-Scoping.pptx)**
 
     On Thursday, we’ll talk about scoping, problem definition, and
     understanding and balancing organizational goals. Well before the
@@ -296,7 +296,7 @@ related project work.
     ### Case Studies and Acquiring Data
     This week, we’ll organize groups and begin project work  
       
-    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/03-casestudies.pptx)**
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/03-casestudies.pptx)**
     Practical examples can provide a great way to gain an understanding
     of the nuance of applying machine learning to policy problems, so
     Tuesday will focus on a class discussion of a case study of a recent
@@ -312,7 +312,7 @@ related project work.
     During the Wednesday session, we will lead a workshop on using
     remote workflow tools for your class project.  
       
-    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/04-data.pptx)**
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/04-data.pptx)**
 
     On Thursday, we’ll delve into some of the details of acquiring data,
     protecting privacy, and linking records across data sources.
