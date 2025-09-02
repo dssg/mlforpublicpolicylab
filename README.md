@@ -297,6 +297,7 @@ related project work.
     This week, we’ll organize groups and begin project work  
       
     **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/master/Lectures/03-casestudies.pptx)**
+    
     Practical examples can provide a great way to gain an understanding
     of the nuance of applying machine learning to policy problems, so
     Tuesday will focus on a class discussion of a case study of a recent
@@ -356,7 +357,8 @@ related project work.
     Work on your project during this week should include continuing to
     develop and refine your scope as you begin to explore the data.
 
-    **[Lecture Slides for Tuesday]()** 
+    **[Lecture Slides for Tuesday]()**
+    
     Tuesday of this week will provide an overview exploratory data
     analysis, particularly focusing on downstream ML analysis. Data exploration is fundamental to developing an
     understanding of the nuances of the data and how the policy problem
