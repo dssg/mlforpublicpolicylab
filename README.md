@@ -226,7 +226,8 @@ most sessions which may be of interest to students who wish to delve
 deeper into a given area, as well as provide additional context for your
 related project work.
 
-  - **Week 1 (Aug 26, Aug 28): Introduction and Project Scoping**  
+  - **Week 1 (Aug 26, Aug 28)** Introduction and Project Scoping
+    #### Introduction and Project Scoping
     On Tuesday, we’ll provide an introduction to the class, its goals,
     and an overview of the project options to help you decide what
     you’re interested in working on for the remainder of the
@@ -245,7 +246,7 @@ related project work.
     will success be measured? How will (often competing) goals of
     efficiency, effectiveness, and equity be balanced?  
       
-    Required Readings for Thursday:
+    **Required Readings for Thursday**:
     
       - *Data Science Project Scoping Guide* [Available
         Online](https://datasciencepublicpolicy.org/our-work/tools-guides/data-science-project-scoping-guide//)
@@ -261,15 +262,18 @@ related project work.
         Stat Soc. A 157(3) 1994. [Available
         Online](https://www.jstor.org/stable/pdf/2983526.pdf)
 
-  - **Week 2 (Sep 2,4 ): Case Studies and Acquiring Data**  
+  - **Week 2 (Sep 2,4 )**
+    #### Case Studies and Acquiring Data
     This week, we’ll organize groups and begin project work  
       
     Practical examples can provide a great way to gain an understanding
     of the nuance of applying machine learning to policy problems, so
     Tuesday will focus on a class discussion of a case study of a recent
-    application, scoping the case together in breakout sessions.  
+    application, scoping the case together in breakout sessions.
+
+    **Lecture Slides for Tuesday**
       
-    Required Reading for Tuesday:
+    **Required Reading for Tuesday**:
     
       - *Fine-grained dengue forecasting using telephone triage
         services* by Rehman, NA, et al. Sci. Adv. 2016. [Available
