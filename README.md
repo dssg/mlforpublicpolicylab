@@ -227,7 +227,7 @@ deeper into a given area, as well as provide additional context for your
 related project work.
 
   - **Week 1 (Aug 26, Aug 28)** Introduction and Project Scoping
-    #### Introduction and Project Scoping
+    ### Introduction and Project Scoping
     On Tuesday, we’ll provide an introduction to the class, its goals,
     and an overview of the project options to help you decide what
     you’re interested in working on for the remainder of the
@@ -263,25 +263,27 @@ related project work.
         Online](https://www.jstor.org/stable/pdf/2983526.pdf)
 
   - **Week 2 (Sep 2,4 )**
-    #### Case Studies and Acquiring Data
+    ### Case Studies and Acquiring Data
     This week, we’ll organize groups and begin project work  
       
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/03-casestudies.pptx)**
     Practical examples can provide a great way to gain an understanding
     of the nuance of applying machine learning to policy problems, so
     Tuesday will focus on a class discussion of a case study of a recent
     application, scoping the case together in breakout sessions.
-
-    **[Lecture Slides for Tuesday]()**
-      
+  
     **Required Reading for Tuesday**:
     
       - *Fine-grained dengue forecasting using telephone triage
         services* by Rehman, NA, et al. Sci. Adv. 2016. [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/RehmanDengue.pdf)
     
+    **[Slides for Wednesday session](techsessions/remote-session2.md)
     During the Wednesday session, we will lead a workshop on using
     remote workflow tools for your class project.  
       
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/04-data.pptx)**
+
     On Thursday, we’ll delve into some of the details of acquiring data,
     protecting privacy, and linking records across data sources.
     Acquiring data from a project partner is often an involved process
@@ -296,7 +298,7 @@ related project work.
     analysis.  
       
     During class on Thursday, we’ll also talk a little bit about working
-    together with your project team.  
+    together with your project team.
       
     Optional Readings:
     
@@ -319,8 +321,8 @@ related project work.
       - *Big Data and Social Science* edited by Foster, Ghani, et al.
         Chapter 4: Databases.
 
-  - **Week 3 (Sep 9,11): Data Exploration, Analytical Formulation, and
-    Baselines**  
+  - **Week 3 (Sep 9,11)**
+    #### Data Exploration, Analytical Formulation, and Baselines
     Work on your project during this week should include continuing to
     develop and refine your scope as you begin to explore the data.
     You’ll also need to prepare and load some data into a database in
