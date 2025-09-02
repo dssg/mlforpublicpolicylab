@@ -472,11 +472,9 @@ This has several advantages:
    
    ![](img/vscode-click-find.png)
 
-   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python`. 
+   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python` (`/class/{andrew_id}/.pyenv/shims/python`). 
    
-        If you're using your groups virtual environment, the path will be `/mnt/data/groups/{group_name}/dssg_env/bin/python`
-
-        ![](img/vscode-enter-venv-path.png)
+   ![](img/vscode-enter-venv-path.png)
 
    5. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
    
@@ -515,8 +513,8 @@ Conceptually, this similar to how VSCode works over SSH:
    ![](img/jupyter-port-selection.png)
    (numbers in this box are ports currently in use)
    
-4. Change to your group project directory (e.g., `/mnt/data/groups/{group_name}`) to activate your virtual environment (you might need to run `direnv allow` if this is your first time doing so)
-   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/mnt/data/groups/{group_name}/dssg_env/bin/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
+4. Change to your group project directory (e.g., `/class/groups/{group_name}`) to activate your virtual environment 
+   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/class/{andrew_id}/.pyenv/shims/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
 5. On the course server, start your notebook server: 
    1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
    2. When the server starts, take note of the URL printed in the server terminal output:
@@ -577,7 +575,7 @@ Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ss
 ## Workflow Cheatsheet
 Here's a typical workflow to get you started:
 1. ssh to the server
-2. go to your project directory ```cd /mnt/data/groups/mlpolicylab_fall25_mcrt1```
+2. go to your project directory ```cd /class/groups/{group_name}```
 3. go to your own directory inside where you cloned the github repo ``cd name_of_your_directory```
 4. do a git pull to get updates ```git pull```
 5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
