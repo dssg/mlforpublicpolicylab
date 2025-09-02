@@ -289,7 +289,7 @@ related project work.
         services* by Rehman, NA, et al. Sci. Adv. 2016. [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/RehmanDengue.pdf)
     
-    **[Slides for Wednesday session](techsessions/remote-session2.md)
+    **[Slides for Wednesday session](techsessions/remote-session2.md)**
     During the Wednesday session, we will lead a workshop on using
     remote workflow tools for your class project.  
       
