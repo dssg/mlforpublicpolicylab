@@ -329,14 +329,13 @@ related project work.
         Chapter 4: Databases.
 
   - **Week 3 (Sep 9,11)**
-    #### Data Exploration, Analytical Formulation, and Baselines
+    ### Data Exploration and Teamwork
     Work on your project during this week should include continuing to
     develop and refine your scope as you begin to explore the data.
-    You’ll also need to prepare and load some data into a database in
-    order to make use of it in your modeling.  
-      
-    Tuesday of this week will provide a crash course in exploratory data
-    analysis. Data exploration is fundamental to developing an
+
+    **[Lecture Slides for Tuesday]()** 
+    Tuesday of this week will provide an overview exploratory data
+    analysis, particularly focusing on downstream ML analysis. Data exploration is fundamental to developing an
     understanding of the nuances of the data and how the policy problem
     you initially scoped can be specifically formulated as a machine
     learning problem. This process involves generating and plotting
@@ -349,10 +348,20 @@ related project work.
       
     We’ll also dedicate about 30 minutes during class on Tuesday for you
     to meet with your project teams and discuss your project scope.  
-    During the Wednesday session, we’ll lead a tutorial about using
+
+    During the Wednesday session, we’ll lead a tutorial/refresher about using
     GitHub for your project.  
-      
-    On Thursday, we’ll discuss analytical formulation of policy
+    
+    Thursday class time will be dedicated to project work - use this time to do data exploration, scoping, and proposal planning.  
+    
+
+  - **Week 4 (Sep 16, 18)**
+    **Due Tuesday, Sep 19: Project proposal with scope and descriptive statistics**
+    
+    ### Analytical Formulation, Baselines, and Machine Learning Pipeline Overview
+
+    
+    On Tuesday, we’ll discuss analytical formulation of policy
     projects. Distinct from the initial scoping, a true analytical
     formulation of your policy problem can only come after you have
     developed an understanding of the data at hand, which in turn will
@@ -366,7 +375,7 @@ related project work.
     an expert would come up with or even a pre-existing statistical
     model that the current effort is seeking to replace.  
       
-    Required Readings for Thursday:
+    Required Readings for Tuesday:
     
       - *Dissecting Racial Bias in an Algorithm Used to Manage the
         Health of Populations* by Obermeyer, Z., Powers, B., et al.
@@ -382,7 +391,6 @@ related project work.
         Medium. [Available
         Online](https://blog.insightdatascience.com/always-start-with-a-stupid-model-no-exceptions-3a22314b9aaa)
 
-    
       - *Create a Common-Sense Baseline First* by Ramakrishnan. Medium.
         [Available
         Online](https://towardsdatascience.com/first-create-a-common-sense-baseline-e66dbf8a8a47)
@@ -391,31 +399,22 @@ related project work.
         2013. Chapter 2: Business Problems and Data Science [Available
         Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html)
 
-  - **Week 4 (Sep 16, 18): Machine Learning Pipeline Overview**  
-    At this point in your project work, you should be developing your
-    initial end-to-end pipeline.  
+    
+    On Wednesday, we will lead a tech session on using Python and SQL
+    together.
       
-    **Due Tuesday, Sep 19:** Project proposal with scope and descriptive
-    statistics.  
-      
-    On Tuesday, we’ll describe the components of typical machine
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)**
+    
+    On Thursday, we’ll describe the components of typical machine
     learning pipelines. End-to-end ML Pipelines can quickly become
     unwieldy with several moving pieces and well-structured, modular
     code is often critical to detecting and fixing bugs in the process.
     This session will provide an overview of the pipeline, each
     underlying element, and some best practices for building them.  
       
-    Required Reading for Tuesday:
-    
-      - Review the lecture slides before class:
-        [Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)
-    
-    On Wednesday, we will lead tech sessions on using Python and SQL
-    together.
-      
-    On Thursday, you’ll have time to work with your group on the
-    initial pipeline.  
-      
+    Required Reading for Thursday:
+     - [Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)
+          
     Optional Readings:
     
       - *Architecting a Machine Learning Pipeline* by Koen, S. (Medium)
@@ -426,8 +425,8 @@ related project work.
         Hermann, J and Del Balso, M. [Available
         Online](https://eng.uber.com/michelangelo/)
 
-  - **Week 5 (Sep 23, Sep 25): Choosing Performance Metrics & Evaluating
-    Classifiers, Part I**  
+  - **Week 5 (Sep 23, Sep 25):**
+    ### Choosing Performance Metrics & Evaluating Classifiers, Part 1
     Pipeline development should continue in your project, with a
     focus on producing the simplest possible version of the full
     system.  
