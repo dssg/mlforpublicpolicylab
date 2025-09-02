@@ -43,7 +43,7 @@ ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
 Once there, confirm that you're in the right place with the command:
 ``echo "$USER@$HOSTNAME"``
 
-This should return your andrew id at the server hostname (`hyrule`)
+This should return your andrew id at the server hostname (`mlpolicylab-94889`)
 
 :warning: 
 If you get something else, let us know.
