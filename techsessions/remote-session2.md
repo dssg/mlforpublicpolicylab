@@ -96,7 +96,7 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 
 Open up a wsl/*nix/gitbash terminal and connect to the server with:
 ```
-ssh -i /path/to/your/private_sssh_key {andrew_id}@server.mlpolicylab.dssg.io
+ssh {andrew_id}@server.mlpolicylab.dssg.io
 ```
 
 ### Some key Linux concepts
@@ -106,7 +106,6 @@ ssh -i /path/to/your/private_sssh_key {andrew_id}@server.mlpolicylab.dssg.io
 **Absolute paths**:
 
 An absolute path is a path that starts at a system's root directory.
-
 
 For example, the command `pwd` will print the absolute path to your current directory:
 
@@ -123,9 +122,10 @@ A relative path specifies the path to some folder or file, *relative to* the cur
 To use a relative path, specify a path *not* starting with a `/`
 
 An example:
-- I start in `/home/krodolfa/mlforpublicpolicylab`
-- I use `cd project` (note: doesn't start with `/`)
-- I've changed directories to `/home/krodolfa/mlforpublicpolicylab/project`
+- I start in `/class/rayid/`
+- I go up one level by typing `cd ..` (get to /class)
+- I then use `cd groups` (note: doesn't start with `/`) to go to the project groups directory 
+- I've changed directories to `/class/groups/`
 
 ![](img/bash-absolute-path.png)
 
