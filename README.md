@@ -237,6 +237,7 @@ related project work.
     semester.  
       
     **[Slides for Wednesday Lab Session](#techsessions/session1.md)**
+    
     During the Wednesday session, we’ll help ensure everyone is set up
     to access the class technical resources.  
       
