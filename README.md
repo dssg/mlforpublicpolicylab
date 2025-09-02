@@ -228,14 +228,20 @@ related project work.
 
   - **Week 1 (Aug 26, Aug 28)** Introduction and Project Scoping
     ### Introduction and Project Scoping
+
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/01-ClassOverview.pptx)**
+
     On Tuesday, we’ll provide an introduction to the class, its goals,
     and an overview of the project options to help you decide what
     you’re interested in working on for the remainder of the
     semester.  
       
+    **[Slides for Wednesday Lab Session](#techsessions/session1.md)**
     During the Wednesday session, we’ll help ensure everyone is set up
     to access the class technical resources.  
       
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/main/Lectures/02-Scoping.pptx)**
+
     On Thursday, we’ll talk about scoping, problem definition, and
     understanding and balancing organizational goals. Well before the
     outset of technical work, a decision needs to be made about whether
