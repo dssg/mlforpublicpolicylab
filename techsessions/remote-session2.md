@@ -136,7 +136,7 @@ In Linux, each user has a "home directory". This is the default directory a user
 You can access your home directory with the command `cd ~`. 
 
 You can also specify absolute paths in a similar way:
-- My home directory is `/home/krodolfa`
+- My home directory is `/class/rayid`
 - I can access the folder `mlforpublicpolicylab` stored in my home directory with `cd ~/mlforpublicpolicylab`
 
 #### Anatomy of a Linux command
