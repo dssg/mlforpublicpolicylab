@@ -1,12 +1,13 @@
-## Intro to Remote Workflow
+## Tech Session: Intro to Remote Workflow
 
 This document will provide you with tools for comfortably using our remote environment (the course server) to develop and test your team's pipeline.
-Here's the [cheatsheet](#workflow-cheatsheet).
+
+Here's the [agenda for today](#agenda-for-today) and a [cheatsheet](#workflow-cheatsheet).
 
 We will be covering three things today:
-1. Using linux command line to navigate directories and files on the course server (and your project directory).
-2. Installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly
-3. Making sure you access the project data on the course database using psql and dbeaver.
+1. Using the linux command line to navigate directories and files on the course server (and your project directory).
+2. Installing ``VSCode`` for coding (if you have not already) and setting up an ssh connection so you can edit code on the course server directly.
+3. Making sure you can access the project data on the course database using psql and dbeaver.
 
 
 ## Basic tools for common tasks
@@ -24,17 +25,17 @@ We're providing setup instructions and support for "good enough" tools for each 
   - If you're interested, you can use parts of this tutorial to set up ``Jupyter`` through a browser on your local machine (but we won't go through it).
   - Many Python IDEs (such as, Pycharm) have good Jupyter support - feel free to use one of these!
 3. Share code with your team:
-  - Use the git command line interface to push to your team github repository.
+  - Use the git command line interface to push to your team github repository. We'll do a github refresher next week.
   - Many IDEs (including VSCode) have git integration.
 4. Run code:
-  - Run Python code manually in an SSH terminal, either by pasting code into a Python REPL, or running a Python script.
+  - Run Python code manually in an SSH terminal, either by pasting code into a [Python REPL](https://codewith.mu/en/tutorials/1.2/repl), or running a Python script.
   - Some IDEs (such as VSCode) support remote interpreters, allowing you to run scripts in a python instance on a remote machine (here, the course server).
 
 ## Agenda for today
 ![](img/class_infra.png)
 
-1. [Repeat what we did last week](#recap-from-last-week): ssh to server, psql, dbeaver to make sure we remember
-2. [Navigating the course server using the linux command line](#living-the-command-line) including the very important **screen** command
+1. [Repeat what we did last week](#recap-from-last-week): ssh to server, test psql, test dbeaver to connect to the database to make sure we remember.
+2. [Navigating the course server using the linux command line](#living-the-command-line) including the very important **screen** command.
 3. [Using VSCode for remote development](#remote-development-with-vscode)
 4. [Remote development concepts](#understanding-the-class-remote-workflow) - how exactly does all of this work?
 
@@ -46,6 +47,11 @@ Let's try repeating what we did last week to get started:
 **1. Make sure you can SSH to the class server**
 
 Using WSL (on Windows) or terminal (on Mac/Linux), connect to the server via the command below (replacing the parameters in curly brackets (`{...}`) with your info):
+```bash
+ssh {andrew_id}@server.mlpolicylab.dssg.io
+```
+or if your private key is in a special place,
+
 ```bash
 ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
 ```
@@ -92,7 +98,7 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 
 ![](img/class_ssh.png)
 
-### Getting started: SSH to the server
+### Getting started: SSH to the server (if you're not already connected)
 
 Open up a wsl/*nix/gitbash terminal and connect to the server with:
 ```
@@ -230,12 +236,12 @@ Create a new file
 
 Nano is a barebones text editor available on most Linux computers. While it's not as nice to use as something like VSCode, it's still quite convenient for making quick edits from the command line.
 
-Start Nano like any other command line tool:
+Start Nano like any other commandline tool:
 
 ```bash
 nano filename
 ```
-
+ 
 ![](img/bash-nano.png)
 
 You should see something like this. The options along the bottom are keyboard shortcuts for controlling Nano. Here, `^` means `ctrl`. For example `ctrl+x` exits Nano, and `ctrl+w` searches the open file.
@@ -372,14 +378,11 @@ Once you've assigned a name, you can use it to reattach your screen sessions, wh
 - You can use `screen` (and any of the utilities introduced here) in your VSCode terminal. Just press `ctrl+c` to exit your python session (if you're in one), and you'll be able to enter these commands just like a regular terminal session.
 
 
-
 ## Remote development with VSCode
 
 ![](img/class_editor.png)
 
 ### Why VSCode over SSH?
-
-In past semesters, many people had trouble running their code on the course server. We heard a lot of questions, like "how do I run code saved on my laptop on the course server?"
 
 This section will introduce one convenient workflow for developing code on the remote server. 
 
@@ -409,7 +412,7 @@ This has several advantages:
 
     With the SSH plugin installed, we can tell VSCode how to log into the server. In this step we'll be entering our connection string and saving it in a file, making it easy to connect in the future.
 
-   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
+   1. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command palette, and select `Remote-SSH: Connect to Host`
    
    ![](img/vscode-open-connect-to-host.png)
 
@@ -417,7 +420,8 @@ This has several advantages:
    
    ![](img/vscode-connect-to-host.png)
 
-   3. Enter `ssh -i {path to your private key} {andrewid}@server.mlpolicylab.dssg.io` 
+   3. Enter `ssh -i {andrewid}@server.mlpolicylab.dssg.io`
+      if you have trouble here,m try `ssh -i {path to your private key} {andrewid}@server.mlpolicylab.dssg.io` 
    
    ![](img/vscode-enter-login.png)
 
@@ -426,8 +430,8 @@ This has several advantages:
    ![](img/vscode-update-config.png)
 
 4. Connect VSCode to the course server:
-   1. Connect to the CMU Full VPN
-   2. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command pallette, and select `Remote-SSH: Connect to Host`
+   1. Connect to the CMU VPN (if you're not on CMU-Secure wifi network)
+   2. Press `ctrl+shift+p` (Linux/Windows) or `⌘+shift+p` (MacOS) to open the command palette, and select `Remote-SSH: Connect to Host`
    
    ![](img/vscode-open-connect-to-host.png)
 
@@ -492,7 +496,7 @@ This has several advantages:
    
 ## Remote development with Jupyter
 
-We're not going to cover this becuase you can use vscode for notebooks but leaving it here for those of you interested in doing it with jupyter.
+We're not going to cover this becuase you can use vscode for notebooks but we are keeping it here for those of you interested in doing it over a browser later on in the semester.
 
 ![](img/class_jupyter.png)
 
@@ -581,4 +585,4 @@ Here's a typical workflow to get you started:
 5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
 6. write/edit code
 7. go back to the ssh connection you have open in wsl or termianl. run the code with python (make sure you're in a screen session if it's a long run)
-8. if everything looks good, do a git commit and push
+8. if everything looks good, do a git pull (in case anyone has pushed code while you were working), git commit and push
