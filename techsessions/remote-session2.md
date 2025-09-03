@@ -579,10 +579,11 @@ Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ss
 ## Workflow Cheatsheet
 Here's a typical workflow to get you started:
 1. ssh to the server
-2. go to your project directory ```cd /class/groups/{group_name}```
-3. go to your own directory inside where you cloned the github repo ```cd name_of_your_directory```
-4. do a git pull to get updates ```git pull```
-5. open VSCode on your laptop and make sure to connect via the ssh connection to the server
-6. write/edit code
-7. go back to the ssh connection you have open in wsl or termianl. run the code with python (make sure you're in a screen session if it's a long run)
-8. if everything looks good, do a git pull (in case anyone has pushed code while you were working), git commit and push
+2. start a screen session or reconnect to an existing one ```screen``` or ```screen -r```
+3. go to your project directory ```cd /class/groups/{group_name}```
+4. go to your own directory inside where you cloned the github repo ```cd name_of_your_directory```
+5. do a git pull to get updates ```git pull```
+6. open VSCode on your laptop and make sure to connect via the ssh connection to the server
+7. write/edit code
+8. go back to the ssh connection you have open in wsl or termianl. run the code with python (make sure you're in a screen session if it's a long run)
+9. if everything looks good, do a git pull (in case anyone has pushed code while you were working), git commit and push
