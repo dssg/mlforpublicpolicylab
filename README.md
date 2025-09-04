@@ -33,7 +33,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Logan Crowl | 
 | --- | 
-| <img src="img/logan.jpeg" width="200" /><br /> TBD <br /> Office Hours: <br />   TBD | 
+| <img src="img/logan.jpeg" width="200" /><br /> HBH 3024 (slack if you can't find it) <br /> Office Hours: Monday 1:30-2:30pm <br/> Thursday 2-3pm <br />  | 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
