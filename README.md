@@ -333,7 +333,7 @@ related project work.
     Work on your project during this week should include continuing to
     develop and refine your scope as you begin to explore the data.
 
-    **[Lecture Slides for Tuesday]()**
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/06-data-exploration.pptx)**
     
     Tuesday of this week will provide an overview exploratory data
     analysis, particularly focusing on downstream ML analysis. Data exploration is fundamental to developing an
