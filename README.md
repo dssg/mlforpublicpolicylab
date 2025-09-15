@@ -361,7 +361,7 @@ related project work.
     
     ### Analytical Formulation, Baselines, and Machine Learning Pipeline Overview
 
-    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/07-formulation-and-baselines.pptx?raw=true)**
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/07-formulation-and-baselines.pptx)**
      
     On Tuesday, we’ll discuss analytical formulation of policy
     projects. Distinct from the initial scoping, a true analytical
