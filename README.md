@@ -614,7 +614,8 @@ related project work.
     On Wednesday, we’ll continue our group check-ins and on Thursday,
     you’ll time to work with your project group.
 
-  - **Week 11 (Nov 11,13): Model Interpretability and Ethics Workshop (Thursday)**  
+  - **Week 11 (Nov 11,13):**
+    ### Model Interpretability and Ethics Workshop (Thursday) 
     By this week, project work should be beginning to focus more heavily
     on evaluation, model selection, and interpretation.  
       
