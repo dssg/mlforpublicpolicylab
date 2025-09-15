@@ -361,7 +361,7 @@ related project work.
     
     ### Analytical Formulation, Baselines, and Machine Learning Pipeline Overview
 
-    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/07-formulation-and-baselines.pptx?raw=true)
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/07-formulation-and-baselines.pptx?raw=true)**
      
     On Tuesday, we’ll discuss analytical formulation of policy
     projects. Distinct from the initial scoping, a true analytical
@@ -404,17 +404,15 @@ related project work.
     
     On Wednesday, we will lead a tech session on using Python and SQL
     together.
-
-    
       
-    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)**
-    
     On Thursday, we’ll describe the components of typical machine
     learning pipelines. End-to-end ML Pipelines can quickly become
     unwieldy with several moving pieces and well-structured, modular
     code is often critical to detecting and fixing bugs in the process.
     This session will provide an overview of the pipeline, each
     underlying element, and some best practices for building them.  
+
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)**
       
     Required Reading for Thursday:
      - [Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)
