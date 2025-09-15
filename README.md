@@ -361,7 +361,8 @@ related project work.
     
     ### Analytical Formulation, Baselines, and Machine Learning Pipeline Overview
 
-    
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/07-formulation-and-baselines.pptx?raw=true)
+     
     On Tuesday, we’ll discuss analytical formulation of policy
     projects. Distinct from the initial scoping, a true analytical
     formulation of your policy problem can only come after you have
@@ -369,7 +370,7 @@ related project work.
     often result in a greater understanding of the problem itself. Here,
     you’ll ask how specifically your target variable (if relevant) is
     defined in the data, what types of information are available as
-    predictors, and what baseline you’ll be measure performance against.
+    predictors, and what baseline you’ll be measuring performance against.
     Very rarely is the appropriate baseline as simple as "random choice"
     or the population prevalence. Rather, it should reflect what would
     be expected to happen otherwise: perhaps a simple decision rule that
@@ -403,6 +404,8 @@ related project work.
     
     On Wednesday, we will lead a tech session on using Python and SQL
     together.
+
+    
       
     **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)**
     
@@ -432,7 +435,7 @@ related project work.
     focus on producing the simplest possible version of the full
     system.  
       
-    **Due Wednesday, Sep 24:** Peer reviews of three project proposals.  
+    **Due Tuesday, Sep 23:** Peer reviews of three project proposals.  
       
     In most cases, a vast array of methods — each with a number of
     tunable hyperparameters — can be brought to bear on your modeling
@@ -443,13 +446,15 @@ related project work.
     decisions? Are models that are performing similarly well giving
     similar predictions? What should you do if they are not? In this
     week, we’ll begin to answer these questions, focusing on the choice
-    of performance metrics.  
+    of performance metrics.
+
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/10-model-selection-and-validation-part-1.pptx?raw=true)
+
       
     Required Readings for Tuesday:
     
-      - *Transductive Optimization of Top k Precision* by Liu, LP,
-        Dietterich, TG, et al. IJCAI 2016. [Available
-        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/LiuTransductiveTopK.pdf)
+      - *The Misuse of AUC, What High Impact Risk Assessment Gets Wrong[Available
+        Online](https://arxiv.org/abs/2305.18159)
     
     During the Wednesday session, we’ll talk about using `triage`, the
     machine learning pipeline toolkit we will use for the class
