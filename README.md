@@ -412,11 +412,11 @@ related project work.
     This session will provide an overview of the pipeline, each
     underlying element, and some best practices for building them.  
 
-    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)**
+    **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/09-Machine-Learning-Pipelines.pptx)**
       
     Required Reading for Thursday:
-     - [Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/09-Machine-Learning-Pipelines.pptx?raw=true)
-          
+     - [Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/09-Machine-Learning-Pipelines.pptx)**
+         
     Optional Readings:
     
       - *Architecting a Machine Learning Pipeline* by Koen, S. (Medium)
