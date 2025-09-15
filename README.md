@@ -417,7 +417,7 @@ related project work.
     **[Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/09-Machine-Learning-Pipelines.pptx)**
       
     Required Reading for Thursday:
-     - [Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/09-Machine-Learning-Pipelines.pptx)**
+     - [Lecture Slides for Thursday](https://github.com/dssg/mlforpublicpolicylab/raw/refs/heads/master/Lectures/09-Machine-Learning-Pipelines.pptx)
          
     Optional Readings:
     
