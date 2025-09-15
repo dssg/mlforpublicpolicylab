@@ -464,8 +464,8 @@ related project work.
         [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/StaporEvaluating.pdf)
 
-  - **Week 6 (Sep 30, Oct 2): Choosing Performance Metrics & Evaluating
-    Classifiers, Part II**  
+  - **Week 6 (Sep 30, Oct 2):**
+    ### Choosing Performance Metrics & Evaluating Classifiers, Part II
     By this week, your group should have a very simple version of an
     end-to-end pipeline with preliminary results for a single model
     specification.  
@@ -506,7 +506,8 @@ related project work.
         Ghani, et al. Chapter 7: Machine Learning. [Available
         Online](https://textbook.coleridgeinitiative.org/chap-ml.html)
 
-  - **Week 7 (Oct 7,9): Feature Engineering and Imputation**  
+  - **Week 7 (Oct 7,9):**
+    ### Feature Engineering and Imputation 
     By this week, your group should have a very simple version of an
     end-to-end pipeline with preliminary results for a single model
     specification.  
@@ -544,11 +545,13 @@ related project work.
   - **Fall Break (Oct 14, 16): No Classes**  
     No classes for fall break.
 
- - **Week 8 (Oct 21,23): Feature Engineering in Triage**  
+ - **Week 8 (Oct 21,23):**
+ - Feature Engineering in Triage**  
 
   
 
- - **Week 9 (Oct 28, Oct 30): ML Modeling in Practice**  
+ - **Week 9 (Oct 28, Oct 30):**
+   ### ML Modeling in Practice
     During this week, your pipeline development and refinement should
     continue with a widening set of model specifications and features to
     explore.  
@@ -592,8 +595,8 @@ related project work.
         Models in Production* by Kervizic, J. KDnuggets. [Available
         Online](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
-  - **Week 10 (Nov 4,6): Choosing Performance Metrics & Evaluating
-    Classifiers, Part III**  
+  - **Week 10 (Nov 4,6):**
+    ### Choosing Performance Metrics & Evaluating Classifiers, Part III**  
     At this point, your group should be continuing to refine and expand
     on your preliminary modeling results.  
       
@@ -677,7 +680,8 @@ related project work.
         arXiv preprint: arxiv/1905.04610. [Available
         Online](https://arxiv.org/pdf/1905.04610.pdf)
 
-  - **Week 12 (Nov 18, 20):  Bias and Fairness, Part I**  
+  - **Week 12 (Nov 18, 20):**
+    ###  Bias and Fairness, Part I
     Note: No classes on Wednesday, Nov 23, or Thursday, Nov 24, for
     Thanksgiving.  
       
@@ -725,8 +729,8 @@ related project work.
         [Available
         Online](http://cowles.yale.edu/sites/default/files/files/pub/d19/d1921.pdf)
 
-  - **Week 13 (Nov 25):  Bias and Fairness, Part
-    II **  
+  - **Week 13 (Nov 25):**
+    ###  Bias and Fairness, Part 2
     During this week, your group should be continuing to investigate any
     disparities in your model results as well as performing any other
     necessary post-modeling analyses.  
