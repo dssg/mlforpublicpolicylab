@@ -546,7 +546,7 @@ related project work.
     No classes for fall break.
 
  - **Week 8 (Oct 21,23):**
- - Feature Engineering in Triage**  
+   ### Feature Engineering in Triage**  
 
   
 
