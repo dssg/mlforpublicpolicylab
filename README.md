@@ -455,16 +455,16 @@ related project work.
     
       - *The Misuse of AUC, What High Impact Risk Assessment Gets Wrong[Available
         Online](https://arxiv.org/abs/2305.18159)
-    
-    During the Wednesday session, we’ll talk about using `triage`, the
-    machine learning pipeline toolkit we will use for the class
-    project.
-      
+          
     Optional Readings:
     
       - *Evaluating and Comparing Classifiers* by Stapor, K. CORES 2017.
         [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/StaporEvaluating.pdf)
+    
+    During the Wednesday session, we’ll talk about using `triage`, the
+    machine learning pipeline toolkit we will use for the class
+    project.
 
   - **Week 6 (Sep 30, Oct 2):**
     ### Choosing Performance Metrics & Evaluating Classifiers, Part II
@@ -488,6 +488,8 @@ related project work.
         hierarchical, or phylogenetic structure* by Roberts, DR, Bahn,
         V, et al. Ecography 40:2017. [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/RobertsCV.pdf)
+
+    - *[Amazing Things Come From Having Many Good Models](https://arxiv.org/pdf/2407.04846)
     
     On Wednesday, we’ll start our regular group check-ins to provide
     feedback on your project progress and **on Thursday, we’ll meet
