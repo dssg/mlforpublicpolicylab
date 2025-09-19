@@ -1,0 +1,137 @@
+config_version: 'v8'
+random_seed: 202410223
+
+model_comment: 'quickstart test run'
+
+temporal_config:
+
+    # first date our feature data is good
+    feature_start_time: '2000-01-01'
+    feature_end_time: '2013-06-01'
+
+    # first date our label data is good
+    # donorschoose: as far back as we have good donation data
+    label_start_time: '2011-09-02'
+    label_end_time: '2013-06-01'
+
+    model_update_frequency: '3month'
+
+    # length of time defining a test set
+    test_durations: ['1month']
+    # defines how far back a training set reaches
+    max_training_histories: ['1month']
+
+    # we sample every day, since new projects are posted
+    # every day
+    training_as_of_date_frequencies: ['7day']
+    test_as_of_date_frequencies: ['7day']
+    
+    # like our project timeout
+    training_label_timespans: ['4month']
+    test_label_timespans: ['4month']
+
+cohort_config:
+  query: |
+    SELECT distinct(entity_id), date_posted as as_of_date
+      FROM optimized.projects
+    WHERE date_posted = '{as_of_date}'::date - interval '1day'
+
+label_config:
+  query: |
+        WITH donation_totals AS 
+            (SELECT projects.entity_id, 
+            sum(case when donation_to_project is null then 0 else donation_to_project end) as total_donations, 
+            total_asking_price AS total_price
+            FROM optimized.projects 
+            LEFT JOIN optimized.donations ON (donations.entity_id = projects.entity_id
+            							  and donations.donation_timestamp < (projects.date_posted 
+                + interval '{label_timespan}'))
+            WHERE projects.date_posted = '{as_of_date}'::date - interval '1day'
+            GROUP BY projects.entity_id, projects.total_asking_price)
+        SELECT entity_id,
+        (total_donations < total_price)::int AS outcome  
+        FROM optimized.projects
+        RIGHT JOIN donation_totals using(entity_id)
+
+  name: 'quickstart_label'
+
+user_metadata:
+  comment: 'Testing triage version 5.3.3'
+
+feature_aggregations:
+  -
+    prefix: 'project_features'
+    from_obj: 'optimized.projects'
+    knowledge_date_column: 'date_posted'
+
+    aggregates_imputation:
+      all:
+        type: 'zero'
+
+    categoricals_imputation:
+      all:
+        type: 'null_category'          
+
+    categoricals:
+ 
+      -
+        column: 'school_state'
+        metrics:
+          - 'sum' 
+        choice_query: 'select distinct school_state from optimized.projects'
+    
+    aggregates:
+      -
+        quantity: 'total_asking_price'
+        metrics:
+          - 'sum'
+      
+    # Since our time-aggregate features are precomputed, feature interval is 
+    # irrelvant. We keep 'all' as a default.
+    intervals: ['all'] 
+
+      
+grid_config:
+  'sklearn.tree.DecisionTreeClassifier':
+      max_depth: [2]
+      min_samples_split: [2]
+  'sklearn.dummy.DummyClassifier':
+      # baseline, predicts base rate
+      strategy: ['prior']
+  'triage.component.catwalk.baselines.rankers.BaselineRankMultiFeature':
+      rules: 
+        - [{feature: 'project_features_entity_id_all_total_asking_price_sum', low_value_high_score: False}] 
+      random_state: [5556]
+
+
+scoring:
+  testing_metric_groups:
+    -
+      metrics: [precision@, recall@]
+      thresholds:
+        top_n: [50, 100]
+      # Append these key-value pairs to the scoring section
+
+
+  # for experiment report summary
+  priority_metric: 'precision@'
+  priority_parameter: '50_abs' 
+
+bias_audit_config:
+    from_obj_table: 'optimized.projects'
+    attribute_columns:
+        - 'teacher_prefix'
+    knowledge_date_column: 'date_posted'
+    entity_id_column: 'entity_id'
+    ref_groups_method: 'predefined'
+    ref_groups:
+        'teacher_prefix': 'Mr.'
+    thresholds:
+        percentiles: [1, 5, 10, 25, 50, 100]
+        top_n: [50, 100]
+
+# for experiment report summary
+bias_audit:
+    priority_metric: 'tpr_disparity'
+    priority_groups:
+      'teacher_prefix': ['Mr.', 'Dr.', 'Mrs.', 'Ms.']
