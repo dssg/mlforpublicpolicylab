@@ -10,9 +10,10 @@
 
 Tasks:
 1. create run.py bsased on colab
-2. run sample config in donors
-3. look at results (schema)_
-4. modify confilg
-5. run it again
-6. look at db to see what changed
-7. if time, focus on cohort label query to get them ready for assignment
+2. create database.yaml for donors db
+3. run sample config in donors
+4. look at results (schema)_
+5. modify confilg
+6. run it again
+7. look at db to see what changed
+8. if time, focus on cohort label query to get them ready for assignment
