@@ -12,5 +12,12 @@ The purpose of this session is to introduce everyone to [Triage](http://github.c
    - [a sample config file fordonorschoose is available to start with](triage_session/donors_small_config.yaml) - copy the sample config file there (you can use VSCode to create a file and copy and paste for example)
    - create a database.yaml for your individual donorschoose database in that directory (the credentials are the same as earlier except for the database name - it is donorschoose_yourandrewid (donorschoose_ghani for example)
    - create a run.py to run triage (you can use the code in the colab notebook for inspiration and create a run.py that you can call from the command line)
-5. Run triage through your run.py file (python run.py)
-6. Look at the results using SQL (and later using this notebook)
+6. Run triage through your run.py file (python run.py)
+7. Look at the results using SQL (and later using this notebook)
+
+## Useful Triage Resources
+- [github repo](http:github.com/dssg/triage) - has code and links to documentation
+- [colab demo notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb) has a lot of inline documentation that will be useful
+- [Triage quickstart guide](https://dssg.github.io/triage/quickstart/)
+- [Typical project workflow](https://dssg.github.io/triage/triage_project_workflow/)
+- [Common Recipe](https://github.com/dssg/triage_cookbook)
