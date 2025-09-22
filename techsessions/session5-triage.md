@@ -9,8 +9,8 @@ The purpose of this session is to introduce everyone to [Triage](http://github.c
 3. Run the colab notebook, starting from the section "Running Triage". The notebook will allow you to quickly make changes to the configuration and rerun triage and get familiar with how it works.
 4. Get triage set up on the server for the donorschoose problem
    - create a directory for the session today
-   - a sample config file is available to start with - copy the sample config file there
-   - create a database.yaml for your individual donorschoose database in that directory
-   - create a run.py to run triage using the notebook
-5. Run triage through your run.py file
-6. Look at results using SQL (and later using this notebook)
+   - [a sample config file fordonorschoose is available to start with](triage_session/donors_small_config.yaml) - copy the sample config file there (you can use VSCode to create a file and copy and paste for example)
+   - create a database.yaml for your individual donorschoose database in that directory (the credentials are the same as earlier except for the database name - it is donorschoose_yourandrewid (donorschoose_ghani for example)
+   - create a run.py to run triage (you can use the code in the colab notebook for inspiration and create a run.py that you can call from the command line)
+5. Run triage through your run.py file (python run.py)
+6. Look at the results using SQL (and later using this notebook)
