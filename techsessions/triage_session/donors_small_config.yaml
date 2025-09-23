@@ -56,7 +56,7 @@ label_config:
   name: 'quickstart_label'
 
 user_metadata:
-  comment: 'Testing triage version 5.3.3'
+  comment: 'Testing triage version 5.5.3 bad mango'
 
 feature_aggregations:
   -
