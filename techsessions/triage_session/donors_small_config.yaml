@@ -27,8 +27,7 @@ temporal_config:
     test_as_of_date_frequencies: ['7day']
     
     # like our project timeout
-    training_label_timespans: ['4month']
-    test_label_timespans: ['4month']
+    label_timespans: ['4month']
 
 cohort_config:
   query: |
@@ -127,8 +126,8 @@ bias_audit_config:
     ref_groups:
         'teacher_prefix': 'Mr.'
     thresholds:
-        percentiles: [1, 5, 10, 25, 50, 100]
-        top_n: [50, 100]
+        percentiles: [1, 5, 10]
+        top_n: [50,100]
 
 # for experiment report summary
 bias_audit:
