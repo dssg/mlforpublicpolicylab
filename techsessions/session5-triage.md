@@ -11,7 +11,7 @@ The purpose of this session is to introduce everyone to [Triage](http://github.c
    - create a directory for the session today
    - [a sample config file for donorschoose is available to start with](triage_session/donors_small_config.yaml) - copy the sample config file there (you can use VSCode to create a file and copy and paste for example)
    - create a database.yaml for your individual donorschoose database in that directory (the credentials are the same as earlier except for the database name - it is donorschoose_yourandrewid (donorschoose_ghani for example)
-   - create a run.py to run triage (you can use the code [here]((triage_session/sample_run.py) as a starting point and modify it with the right filepaths.)
+   - create a run.py to run triage (you can use the code [here](triage_session/sample_run.py) as a starting point and modify it with the right filepaths.)
 6. Run triage through your run.py file (python run.py)
 7. Look at the results using SQL (and later using this notebook)
 
