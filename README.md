@@ -443,11 +443,11 @@ related project work.
     future when the model is deployed? How should you balance
     considerations of performance and fairness when making these
     decisions? Are models that are performing similarly well giving
-    similar predictions? What should you do if they are not? In this
+    similar predictions? What should you do if they are not? This
     week, we’ll begin to answer these questions, focusing on the choice
     of performance metrics.
 
-    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/10-model-selection-and-validation-part-1.pptx?raw=true)
+     **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/10-model-selection-and-validation-part-1.pptx?raw=true)**
 
       
     Required Readings for Tuesday:
@@ -471,15 +471,15 @@ related project work.
     end-to-end pipeline with preliminary results for a single model
     specification.  
       
-    **Due Friday, Oct 3:** Skeleton pipeline code/triage configuration
-    file, one-sentence analytical formulation, and baselines.  
       
     This week, we’ll continue our discussion from the previous week,
     focusing specifically on validation strategies that reflect how you
     want your model to generalize. In particular, we’ll focus on the
     common case of modeling contexts with a strong temporal component
     where predicting into the future is desired, exploring how your
-    choice of training and validation sets can reflect this context.  
+    choice of training and validation sets can reflect this context.
+
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/10-model-selection-and-validation-part-2.pptx?raw=true)**
       
     Required Readings for Tuesday:
     
