@@ -1,10 +1,11 @@
-#### 2. Objects stored in disk
+# What happens after a Triage run finishes
+## Objects stored in disk
 
 Two types of objects will be stored to disk in the `project_path` specified in creating the experiment object:
 - The matrices used for model training and validation, stored as CSV files and associated metadata in yaml format.
 - The trained model objects themselves, stored as `joblib` pickles, which can be loaded and applied to new data.
 
-#### 3. Results stored in the database
+## Intermediate artifacts and results stored in the database
 
 In the database, `triage` will store results and metadata in several tables. Below is a very brief tour of the most important of these tables.
 
@@ -30,5 +31,3 @@ In the **train_results** schema, you'll find model performance on the training s
 Finally, a few intermediate tables can be particularly useful for debugging:
 - Tables containing your `cohort` and `label` will be generated in the `public` schema and identified by an associated hash that can be found in your logs.
 - The `features` schema contains two types of useful tables: tables containing calculated features for each feature group and "matrix" tables that provide the mapping from each training/validation matrix to `(entity_id, as_of_date)` pairs. Note, however, that these tables may be overwritten if a new run is performed with different feature logic, cohort, or underlying data and should not be assumed to be persistant across runs.
-
-Let's take a quick look at some of these outputs to confirm that our models ran as expected. First, we'll need a database connection...
