@@ -1,3 +1,7 @@
 ### Longer documentation is [here](https://dssg.github.io/triage/experiments/cohort-labels/#what-are-cohorts-and-labels-in-triage)
 
-### Brief overview
+### What is a cohort? What is a label?
+### What does Triage want for cohorts and labels
+### How do you figure out what it should be for your problem
+### What impact does this choice have on the rest of my ML modeling?
+### Common recipes for cohorts and labels
