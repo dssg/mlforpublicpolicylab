@@ -13,14 +13,14 @@ The best tutorial to use, with updated documentation and code, is a [colab noteb
 
 ## Design choices in the config file
 1. Temporal Validation configuration
-2. Cohort and Labels
+2. [Cohort and Labels](cohort_and_labels.md)
 3. Features
 4. Models and hyperparameters
 5. Model Selection / Evaluation metrics
 
 ## What does Triage output and how to find it
-1. On disk - matrices and models
-2. In the database
+1. [On disk - matrices and models](triage_outputs.md)
+2. [In the database](triage_outputs.md)
 
 [colab notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb)
 1. timechop (colab)
