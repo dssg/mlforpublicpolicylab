@@ -16,16 +16,15 @@ The best tutorial to use, with updated documentation and code, is a [colab noteb
 2. [Cohort and Labels](cohort_and_labels.md)
 3. [Features](features.md)
 4. [Models and hyperparameters](models.md) 
-5. Model Selection / Evaluation metrics
+5. [Model Selection / Evaluation metrics](metrics.md)
 
 ## What does Triage output and how to find it
 1. [On disk - matrices and models](triage_outputs.md)
 2. [In the database](triage_outputs.md)
 
-[colab notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb)
-1. timechop (colab)
-2. cohort and labels (colab)
-3. features (colab plus new repo https://github.com/dssg/triage_cookbook/blob/main/cookbook/features.md)
-4. models - baseline models, sklearn models from colab
-5. metrics (lower priority) from colab
-6. triage output (on disk, database, log) from colab
+## Built-in Triager utilities to use once models are built
+1. Triage Experiment Summary
+2. SQL (look at the database)
+3. Audition
+4. Post-Modeling
+5. Aequitas
