@@ -18,11 +18,11 @@ The best tutorial to use, with updated documentation and code, is a [colab noteb
 4. [Models and hyperparameters](models.md) 
 5. [Model Selection / Evaluation metrics](metrics.md)
 
-## What does Triage output and how to find it
+## What does Triage output, and how to find it
 1. [On disk - matrices and models](triage_outputs.md)
 2. [In the database](triage_outputs.md)
 
-## Built-in Triager utilities to use once models are built
+## Built-in Triage utilities to use once models are built
 1. Triage Experiment Summary
 2. SQL (look at the database)
 3. Audition
