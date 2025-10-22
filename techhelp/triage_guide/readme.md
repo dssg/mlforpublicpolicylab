@@ -12,10 +12,10 @@ The best tutorial to use, with updated documentation and code, is a [colab noteb
 6. Go back to 2, update, and iterate steps 3-6
 
 ## Design choices in the config file
-1. Temporal Validation configuration
+1. [Temporal Validation configuration](temporal_configuration.md)
 2. [Cohort and Labels](cohort_and_labels.md)
-3. Features
-4. Models and hyperparameters
+3. [Features](features.md)
+4. [Models and hyperparameters](models.md) 
 5. Model Selection / Evaluation metrics
 
 ## What does Triage output and how to find it
