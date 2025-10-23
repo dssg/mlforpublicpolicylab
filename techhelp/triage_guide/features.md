@@ -1,5 +1,6 @@
 # Generating Features in Triage
 ## [Common Feature Recipes](https://dssg.github.io/triage_cookbook/features.html)
+## [Example Project Features](https://github.com/dssg/masld_prediction/tree/main/features)
 ## Quick Overview
 
 Feature generation is typically the most important aspect of how well your machine learning models will work, so `triage` provides considerable flexibility for feature definition. However, this also means that this section of the configuration file can be particularly complicated and may require some experimentation to get familiar with. A few resources may be helpful for a deeper look at how features work in `triage`:
