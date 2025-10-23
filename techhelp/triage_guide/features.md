@@ -13,7 +13,6 @@ Features in `triage` are defined in blocks, grouping together features drawn fro
 - Information about how missing values should be imputed (see the documentation for details and available options here).
 - Definitions of the feature quantities/columns themselves, specified either as `aggregates` or `categoricals`, including the `metrics` for aggregations over time (e.g., `sum`, `max`, `avg`, etc).
 - Time ranges over which to calculate feature information, called `intervals` (e.g., last 6 months, last 5 years, etc.)
-- A level of aggregation for feature information (`groups`) -- this will almost always be just `entity_id`.
 
 🚧 &nbsp;&nbsp;NOTE: All features in `triage` are temporal aggregates. Just as `triage` is designed to carefully account for time in temporal cross-validation, it also does so in feature construction focusing on what information was known at training or validation time. Even features you might generally consider "static" need to be associated with a knowledge date for these purposes as well as an aggregation metric. This is also true for categoricals, which are first one-hot encoded from each instance then aggregated over the given time interval with the specified metric. For instance, if a patient has had several hospital stays with different primary diagnosis codes at each stay, a categorical feature using a `sum` aggregation would yield a count of how many stays had a given diagnosis while a `max` aggregation would provide an indicator of whether a given diagnosis was ever present. 
 
@@ -25,38 +24,4 @@ For categoricals, the feature names will include each categorical value after on
 
 🚧 &nbsp;&nbsp;WARNING: Because `triage`'s features are stored in a `postgres` database, this naming convention can sometimes run afoul of the database's 63 character limit for column names, leading to truncation. When this happens, you might encounter errors indicating a given feature column appears to be missing. This can be common with categoricals with particularly long values, so recoding can be useful in those cases (as can choosing shorter prefix names).
 
-For illustrative purposes here, we'll start with a single feature group including one categorical and continuous aggregate feature: the primary resource type for the project and the amount being asked for. Because these are both specified once at project posting time, we simply aggegate them over all time (that is, using `all` for our `interval`). Here's how we specify this in our feature configuration:
 
-```
-feature_aggregations:
-  -
-    prefix: 'project_features'
-    from_obj: 'data.projects'
-    knowledge_date_column: 'date_posted'
-
-    aggregates_imputation:
-      all:
-        type: 'zero'
-
-    categoricals_imputation:
-      all:
-        type: 'null_category'          
-
-    categoricals:
-      -
-        column: 'resource_type'
-        metrics:
-          - 'max' 
-        choice_query: 'select distinct resource_type from data.projects'
-    
-    aggregates:
-      -
-        quantity: 'total_asking_price'
-        metrics:
-          - 'sum'
-      
-    # Since our time-aggregate features are precomputed, feature interval is 
-    # irrelvant. We keep 'all' as a default.
-    intervals: ['all'] 
-    groups: ['entity_id']
-```
