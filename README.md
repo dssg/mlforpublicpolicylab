@@ -27,7 +27,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 | Rayid Ghani | 
 | --- | 
-| <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> **Office Hours:** <br />   Tuesday 12:30-1:30pm  <br /> Wednesday 3-4pm  <br /> Email me if you want to meet outside these hours | 
+| <img src="img/rayidphoto.png" width="200" /><br /> GHC 8023 <br /> **Office Hours:** <br />   Tuesday 12:30-1:30pm  <br /> Wednesday 4-5pm  <br /> Email me if you want to meet outside these hours | 
 
 ### Teaching Assistant
 
