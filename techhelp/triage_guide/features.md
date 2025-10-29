@@ -1,5 +1,5 @@
 # Generating Features in Triage
-## [Common Feature Recipes](https://dssg.github.io/triage_cookbook/features.html)
+## [Common Feature Recipes](https://dssg.github.io/triage_cookbook/configure/features)
 ## [Example Project Features](https://github.com/dssg/masld_prediction/tree/main/features)
 ## Quick Overview
 
