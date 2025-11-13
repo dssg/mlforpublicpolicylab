@@ -522,7 +522,7 @@ related project work.
     Likewise, most data sets you’ll encounter in practice are littered
     with outliers, inconsistencies, and missingness. Handling these data
     issues in a smart way can be critical to a project’s success.  
-    **[Lecture Slides for Tuesdahy](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/12-features-and-imputation.pptx?raw=true)**  
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/12-features-and-imputation.pptx?raw=true)**  
     Required Reading/Watching for Tuesday:
     
       - [Short Video
@@ -550,15 +550,19 @@ related project work.
 
  - **Week 8 (Oct 21,23):**
    ### Feature Engineering in Triage**  
-
+   **[Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/12-features-and-imputation.pptx?raw=true)**
+   **[Triage Features Cookbook](https://dssg.github.io/triage_cookbook/configure/features.html)**
   
 
  - **Week 9 (Oct 28, Oct 30):**
    ### ML Modeling in Practice
     During this week, your pipeline development and refinement should
     continue with a widening set of model specifications and features to
-    explore.  
-      
+    explore.
+
+   **[Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/14-ml-modeling-in-practice.pptx?raw=true)** 
+
+   
     **Due Monday:** Technical modeling plan and detailed feature
     list  
       
@@ -612,14 +616,17 @@ related project work.
     definition of "best". In particular, we’ll focus on the common case
     of machine learning problems with a strong time series component and
     the desire to balance performance and stability in model
-    selection.  
-      
+    selection.
+
+    **[Lecture Slides](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/15-ml-in-practice-and-model-selection-part-3.pptx?raw=true)** 
+    
+
     On Wednesday, we’ll continue our group check-ins and on Thursday,
     you’ll time to work with your project group.
 
   - **Week 11 (Nov 11,13):**
     ### Model Interpretability and Ethics Workshop (Thursday) 
-    By this week, project work should be beginning to focus more heavily
+    By this week, project work should begin to focus more heavily
     on evaluation, model selection, and interpretation.  
       
     **Due Monday, Nov 10:** Weekly project update.  
@@ -637,19 +644,12 @@ related project work.
     their judgement, and importantly help those actors decide not only
     on whom to intervene but suggest what sort of intervention to
     take.  
-      
+
+    **[Lecture Slides for Tuesday ](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/16-interpretability-part-1.pptx?raw=true)**
     Required Readings for Tuesday:
-    
-      - *Intelligible Models for HealthCare: Predicting Pneumonia Risk
-        and Hospital 30-day Readmission* by Caruana, R, et al. KDD 2015.
-        [Available
-        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/CaruanaGAM.pdf)
-    
-      - *Why Should I Trust You? Explaining the Predictions of any
-        Classifier* by Ribeiro, MT, Singh, S, and Guestring, C. KDD
-        2016. [Available
-        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/RibeiroLIME.pdf)
-    
+
+      - *Explainable Machine Learning for Public Policy: Use Cases, Gaps, and Research Directions. Kasun Amarasinghe, Kit Rodolfa, Hemank Lamba, Rayid Ghani. Data & Policy , Volume 5 , 2023[Available Online](https://arxiv.org/abs/2010.14374)
+   
       - *Explainable machine-learning predictions for the prevention of
         hypoxaemia during surgery* by Lundberg, SM, Nair, B, et al.
         Nature Biomed. Eng. 2018. [Available
@@ -659,13 +659,21 @@ related project work.
     you’ll have time to work with your project group.  
       
     Optional Readings:
+   
+      - *Intelligible Models for HealthCare: Predicting Pneumonia Risk
+        and Hospital 30-day Readmission* by Caruana, R, et al. KDD 2015.
+        [Available
+        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/CaruanaGAM.pdf)
     
+      - *Why Should I Trust You? Explaining the Predictions of any
+        Classifier* by Ribeiro, MT, Singh, S, and Guestring, C. KDD
+        2016. [Available
+        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/RibeiroLIME.pdf)
+ 
       - *Optimized Scoring Systems: Toward Trust in Machine Learning for
         Healthcare and Criminal Justice* by Rudin, C, and Usutn, B.
         INFORMS Journal on Applied Analytics. 2018. [Available
         Online](https://pubsonline.informs.org/doi/pdf/10.1287/inte.2018.0957)
-    
-      - TBD
     
       - *Interpretable Classification Models for Recidivism Prediction*
         by Zeng, J, Ustun, B, and Rudin, C. J. Royal Stat. Soc. A. 2016.
@@ -683,12 +691,14 @@ related project work.
       - *Explainable AI for Trees* by Lundberg, SM, Erion, G, et al.
         arXiv preprint: arxiv/1905.04610. [Available
         Online](https://arxiv.org/pdf/1905.04610.pdf)
+        
+    **[Lecture Slides for Thursday: Ethics Workshop](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/EthicsOverview.pptx?raw=true)**
+    On Thursday, we'll do an ethics workshop where we'll discuss ethical issues in designing ML Systems
+
 
   - **Week 12 (Nov 18, 20):**
-    ###  Bias and Fairness, Part I
-    Note: No classes on Wednesday, Nov 23, or Thursday, Nov 24, for
-    Thanksgiving.  
-      
+    ###  Bias and Fairness
+ 
     By this week, you should be finalizing your modeling results and
     beginning to look at bias and disparities in your models.  
       
@@ -719,6 +729,16 @@ related project work.
         III.B, and III.D.3\]
     
     Optional Readings:
+
+       - *A case study of algorithm-assisted decision making in child
+        maltreatment hotline screening decisions* by Chouldechova, A,
+        Putnam-Hornstein, E, et al. PMLR. 2018. [Available
+        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/ChouldechovaFosterCare.pdf)
+    
+      - *Case study: predictive fairness to reduce misdemeanor
+        recidivism through social service interventions* by Rodolfa,
+        K.T., et al. FAT\* 2020. [Available
+        Online](https://arxiv.org/pdf/2001.09233)
     
       - *Is Algorithmic Affirmative Action Legal?* by Bent, JR.
         Georgetown Law Journal. 2019. [Available
@@ -733,40 +753,7 @@ related project work.
         [Available
         Online](http://cowles.yale.edu/sites/default/files/files/pub/d19/d1921.pdf)
 
-  - **Week 13 (Nov 25):**
-    ###  Bias and Fairness, Part 2
-    During this week, your group should be continuing to investigate any
-    disparities in your model results as well as performing any other
-    necessary post-modeling analyses.  
-      
-    **Due Monday, Nov 24:** Weekly project update.  
-      
-    This week, we’ll continue our discussion of bias and fairness with a
-    very brief survey of practical considerations and open research
-    questions in the rapidly developing field.  
-      
-    Required Readings for Tuesday:
-    
-      - *A case study of algorithm-assisted decision making in child
-        maltreatment hotline screening decisions* by Chouldechova, A,
-        Putnam-Hornstein, E, et al. PMLR. 2018. [Available
-        Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/ChouldechovaFosterCare.pdf)
-    
-      - *Case study: predictive fairness to reduce misdemeanor
-        recidivism through social service interventions* by Rodolfa,
-        K.T., et al. FAT\* 2020. [Available
-        Online](https://arxiv.org/pdf/2001.09233)
-    
-    On Wednesday, we’ll continue our group check-ins
-
-    On Thursday, we’ll use a little time to wrap up the class and briefly
-    touch on some of the topics we didn’t have time to cover (including
-    field trials, model deployment, and monitoring/maintaining the
-    system over time).  
-      
-    Optional Readings:
-    
-      - *Equality of Opportunity in Supervised Learning* by Hardt, M.
+    - *Equality of Opportunity in Supervised Learning* by Hardt, M.
         and Price, E. NIPS 2016. [Available
         Online](http://papers.nips.cc/paper/6373-equality-of-opportunity-in-supervised-learning)
     
@@ -788,13 +775,30 @@ related project work.
         2017. [Available
         Online](https://www.liebertpub.com/doi/10.1089/big.2016.0047)
 
+  - **Week 13 (Nov 25):**
+    ###  Field Trials: Validating ML Models 
+    During this week, your group should be continuing to investigate any
+    disparities in your model results, as well as performing any other
+    necessary post-modeling analyses.  
+      
+    **Due Monday, Nov 24:** Weekly project update.
+    **No Class on Wednesday or Thursday - Thanksgiving**
+      
+      
+    Required Readings for Tuesday:
+
+    On Thursday, we'll give teams time to do final project work and get ready for presentations.
+
   - **Week 14 (Dec 5,7): Wrap-Up and Final Presentations**  
-    On Tuesday, we'll give teams to do final project work and get ready for presentations.
+   On Tuesday, we’ll use a little time to wrap up the class and briefly
+    touch on some of the topics we didn’t have time to cover (including
+    model deployment, and monitoring/maintaining the
+    system over time).
       
     On Thursday, each group will give a presentation about their
     applied ML project as described above.  
       
-   
+ 
 
   - **Finals Week: Final Report Due**  
     Incorporating the results of your project work throughout the
