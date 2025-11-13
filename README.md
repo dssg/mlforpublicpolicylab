@@ -645,7 +645,7 @@ related project work.
     on whom to intervene but suggest what sort of intervention to
     take.  
 
-    **[Lecture Slides for Tuesday ](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/16-interpretability-part-1.pptx?raw=true)**
+    **[Lecture Slides for Tuesday](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/16-interpretability-part-1.pptx?raw=true)**
     
     Required Readings for Tuesday:
 
@@ -656,8 +656,7 @@ related project work.
         Nature Biomed. Eng. 2018. [Available
         Online](https://github.com/dssg/mlforpublicpolicylab/blob/master/Readings/PDF/LundbergHyboxaemia.pdf)
     
-    On Wednesday, we’ll continue our group check-ins and on Thursday,
-    you’ll have time to work with your project group.  
+    On Wednesday, we’ll continue our group check-ins. 
       
     Optional Readings:
    
@@ -693,7 +692,8 @@ related project work.
         arXiv preprint: arxiv/1905.04610. [Available
         Online](https://arxiv.org/pdf/1905.04610.pdf)
         
-    **[Lecture Slides for Thursday: Ethics Workshop](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/EthicsOverview.pptx?raw=true)**
+   ### Ethics Workshop (Thursday)  
+   **[Lecture Slides for Thursday: Ethics Workshop(https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/EthicsOverview.pptx?raw=true)**
     On Thursday, we'll do an ethics workshop where we'll discuss ethical issues in designing ML Systems
 
 
