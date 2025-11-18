@@ -714,6 +714,7 @@ related project work.
     algorithmic fairness.
 
     **Lecture Slides for Tuesday: [Dealing with Bias and Fairness in ML](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/bias-fairness-overview.pptx?raw=true)**
+    
     Required Readings for Tuesday:
     
       - *Fairness Definitions Explained* by Verma, S and Rubin, J.
