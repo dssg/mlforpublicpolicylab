@@ -786,7 +786,9 @@ related project work.
       
     **Due Monday, Nov 24:** Weekly project update.
     **No Class on Wednesday or Thursday - Thanksgiving**
-       
+
+    **Lecture Slides for Tuesday: [Field Trials: Validating ML Models](https://github.com/dssg/mlforpublicpolicylab/blob/master/Lectures/FieldValidation.pptx?raw=true)**
+  
     Required Readings for Tuesday:
 
     On Thursday, we'll give teams time to do final project work and get ready for presentations.
