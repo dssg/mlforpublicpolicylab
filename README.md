@@ -46,18 +46,13 @@ Graded components will include:
 
   - Peer reviews of three peer project proposals (5%)
 
-  - Midterm project update presentation (10%)
+  - Brief project progress update assignments throughout the semester (25%)
 
-  - Brief project progress update assignments throughout the semester (20%)
+  - Final group presentation of results targeted toward policy stakeholders (10%)
 
-  - Final group presentation of results targeted toward policy
-    stakeholders (10%)
+  - Written final project report and code (25%)
 
-  - Written final project report and code (20%)
-
-  - Quizzes on readings and lecture videos (5%)
-
-  - Class attendance and participation (15%)
+  - Class attendance and participation (20%)
 
   - Submitting weekly check-in and feedback forms (5%)  
 
