@@ -3,6 +3,9 @@
 ## Tutorial
 The best tutorial to use, with updated documentation and code, is a [colab notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb) that comes with sample data and step-by-step instructions on using triage.
 
+## Recipes
+Recipes (with code) for common use cases are in [Triage Cookbook](https://dssg.github.io/triage_cookbook)
+
 ## Sample Projects to look at for features and modeling tips
 1. [Early Warning Tool for prioritizing individuals for screenings based on risk of MASLD related liver complications)](https://github.com/dssg/masld_prediction).  The [Triage config file directory](https://github.com/dssg/masld_prediction/tree/main/triage_config_files) has example config files and feature config files that may be helpful.
 2. [Preventing Homelessness by Prioritizing Outreach for Rental Assistance](https://github.com/dssg/acdhs_housing_public). The [Triage config file directory](https://github.com/dssg/acdhs_housing_public/tree/main/pipeline/configs) has example config files and feature config files that may be helpful.
