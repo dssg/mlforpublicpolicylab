@@ -1,21 +1,21 @@
-# 94889: Machine Learning for Public Policy Lab
+# 94889: Machine Learning in Practice
 
-**Previous Versions:** [Fall 2023](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2023) |[Fall 2022](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2022) | [Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021) | [Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020) | [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
+**Previous Versions:** [Fall 2025](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2025) |[Fall 2023](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2023) |[Fall 2022](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2022) | [Fall 2021](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2021) | [Fall 2020](https://github.com/dssg/mlforpublicpolicylab/releases/tag/Fall2020) | [Spring 2020](https://github.com/dssg/mlforpublicpolicylab/tree/Spring2020)
  
-### Fall 2025: Tues & Thurs, 11am-12:20pm (HBH 2008), Lab Section: Wednesday 9:30-10:50am (HBH 2008)
+### Fall 2026: Tues & Thurs, 11am-12:20pm (HBH 2003), Lab Section: Friday 9:30-10:50am (HBH 2008)
 
 ### Important
  - **All content will be on github in this repo including the [schedule](README.md#schedule) and [tech setup instructions](techhelp/)**
- - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/49133)** 
+ - **All assignments will be on and submitted through [canvas](https://canvas.cmu.edu/courses/)** 
  - **Class communication and announcements will be primarily through Slack and email**
 
-### Wednesday Sessions
-The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time on Wednesdays to meet with teams and check in about their progress on the project. 
+### Fridy Sessions
+The first few weeks will be hands-on tech sessions and for the remainder of the semester, we'll use the time to meet with teams and check in about their progress on the project. 
 
 ### Course Description
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
-Through lectures, discussions, readings, and project assignments, students will learn about and get hands-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
+Through lectures, discussions, readings, and project assignments, students will learn about and get hands-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation, and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias & disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
 
 **Pre-Requisites**: Students will be expected to know Python (for data analysis and machine learning),SQL, and have prior graduate coursework in machine learning. This course assumes that you have taken graduate Machine Learning courses before and is focused on teaching how to use ML to solve real-world problems. Experience with *nix command line, git(hub), and working on remote machines will be helpful and is highly recommended.
 
@@ -37,7 +37,7 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 ## Grading
 Throughout the semester, students will work together in small groups on
-a policy project using machine learning that will illustrate the concepts
+a project using machine learning that will illustrate the concepts
 discussed in class and readings.  
 
 Graded components will include:
@@ -114,7 +114,7 @@ teaching assistants.
   
 ## Class Project
 
-Beginning in the second week of class, groups of 3-4 students will
+Beginning in the second week of class, groups of ~4 students will
 work together on a machine learning project throughout the semester with
 one of several real-world public policy problems. Each week, every group
 will be expected to provide an update on its current status. In
@@ -193,7 +193,7 @@ week:
     discussions of the weekly topic (including a mix of live lectures
     and discussions of pre-recorded content throughout the semester).
 
-  - During the Wednesday lab/recitation sessions, we’ll discuss
+  - During the Friday lab sessions, we’ll discuss
     technical skills and tools you’ll need for the project work early in
     the semester and then shift to check-ins with each team to discuss
     the status of their project work, generally around short update
