@@ -17,10 +17,6 @@ Readings marked 🔒 require CMU credentials or an institutional subscription. R
 
 An introduction to the class, its goals, and an overview of the project options to help you decide what you're interested in working on for the semester.
 
-**Wednesday: [Tech session — basic setup](techsessions/session1.md)**
-
-We'll make sure everyone can connect to the server over ssh, has GitHub access, and can reach the database from both psql and DBeaver.
-
 **Thursday: [Scoping, problem definition, and balancing goals](Lectures/02-Scoping.pptx)**
 
 Well before the outset of technical work, a decision needs to be made about whether a given policy problem can and should be addressed with machine learning: is the problem significant, feasible to solve with a technical approach, and of sufficient importance to policymakers that they will devote resources to implementing the solution? How will success be measured? How will the often-competing goals of efficiency, effectiveness, and equity be balanced?
@@ -31,6 +27,10 @@ Well before the outset of technical work, a decision needs to be made about whet
 
 **Optional:**
 - Hand, D.J. *Deconstructing Statistical Questions.* J. Royal Stat. Soc. A 157(3), 1994. [Online](https://www.jstor.org/stable/pdf/2983526.pdf) 🔒
+
+**Friday: [Tech session — basic setup](techsessions/session1.md)**
+
+We'll make sure everyone can connect to the server over ssh, has GitHub access, and can reach the database from both psql and DBeaver.
 
 ---
 
