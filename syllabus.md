@@ -11,7 +11,7 @@ Readings marked 🔒 require CMU credentials or an institutional subscription. R
 ---
 
 ## Week 1 — Introduction and project scoping
-*Aug 25, 26, 27*
+*Aug 25, 27, 28*
 
 **Tuesday: [Intro and overview](Lectures/01-ClassOverview.pptx)**
 
@@ -35,36 +35,40 @@ We'll make sure everyone can connect to the server over ssh, has GitHub access, 
 ---
 
 ## Week 2 — Case studies and acquiring data
-*Sep 1, 2, 3*
+*Sep 1, 3, 4*
 
 This week we'll organize groups and begin project work.
 
 **Tuesday: [Case studies](Lectures/03-casestudies.pptx)**
 
-Practical examples are a great way to understand the nuance of applying machine learning to policy problems. Tuesday is a class discussion of a recent application, scoping the case together in breakout groups.
+Practical examples are a great way to understand the nuance of applying machine learning to policy problems. Tuesday is a class discussion of a specific application, scoping the case together in breakout groups.
 
 **Required (Tuesday):**
 - Rehman, N.A., et al. *Fine-grained dengue forecasting using telephone triage services.* Sci. Adv. 2016. [PDF](Readings/PDF/RehmanDengue.pdf)
 
-**Wednesday: [Tech session — remote workflows](techsessions/remote-session2.md)**
+**Optional (Tuesday):**
+- Potash, E., et al. *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning.* KDD 2015. [Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf)
+- Lecher, C. *What Happens When an Algorithm Cuts Your Health Care.* The Verge, 2018. [Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
-A workshop on the remote workflow tools you'll use for your project.
 
 **Thursday: [Acquiring data, privacy, and record linkage](Lectures/04-data.pptx)**
 
 Acquiring data from a project partner is often an involved process with legal and technical dimensions. Researchers need to understand how the data may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure the privacy of individuals in the dataset is protected, through both access restrictions and techniques like anonymization. Once acquired, data often needs to be transformed for ingest, linked across sources, and structured for analysis. We'll also spend some time on working effectively with your project team.
 
 **Optional:**
-- Potash, E., et al. *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning.* KDD 2015. [Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf)
-- Lecher, C. *What Happens When an Algorithm Cuts Your Health Care.* The Verge, 2018. [Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 - Ohm, P. *Broken Promises of Privacy.* UCLA Law Review, 2009. Introduction and Section 1. [Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&collection=journals) 🔒
 - Christen, P. *Data Matching.* Springer, 2012. Chapter 2: The Data Matching Process. [Online](https://link.springer.com/book/10.1007/978-3-642-31164-2) 🔒
 - Foster, Ghani, et al. (eds). *Big Data and Social Science.* Chapter 4: Databases. [Online](https://textbook.coleridgeinitiative.org/)
 
+
+**Friday: [Tech session — remote workflows](techsessions/remote-session2.md)**
+
+A workshop on the remote workflow tools you'll use for your project.
+
 ---
 
 ## Week 3 — Data exploration and teamwork
-*Sep 8, 9, 10*
+*Sep 8, 10, 11*
 
 Project work this week should include continuing to develop and refine your scope as you begin to explore the data.
 
@@ -74,11 +78,11 @@ An overview of exploratory data analysis, particularly with downstream ML in min
 
 We'll also set aside about 30 minutes on Tuesday for you to meet with your project team and discuss your scope.
 
-**Wednesday: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit)**
+**Thursday: Project work** — data exploration, scoping, and proposal planning.
+
+**Friday: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit)**
 
 A tutorial and refresher on using GitHub for your project.
-
-**Thursday: Project work** — data exploration, scoping, and proposal planning.
 
 ---
 
