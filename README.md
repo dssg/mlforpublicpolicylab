@@ -5,9 +5,9 @@
 | | |
 | --- | --- |
 | **Lectures** | Tuesday & Thursday, 11:00am–12:20pm, HBH 2003 |
-| **Lab / check-ins** | Friday *(see note below)* |
-| **Instructor** | Rayid Ghani |
-| **Teaching Assistant** | Logan Crowl |
+| **Lab / check-ins** | Friday 9:30am-10:50am, HBH 2008|
+| **Instructor** | [Rayid Ghani](http://www.rayidghani.com) |
+| **Teaching Assistant** | [Logan Crowl](https://crowll.github.io/) |
 
 ## Quick links
 
@@ -29,7 +29,7 @@ The course is structured around three sessions each week:
 
 - **Tuesday** — structured lectures and discussion of the weekly topic.
 - **Thursday** — lectures and discussion early in the semester; once projects are underway, most Thursdays are reserved for group meetings and project work.
-- **Friday** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments due Monday.
+- **Friday** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments due that week.
 
 Class time dedicated to project work will not be enough on its own — the project will require considerable work outside of class and constitutes the majority of the "homework" for this course.
 
@@ -58,7 +58,7 @@ Email to meet outside these hours.
 <img src="img/logan.jpeg" alt="Logan Crowl" width="150">
 
 **Logan Crowl** — HBH XXX
-Office hours: 
+Office hours:  TBD
 
 ## Previous versions
 
