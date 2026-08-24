@@ -5,7 +5,7 @@
 | | |
 | --- | --- |
 | **Lectures** | Tuesday & Thursday, 11:00am–12:20pm, HBH 2003 |
-| **Lab / check-ins** | Friday 9:30am-10:50am, HBH 2008|
+| **Lab / Team check-ins** | Friday 9:30am-10:50am, HBH 2008|
 | **Instructor** | [Rayid Ghani](http://www.rayidghani.com) |
 | **Teaching Assistant** | [Logan Crowl](https://crowll.github.io/) |
 
@@ -13,7 +13,7 @@
 
 - **[Schedule](schedule.md)** — week-by-week dates, topics, slides, and due dates
 - **[Syllabus](syllabus.md)** — detailed weekly topics and required/optional readings
-- **[Project](project.md)** — group project structure, deliverables, and templates
+- **[Project](project.md)** — group project structure and deliverables
 - **[Policies & grading](policies.md)** — grading breakdown, data security, AI use, attendance, CMU resources
 - **[Tech setup](techhelp/)** — server access, database, and environment instructions
 
