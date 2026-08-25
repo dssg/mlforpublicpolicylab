@@ -1,0 +1,42 @@
+name: Sync schedule from Google Sheets
+
+on:
+  workflow_dispatch:        # run it by hand from the Actions tab
+  schedule:
+    - cron: "0 11 * * 1-5"  # 11:00 UTC on weekdays (~7am ET, ~6am during EST)
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild schedule.md from the sheet
+        env:
+          SCHEDULE_CSV_URL: ${{ vars.SCHEDULE_CSV_URL }}
+        run: |
+          if [ -z "$SCHEDULE_CSV_URL" ]; then
+            echo "::error::Repository variable SCHEDULE_CSV_URL is not set."
+            echo "Settings > Secrets and variables > Actions > Variables > New repository variable"
+            exit 1
+          fi
+          python scripts/build_schedule.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- schedule.md; then
+            echo "No schedule changes."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schedule.md
+          git commit -m "Sync schedule from Google Sheet"
+          git push
