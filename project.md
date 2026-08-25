@@ -2,7 +2,7 @@
 
 [← Back to course home](README.md) · [Schedule](schedule.md) · [Syllabus](syllabus.md) · [Policies](policies.md)
 
-Beginning in the second week of class, groups of about four students work together on a machine learning project throughout the semester, using one of several real-world public policy problems. Each week, every group provides an update on its current status. In addition to connecting the readings and discussion topics to the policy domain, these updates give you a chance to get input and feedback from your classmates about challenges you're facing — challenges they're likely facing too.
+Beginning in the second week of class, groups of about four students work together on a machine learning project throughout the semester, using one of several real-world public policy problems. Each week, every group submits a project assignment. In addition to connecting the readings and discussion topics to the policy domain, these updates give you a chance to get input and feedback and iterate.
 
 > ⚠️ **Data security.** Project data is sensitive and must remain in the secure computing environment provided for the course. See the [data security policy](policies.md#data-security) — violations result in automatic failure of the class.
 
@@ -12,12 +12,11 @@ Beginning in the second week of class, groups of about four students work togeth
 | --- | --- | --- | --- |
 | 1 | [Project proposal](#1-project-proposal) | Tue, Sep 15 | 10% |
 | 2 | [Peer reviews of three proposals](#2-proposal-peer-reviews) | Tue, Sep 22 | 5% |
-| 3 | [Weekly progress updates](#3-weekly-progress-updates) | Most Wednesdays | 25% |
-| 4 | [Weekly check-in and feedback forms](#4-check-in-and-feedback-forms) | Weekly | 5% |
-| 5 | [Final presentation](#5-final-presentation) | Thu, Dec 3 | 10% |
-| 6 | [Final report and code](#6-final-report) | Wed, Dec 9 | 25% |
+| 3 | [Weekly progress updates](#3-weekly-progress-updates) | Most Tuesdays | 25% |
+| 4 | [Final presentation](#5-final-presentation) | Thu, Dec 3 | 10% |
+| 5 | [Final report and code](#6-final-report) | Wed, Dec 9 | 25% |
 
-The remaining 20% of your grade is class attendance and participation — see [policies](policies.md#grading).
+20% of your grade is class attendance and participation and 5% is weekly feedback forms — see [policies](policies.md#grading).
 
 ---
 
@@ -29,11 +28,11 @@ Useful reference: the [Data Science Project Scoping Guide](https://datasciencepu
 
 ## 2. Proposal peer reviews
 
-Each student reviews three other groups' proposals. Reviews should be constructive and specific: is the problem well scoped, is the proposed formulation the right one, what would you push back on?
+Each student reviews three other groups' proposals. Reviews should be constructive and specific: is the problem well scoped, is the proposed formulation the right one, what would you imorove?
 
-## 3. Weekly progress updates
+## 3. Weekly Project Assignments 
 
-Short update assignments, generally due Wednesday, that guide the Friday check-in discussions. These typically take the form of filling results or modeling details into a handful of template slides. Over the semester these build up the technical core of the project:
+Short update assignments, generally due Tuesdat, that guide the check-in discussions. These typically take the form of filling results or modeling details into a handful of template slides. Over the semester these build up the technical core of the project:
 
 - **Analytical formulation, baselines, and cohort/label queries** (week 6)
 - **Modeling plan and temporal validation configuration** (week 8) — how the scope in your proposal is formulated as an ML problem, and the elements of the pipeline your group will build
@@ -43,19 +42,15 @@ Short update assignments, generally due Wednesday, that guide the Friday check-i
 - **Feature importances and crosstabs** (week 12)
 - **Bias and disparity results** (week 13)
 
-Updates are graded for completeness and correctness. We expect this work to be iterative: errors identified in one week's update that are corrected by the next week can result in revision of the previous score up to 80% of the total possible.
+Updates are graded for completeness and correctness. We expect this work to be iterative: errors identified in one week's update that are corrected by the next week results in revision of the previous score up to 80% of the total possible.
 
-## 4. Check-in and feedback forms
+## 4. Final presentation
 
-Brief weekly forms submitted before the Friday check-ins. Each team also reviews the updates of other teams working on the same project so that check-in discussion includes peer feedback.
-
-## 5. Final presentation
-
-Ten minutes plus three minutes for questions. Unlike the technical deep dives during check-ins, the final presentation should be geared toward the relevant decision makers for your project: an overview of the problem and approach, your results, policy recommendations, and limitations of the work.
+15 minutes plus 3 minutes for questions. The final presentation should be geared toward the relevant decision makers for your project: an overview of the problem and approach, your results, policy recommendations, and limitations of the work.
 
 ## 6. Final report
 
-Approximately 15 pages, accompanying the final presentation. It should include:
+Approximately 10 pages, accompanying the final presentation. It should include:
 
 - An executive summary, no more than one page, succinctly describing the project, results, and recommendations.
 - An overview of the problem, its significance, and the scope and goals of the work.
