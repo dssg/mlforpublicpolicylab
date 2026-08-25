@@ -13,11 +13,11 @@
 
 - **[Schedule](schedule.md)** — week-by-week dates, topics, slides, and due dates
 - **[Syllabus](syllabus.md)** — detailed weekly topics and required/optional readings
-- **[Project](project.md)** — group project structure, deliverables, and templates
+- **[Project](project.md)** — group project structure, assignments, and deliverables
 - **[Policies & grading](policies.md)** — grading breakdown, data security, AI use, attendance, CMU resources
 - **[Tech setup](techhelp/)** — server access, database, and environment instructions
 
-**Assignments are submitted through [Canvas](https://canvas.cmu.edu/courses/).** Class communication and announcements happen on Slack and by email. Everything else — schedule, slides, readings, tech instructions — lives in this repo.
+**Assignments are submitted through [Canvas](https://canvas.cmu.edu/courses/).** Class communication and announcements happen on Slack and by email. Everything else (schedule, slides, readings, tech instructions) is in this repo.
 
 ## Course description
 
@@ -27,9 +27,9 @@ Through lectures, discussions, readings, and project assignments, students will 
 
 The course is structured around three sessions each week:
 
-- **Tuesday** — structured lectures and discussion of the weekly topic.
+- **Tuesday** —  lectures and discussion of the weekly topic.
 - **Thursday** — lectures and discussion early in the semester; once projects are underway, most Thursdays are reserved for group meetings and project work.
-- **Friday (lab)** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments; each team reviews the updates of other teams working on the same project, and the discussion includes feedback from your peers and the course staff.
+- **Friday (lab)** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments every week.
 
 Class time dedicated to project work will not be enough on its own — the project will require considerable work outside of class and constitutes the majority of the "homework" for this course.
 
@@ -39,7 +39,7 @@ Students are expected to know Python (for data analysis and machine learning) an
 
 ### Software
 
-Project work uses a shared data and ML infrastructure provided for the class. Data lives in a PostgreSQL database; SQL and Python are used throughout. Project code is kept in a shared GitHub repository, so create an account if you don't have one. Modeling uses the [triage](https://dssg.github.io/triage/) machine learning pipeline package.
+Project work uses a shared data and ML infrastructure provided for the class. Data lives in a PostgreSQL database; SQL and Python are the primary tools for coding. Project code is kept in private GitHub repositories for each team, so create an account if you don't have one. Modeling uses the [triage](https://dssg.github.io/triage/) machine learning pipeline package.
 
 **Textbook:** none required. Readings are drawn from a variety of sources and listed in the [syllabus](syllabus.md); general background books are listed there as well.
 
