@@ -52,6 +52,40 @@ def escape(cell: str) -> str:
     return cell.strip()
 
 
+def syllabus_anchors(path: str = "syllabus.md") -> set[str] | None:
+    """Collect the heading anchors GitHub will generate for the syllabus."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return None
+    anchors = set()
+    for line in text.splitlines():
+        m = re.match(r"^#{2,6}\s+(.*)$", line)
+        if not m:
+            continue
+        slug = re.sub(r"[^\w\s-]", "", m.group(1).strip().lower(), flags=re.UNICODE)
+        anchors.add(slug.replace(" ", "-"))
+    return anchors
+
+
+def check_links(rows: list[list[str]]) -> None:
+    """Warn about links into syllabus.md whose anchors don't exist."""
+    known = syllabus_anchors()
+    if not known:
+        return
+    seen = set()
+    for row in rows:
+        for cell in row:
+            for anchor in re.findall(r"syllabus\.md#([\w-]+)", cell):
+                if anchor not in known and anchor not in seen:
+                    seen.add(anchor)
+                    print(
+                        f"warning: no heading in syllabus.md matches #{anchor}",
+                        file=sys.stderr,
+                    )
+
+
 def render(rows: list[list[str]]) -> str:
     if not rows:
         sys.exit("error: the sheet is empty")
@@ -122,6 +156,7 @@ def main() -> None:
         )
 
     rows = list(csv.reader(io.StringIO(text)))
+    check_links(rows)
     table = render(rows)
     current, updated = splice(args.target, table)
 
