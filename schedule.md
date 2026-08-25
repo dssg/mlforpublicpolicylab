@@ -2,26 +2,27 @@
 
 [← Back to course home](README.md) · [Syllabus](syllabus.md) · [Project](project.md) · [Policies](policies.md)
 
-Lectures are Tuesday and Thursday, 11:00am–12:20pm. Tech sessions and team check-ins are Friday. See the [syllabus](syllabus.md) for topic detail and readings, and the [project page](project.md) for deliverable descriptions.
+Lectures are Tuesday and Thursday, 11:00am–12:20pm. Tech sessions and team check-ins are in the Friday lab section, 9:30–10:50am. See the [syllabus](syllabus.md) for topic detail and readings, and the [project page](project.md) for deliverable descriptions.
 
 Assignments listed in the "Due" column are due at the start of the listed day unless Canvas says otherwise.
 
-| Week | Dates | Tuesday | Wednesday | Thursday | Due | Project focus |
+| Week | Dates | Tuesday | Thursday | Friday (lab) | Due | Project focus |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Aug 25 / 27 | [Intro, overview, and project options](Lectures/01-ClassOverview.pptx) | [Tech session: basic setup](techsessions/session1.md) — ssh to the server, GitHub access, database access via psql and DBeaver | [Scoping, problem definition, balancing goals](Lectures/02-Scoping.pptx) | Survey (Mon)<br>Project preferences + signature (Wed) | Get familiar with the class, goals, and project options |
-| 2 | Sep 1 / 3 | [Case studies and discussion](syllabus.md#week-2--case-studies-and-acquiring-data) | [Tech session: remote workflows](techsessions/remote-session2.md) | [Acquiring data, privacy, record linkage](syllabus.md#week-2--case-studies-and-acquiring-data) | | Data audit and exploration |
-| 3 | Sep 8 / 10 | [Data exploration](syllabus.md#week-3--data-exploration-and-teamwork) + 30 min team coordination | [Tech session: git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit) | Project work | | Data stories; finalize project scope |
-| 4 | Sep 15 / 17 | [Analytical formulation and baselines](syllabus.md#week-4--analytical-formulation-baselines-and-ml-pipelines) | [Tech session: Python + SQL](techsessions/python_sql_tech_session.ipynb) | [Building ML pipelines](syllabus.md#week-4--analytical-formulation-baselines-and-ml-pipelines) | **Project proposal (Tue)** | Initial pipeline setup; analytical formulation and baselines |
-| 5 | Sep 22 / 24 | [Performance metrics and evaluation, part 1: choosing metrics](syllabus.md#week-5--choosing-performance-metrics--evaluating-classifiers-part-1) | Tech session: triage configuration | Project work | **Peer reviews of three proposals (Tue)** | Iteration 1 — end-to-end pipeline shell |
-| 6 | Sep 29 / Oct 1 | [Performance metrics and evaluation, part 2: model selection and validation](syllabus.md#week-6--choosing-performance-metrics--evaluating-classifiers-part-2) | Check-ins begin | Temporal validation deep dive with project examples | Analytic formulation, baselines, cohort/label queries (Mon) | |
-| 7 | Oct 6 / 8 | [Feature engineering and imputation](syllabus.md#week-7--feature-engineering-and-imputation) | Check-ins | Project work | Weekly update (Mon) | Iteration 2 — feature development |
-| — | Oct 13 / 15 | **Fall break — no classes** | | | | |
-| 8 | Oct 20 / 22 | [Features in triage](syllabus.md#week-8--feature-engineering-in-triage) | Check-ins | Triage office hours and Q&A | Modeling plan and temporal validation configuration (Mon) | |
-| 9 | Oct 27 / 29 | [ML modeling in practice](syllabus.md#week-9--ml-modeling-in-practice) | Check-ins | Project work | V0 baseline results and planned feature list (Mon) | Iteration 3 — models and evaluation |
-| 10 | Nov 3 / 5 | **No class — Election Day** | Check-ins | [Performance metrics and evaluation, part 3: model selection](syllabus.md#week-10--choosing-performance-metrics--evaluating-classifiers-part-3) | V0 modeling results (Mon) | |
-| 11 | Nov 10 / 12 | [Model interpretability](syllabus.md#week-11--model-interpretability-and-ethics) | Check-ins | [Ethics workshop](syllabus.md#ethics-workshop-thursday) | Weekly update (Mon) | Iteration 4 — interpreting the models |
-| 12 | Nov 17 / 19 | [Bias and fairness](syllabus.md#week-12--bias-and-fairness) | Check-ins | Project work | Weekly update — feature importances + crosstabs (Mon) | |
+| 1 | Aug 25 / 27 / 28 | [Intro, overview, and project options](Lectures/01-ClassOverview.pptx) | [Scoping, problem definition, balancing goals](Lectures/02-Scoping.pptx) | [Tech session: basic setup](techsessions/session1.md) — ssh to the server, GitHub access, database access via psql and DBeaver | Survey (Mon)<br>Project preferences + signature (Thu) | Get familiar with the class, goals, and project options |
+| 2 | Sep 1 / 3 / 4 | [Case studies and discussion](syllabus.md#week-2--case-studies-and-acquiring-data) | [Acquiring data, privacy, record linkage](syllabus.md#week-2--case-studies-and-acquiring-data) | [Tech session: remote workflows](techsessions/remote-session2.md) | | Data audit and exploration |
+| 3 | Sep 8 / 10 / 11 | [Data exploration](syllabus.md#week-3--data-exploration-and-teamwork) + 30 min team coordination | Project work | [Tech session: git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit) | | Data stories; finalize project scope |
+| 4 | Sep 15 / 17 / 18 | [Analytical formulation and baselines](syllabus.md#week-4--analytical-formulation-baselines-and-ml-pipelines) | [Building ML pipelines](syllabus.md#week-4--analytical-formulation-baselines-and-ml-pipelines) | [Tech session: Python + SQL](techsessions/python_sql_tech_session.ipynb) | **Project proposal (Tue)** | Initial pipeline setup; analytical formulation and baselines |
+| 5 | Sep 22 / 24 / 25 | [Performance metrics and evaluation, part 1: choosing metrics](syllabus.md#week-5--choosing-performance-metrics--evaluating-classifiers-part-1) | Project work | Tech session: triage configuration | **Peer reviews of three proposals (Tue)** | Iteration 1 — end-to-end pipeline shell |
+| 6 | Sep 29 / Oct 1 / 2 | [Performance metrics and evaluation, part 2: model selection and validation](syllabus.md#week-6--choosing-performance-metrics--evaluating-classifiers-part-2) | Temporal validation deep dive with project examples | Check-ins begin | Analytic formulation, baselines, cohort/label queries (Wed) | |
+| 7 | Oct 6 / 8 / 9 | [Feature engineering and imputation](syllabus.md#week-7--feature-engineering-and-imputation) | Project work | Check-ins | Weekly update (Wed) | Iteration 2 — feature development |
+| — | Oct 13 / 15 / 16 | **Fall break — no classes** | | | | |
+| 8 | Oct 20 / 22 / 23 | [Features in triage](syllabus.md#week-8--feature-engineering-in-triage) | Triage office hours and Q&A | Check-ins | Modeling plan and temporal validation configuration (Wed) | |
+| 9 | Oct 27 / 29 / 30 | [ML modeling in practice](syllabus.md#week-9--ml-modeling-in-practice) | Project work | Check-ins | V0 baseline results and planned feature list (Wed) | Iteration 3 — models and evaluation |
+| 10 | Nov 3 / 5 / 6 | **No class — Election Day** | [Performance metrics and evaluation, part 3: model selection](syllabus.md#week-10--choosing-performance-metrics--evaluating-classifiers-part-3) | Check-ins | V0 modeling results (Wed) | |
+| 11 | Nov 10 / 12 / 13 | [Model interpretability](syllabus.md#week-11--model-interpretability-and-ethics) | [Ethics workshop](syllabus.md#ethics-workshop-thursday) | Check-ins | Weekly update (Wed) | Iteration 4 — interpreting the models |
+| 12 | Nov 17 / 19 / 20 | [Bias and fairness](syllabus.md#week-12--bias-and-fairness) | Project work | Check-ins | Weekly update — feature importances + crosstabs (Wed) | |
 | 13 | Nov 24 | [Field trials: validating ML models](syllabus.md#week-13--field-trials-validating-ml-models) | **Thanksgiving — no class** | **Thanksgiving — no class** | Weekly update — bias (Mon) | Final model choice; performance and impact on disparities |
-| 14 | Dec 1 / 3 | Wrap-up and project work | Check-ins | **Final presentations** | Final presentation | Presentations |
-| Finals | Dec 9 | | **Final report due (Wed)** | | Final report, code, repo, documentation | |
+| 14 | Dec 1 / 3 / 4 | Wrap-up, final check-in, and presentation prep | **Final presentations** | Presentation overflow / project work | Final presentation | Presentations |
+| Finals | Dec 9 | | | | Final report, code, repo, documentation (Wed) | |
 
+> **Verify against the official calendar.** These dates are shifted forward from the Fall 2025 offering and assume classes begin Tuesday, Aug 25, with fall break Oct 13–16 and Thanksgiving break Nov 25–27. Confirm against the [CMU academic calendar](https://www.cmu.edu/hub/calendar/) before the semester starts, particularly the last day of classes and the finals-week report deadline.

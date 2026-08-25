@@ -5,15 +5,15 @@
 | | |
 | --- | --- |
 | **Lectures** | Tuesday & Thursday, 11:00am–12:20pm, HBH 2003 |
-| **Lab / Team check-ins** | Friday 9:30am-10:50am, HBH 2008|
-| **Instructor** | [Rayid Ghani](http://www.rayidghani.com) |
-| **Teaching Assistant** | [Logan Crowl](https://crowll.github.io/) |
+| **Lab section** | Friday, 9:30–10:50am, HBH 2008 |
+| **Instructor** | Rayid Ghani |
+| **Teaching Assistant** | Logan Crowl |
 
 ## Quick links
 
 - **[Schedule](schedule.md)** — week-by-week dates, topics, slides, and due dates
 - **[Syllabus](syllabus.md)** — detailed weekly topics and required/optional readings
-- **[Project](project.md)** — group project structure and deliverables
+- **[Project](project.md)** — group project structure, deliverables, and templates
 - **[Policies & grading](policies.md)** — grading breakdown, data security, AI use, attendance, CMU resources
 - **[Tech setup](techhelp/)** — server access, database, and environment instructions
 
@@ -23,13 +23,13 @@
 
 This is a project-based course designed to provide training and experience in solving real-world problems using machine learning, with a focus on problems from public policy and social good.
 
-Through lectures, discussions, readings, and project assignments, students will learn about and get hands-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation, and turning their analysis into action. We expect students to develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, ML model interpretability, understanding and mitigating bias and disparities in ML systems, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
+Through lectures, discussions, readings, and project assignments, students will learn about and get hands-on experience building end-to-end machine learning systems, starting from project definition and scoping, to modeling, to field validation, and turning their analysis into action. Through the course, students will develop skills in problem formulation, working with messy data, communicating about machine learning with non-technical stakeholders, model interpretability, understanding and mitigating algorithmic bias and disparities, evaluating the impact of deployed models, and understanding the ethical implications of design choices made throughout the ML pipeline.
 
 The course is structured around three sessions each week:
 
 - **Tuesday** — structured lectures and discussion of the weekly topic.
 - **Thursday** — lectures and discussion early in the semester; once projects are underway, most Thursdays are reserved for group meetings and project work.
-- **Friday** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments due that week.
+- **Friday (lab)** — hands-on tech sessions for the first few weeks, then team check-ins for the rest of the semester. Check-ins are built around short update assignments; each team reviews the updates of other teams working on the same project, and the discussion includes feedback from your peers and the course staff.
 
 Class time dedicated to project work will not be enough on its own — the project will require considerable work outside of class and constitutes the majority of the "homework" for this course.
 
@@ -39,7 +39,7 @@ Students are expected to know Python (for data analysis and machine learning) an
 
 ### Software
 
-Project work uses data and ML infrastructure provided for the class. Data lives in a PostgreSQL database; SQL and Python are used throughout. Project code is kept in team GitHub repositories, so create an account if you don't have one. Modeling uses the [triage](https://dssg.github.io/triage/) machine learning pipeline package.
+Project work uses a shared data and ML infrastructure provided for the class. Data lives in a PostgreSQL database; SQL and Python are used throughout. Project code is kept in a shared GitHub repository, so create an account if you don't have one. Modeling uses the [triage](https://dssg.github.io/triage/) machine learning pipeline package.
 
 **Textbook:** none required. Readings are drawn from a variety of sources and listed in the [syllabus](syllabus.md); general background books are listed there as well.
 
@@ -49,16 +49,16 @@ Project work uses data and ML infrastructure provided for the class. Data lives 
 
 <img src="img/rayidphoto.png" alt="Rayid Ghani" width="150">
 
-**Rayid Ghani** — GHC 8023
-Office hours: Tuesday 4:00-5:00pm, Wednesday 4:00–5:00pm
+**Rayid Ghani** — GHC 8023  
+Office hours: Tuesday 12:30–1:30pm, Wednesday 4–5pm  
 Email to meet outside these hours.
 
 ### Teaching Assistant
 
 <img src="img/logan.jpeg" alt="Logan Crowl" width="150">
 
-**Logan Crowl** — HBH XXX
-Office hours:  TBD
+**Logan Crowl** — HBH 3024 (Slack if you can't find it)  
+Office hours: Monday 1:30–2:30pm, Thursday 2:15–3:15pm
 
 ## Previous versions
 

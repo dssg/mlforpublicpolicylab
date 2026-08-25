@@ -12,11 +12,12 @@ Beginning in the second week of class, groups of about four students work togeth
 | --- | --- | --- | --- |
 | 1 | [Project proposal](#1-project-proposal) | Tue, Sep 15 | 10% |
 | 2 | [Peer reviews of three proposals](#2-proposal-peer-reviews) | Tue, Sep 22 | 5% |
-| 3 | [Weekly progress updates](#3-weekly-progress-updates) | Most Mondays | 25% |
-| 4 | [Final presentation](#5-final-presentation) | Thu, Dec 3 | 10% |
-| 5 | [Final report and code](#6-final-report) | Wed, Dec 9 | 25% |
+| 3 | [Weekly progress updates](#3-weekly-progress-updates) | Most Wednesdays | 25% |
+| 4 | [Weekly check-in and feedback forms](#4-check-in-and-feedback-forms) | Weekly | 5% |
+| 5 | [Final presentation](#5-final-presentation) | Thu, Dec 3 | 10% |
+| 6 | [Final report and code](#6-final-report) | Wed, Dec 9 | 25% |
 
-The remaining 25% of your grade is submit weekly feedback forms, and class attendance and participation — see [policies](policies.md#grading).
+The remaining 20% of your grade is class attendance and participation — see [policies](policies.md#grading).
 
 ---
 
@@ -32,7 +33,7 @@ Each student reviews three other groups' proposals. Reviews should be constructi
 
 ## 3. Weekly progress updates
 
-Short update assignments, generally due Monday, that guide the Wednesday check-in discussions. These typically take the form of filling results or modeling details into a handful of template slides. Over the semester these build up the technical core of the project:
+Short update assignments, generally due Wednesday, that guide the Friday check-in discussions. These typically take the form of filling results or modeling details into a handful of template slides. Over the semester these build up the technical core of the project:
 
 - **Analytical formulation, baselines, and cohort/label queries** (week 6)
 - **Modeling plan and temporal validation configuration** (week 8) — how the scope in your proposal is formulated as an ML problem, and the elements of the pipeline your group will build
@@ -44,12 +45,15 @@ Short update assignments, generally due Monday, that guide the Wednesday check-i
 
 Updates are graded for completeness and correctness. We expect this work to be iterative: errors identified in one week's update that are corrected by the next week can result in revision of the previous score up to 80% of the total possible.
 
+## 4. Check-in and feedback forms
 
-## 4. Final presentation
+Brief weekly forms submitted before the Friday check-ins. Each team also reviews the updates of other teams working on the same project so that check-in discussion includes peer feedback.
+
+## 5. Final presentation
 
 Ten minutes plus three minutes for questions. Unlike the technical deep dives during check-ins, the final presentation should be geared toward the relevant decision makers for your project: an overview of the problem and approach, your results, policy recommendations, and limitations of the work.
 
-## 5. Final report
+## 6. Final report
 
 Approximately 15 pages, accompanying the final presentation. It should include:
 

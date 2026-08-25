@@ -28,7 +28,7 @@ Well before the outset of technical work, a decision needs to be made about whet
 **Optional:**
 - Hand, D.J. *Deconstructing Statistical Questions.* J. Royal Stat. Soc. A 157(3), 1994. [Online](https://www.jstor.org/stable/pdf/2983526.pdf) 🔒
 
-**Friday: [Tech session — basic setup](techsessions/session1.md)**
+**Friday lab: [Tech session — basic setup](techsessions/session1.md)**
 
 We'll make sure everyone can connect to the server over ssh, has GitHub access, and can reach the database from both psql and DBeaver.
 
@@ -41,27 +41,23 @@ This week we'll organize groups and begin project work.
 
 **Tuesday: [Case studies](Lectures/03-casestudies.pptx)**
 
-Practical examples are a great way to understand the nuance of applying machine learning to policy problems. Tuesday is a class discussion of a specific application, scoping the case together in breakout groups.
+Practical examples are a great way to understand the nuance of applying machine learning to policy problems. Tuesday is a class discussion of a recent application, scoping the case together in breakout groups.
 
 **Required (Tuesday):**
 - Rehman, N.A., et al. *Fine-grained dengue forecasting using telephone triage services.* Sci. Adv. 2016. [PDF](Readings/PDF/RehmanDengue.pdf)
-
-**Optional (Tuesday):**
-- Potash, E., et al. *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning.* KDD 2015. [Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf)
-- Lecher, C. *What Happens When an Algorithm Cuts Your Health Care.* The Verge, 2018. [Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
-
 
 **Thursday: [Acquiring data, privacy, and record linkage](Lectures/04-data.pptx)**
 
 Acquiring data from a project partner is often an involved process with legal and technical dimensions. Researchers need to understand how the data may and may not be used (typically formalized in a data use agreement as well as underlying law) and ensure the privacy of individuals in the dataset is protected, through both access restrictions and techniques like anonymization. Once acquired, data often needs to be transformed for ingest, linked across sources, and structured for analysis. We'll also spend some time on working effectively with your project team.
 
 **Optional:**
+- Potash, E., et al. *Predictive Modeling for Public Health: Preventing Childhood Lead Poisoning.* KDD 2015. [Online](http://www.dssgfellowship.org/wp-content/uploads/2016/01/p2039-potash.pdf)
+- Lecher, C. *What Happens When an Algorithm Cuts Your Health Care.* The Verge, 2018. [Online](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 - Ohm, P. *Broken Promises of Privacy.* UCLA Law Review, 2009. Introduction and Section 1. [Online](https://heinonline.org/HOL/Page?handle=hein.journals/uclalr57&div=48&collection=journals) 🔒
 - Christen, P. *Data Matching.* Springer, 2012. Chapter 2: The Data Matching Process. [Online](https://link.springer.com/book/10.1007/978-3-642-31164-2) 🔒
 - Foster, Ghani, et al. (eds). *Big Data and Social Science.* Chapter 4: Databases. [Online](https://textbook.coleridgeinitiative.org/)
 
-
-**Friday: [Tech session — remote workflows](techsessions/remote-session2.md)**
+**Friday lab: [Tech session — remote workflows](techsessions/remote-session2.md)**
 
 A workshop on the remote workflow tools you'll use for your project.
 
@@ -80,14 +76,14 @@ We'll also set aside about 30 minutes on Tuesday for you to meet with your proje
 
 **Thursday: Project work** — data exploration, scoping, and proposal planning.
 
-**Friday: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit)**
+**Friday lab: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit)**
 
 A tutorial and refresher on using GitHub for your project.
 
 ---
 
 ## Week 4 — Analytical formulation, baselines, and ML pipelines
-*Sep 15, 16, 17*
+*Sep 15, 17, 18*
 
 > 📌 **Due Tuesday, Sep 15: [project proposal](project.md#1-project-proposal) with scope and descriptive statistics**
 
@@ -104,8 +100,6 @@ Distinct from initial scoping, a true analytical formulation of your policy prob
 - Ramakrishnan, S. *Create a Common-Sense Baseline First.* [Online](https://towardsdatascience.com/first-create-a-common-sense-baseline-e66dbf8a8a47) 🔒
 - Provost, F. and Fawcett, T. *Data Science for Business.* O'Reilly, 2013. Chapter 2: Business Problems and Data Science. [Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html) 🔒
 
-**Wednesday: [Tech session — Python and SQL](techsessions/python_sql_tech_session.ipynb)**
-
 **Thursday: [Building ML pipelines](Lectures/09-Machine-Learning-Pipelines.pptx)**
 
 End-to-end ML pipelines can quickly become unwieldy with several moving pieces, and well-structured, modular code is often critical to detecting and fixing bugs. This session gives an overview of the pipeline, each underlying element, and some best practices for building them.
@@ -114,10 +108,12 @@ End-to-end ML pipelines can quickly become unwieldy with several moving pieces, 
 - Koen, S. *Architecting a Machine Learning Pipeline.* [Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7) 🔒
 - Hermann, J. and Del Balso, M. *Meet Michelangelo: Uber's Machine Learning Platform.* [Online](https://eng.uber.com/michelangelo/)
 
+**Friday lab: [Tech session — Python and SQL](techsessions/python_sql_tech_session.ipynb)**
+
 ---
 
 ## Week 5 — Choosing performance metrics & evaluating classifiers, part 1
-*Sep 22, 23, 24*
+*Sep 22, 24, 25*
 
 > 📌 **Due Tuesday, Sep 22: [peer reviews](project.md#2-proposal-peer-reviews) of three project proposals**
 
@@ -133,16 +129,16 @@ In most cases, a vast array of methods — each with tunable hyperparameters —
 **Optional:**
 - Stapor, K. *Evaluating and Comparing Classifiers.* CORES 2017. [PDF](Readings/PDF/StaporEvaluating.pdf)
 
-**Wednesday: Tech session — triage configuration**
+**Thursday: Project work**
+
+**Friday lab: Tech session — triage configuration**
 
 An introduction to `triage`, the ML pipeline toolkit we use for the class project. See also the [triage documentation](https://dssg.github.io/triage/).
-
-**Thursday: Project work**
 
 ---
 
 ## Week 6 — Choosing performance metrics & evaluating classifiers, part 2
-*Sep 29, 30, Oct 1*
+*Sep 29, Oct 1, 2*
 
 By this week, your group should have a very simple version of an end-to-end pipeline with preliminary results for a single model specification.
 
@@ -159,14 +155,14 @@ Continuing from last week, we focus on validation strategies that reflect how yo
 - Rudin, C. and Carlson, D. *The Secrets of Machine Learning.* arXiv:1906.01998, 2019. [Online](https://arxiv.org/abs/1906.01998)
 - Foster, Ghani, et al. (eds). *Big Data and Social Science*, 2nd ed. Chapter 7: Machine Learning. [Online](https://textbook.coleridgeinitiative.org/chap-ml.html)
 
-**Wednesday: Check-ins begin.** Regular team check-ins start this week to give feedback on project progress.
-
 **Thursday: Temporal validation deep dive** — we meet together as a class to work through temporal validation using a few class project examples.
+
+**Friday lab: Check-ins begin.** Regular team check-ins start this week to give feedback on project progress.
 
 ---
 
 ## Week 7 — Feature engineering and imputation
-*Oct 6, 7, 8*
+*Oct 6, 8, 9*
 
 In many real-world contexts, expressing domain expertise through thoughtful feature engineering can dramatically improve model performance by capturing what underlying factors are likely to be predictive and helping the model find these relationships. Likewise, most datasets you'll encounter in practice are littered with outliers, inconsistencies, and missingness, and handling these in a smart way can be critical to a project's success.
 
@@ -180,36 +176,36 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 - Zhang, A. and Casari, A. *Feature Engineering for Machine Learning.* O'Reilly, 2018. Chapter 2: Fancy Tricks with Simple Numbers. [Online](https://learning.oreilly.com/library/view/feature-engineering-for/9781491953235/) 🔒
 - Gelman, A. *Missing-data imputation.* [PDF](http://www.stat.columbia.edu/~gelman/arm/missing.pdf)
 
-**Wednesday: Check-ins**
-
 **Thursday: Project work**
+
+**Friday lab: Check-ins**
 
 ---
 
 ## Fall break — no classes
-*Oct 13, 14, 15*
+*Oct 13, 15, 16*
 
 ---
 
 ## Week 8 — Feature engineering in triage
-*Oct 20, 21, 22*
+*Oct 20, 22, 23*
 
-> 📌 **Due Monday, Oct 19: modeling plan and temporal validation configuration**
+> 📌 **Due Wednesday, Oct 21: modeling plan and temporal validation configuration**
 
 This week we get concrete about translating the feature ideas from week 7 into `triage` configuration: how features are specified, how aggregations over time and entity are defined, and how imputation is handled in the pipeline.
 
 **Tuesday: [Features and imputation slides](Lectures/12-features-and-imputation.pptx)** and the **[triage features cookbook](https://dssg.github.io/triage_cookbook/configure/features.html)**
 
-**Wednesday: Check-ins**
-
 **Thursday: Triage office hours and Q&A**
+
+**Friday lab: Check-ins**
 
 ---
 
 ## Week 9 — ML modeling in practice
-*Oct 27, 28, 29*
+*Oct 27, 29, 30*
 
-> 📌 **Due Monday, Oct 26: V0 baseline results and planned feature list**
+> 📌 **Due Wednesday, Oct 28: V0 baseline results and planned feature list**
 
 Pipeline development and refinement should continue this week with a widening set of model specifications and features to explore.
 
@@ -227,31 +223,31 @@ Practical guidance on building ML models for real-world projects: how should you
 - Gonfalonieri, A. *Why is Machine Learning Deployment Hard?* [Online](https://towardsdatascience.com/why-is-machine-learning-deployment-hard-443af67493cd) 🔒
 - Kervizic, J. *Overview of Different Approaches to Deploying Machine Learning Models in Production.* KDnuggets. [Online](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
-**Wednesday: Check-ins**
-
 **Thursday: Project work**
+
+**Friday lab: Check-ins**
 
 ---
 
 ## Week 10 — Choosing performance metrics & evaluating classifiers, part 3
-*Nov 3, 4, 5*
+*Nov 3, 5, 6*
 
-> 📌 **Due Monday, Nov 2: V0 modeling results** — updated validation splits, features, and baseline results.
+> 📌 **Due Wednesday, Nov 4: V0 modeling results** — updated validation splits, features, and baseline results.
 
 **Tuesday: No class (Election Day)**
-
-**Wednesday: Check-ins**
 
 **Thursday: [Model selection, part 3](Lectures/15-ml-in-practice-and-model-selection-part-3.pptx)**
 
 We return to model selection, digging into how to winnow a large number of model specifications down to one or a handful that perform "best" for some definition of best. We focus on the common case of ML problems with a strong time-series component and the desire to balance performance and stability in model selection.
 
+**Friday lab: Check-ins**
+
 ---
 
 ## Week 11 — Model interpretability and ethics
-*Nov 10, 11, 12*
+*Nov 10, 12, 13*
 
-> 📌 **Due Monday, Nov 9: weekly project update**
+> 📌 **Due Wednesday, Nov 11: weekly project update**
 
 By this week, project work should begin to focus more heavily on evaluation, model selection, and interpretation.
 
@@ -272,18 +268,18 @@ Model interpretability can be thought of at two levels: global (how the model wo
 - Lundberg, S.M. and Lee, S. *A Unified Approach to Interpreting Model Predictions.* NeurIPS 2017. [Online](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions)
 - Lundberg, S.M., Erion, G., et al. *Explainable AI for Trees.* arXiv:1905.04610. [Online](https://arxiv.org/pdf/1905.04610.pdf)
 
-**Wednesday: Check-ins**
-
 ### Ethics workshop (Thursday)
 
 **[Ethics workshop slides](Lectures/EthicsOverview.pptx)** — a workshop discussion of ethical issues in designing ML systems.
 
+**Friday lab: Check-ins**
+
 ---
 
 ## Week 12 — Bias and fairness
-*Nov 17, 18, 19*
+*Nov 17, 19, 20*
 
-> 📌 **Due Monday, Nov 16: weekly project update** — feature importances and crosstabs.
+> 📌 **Due Wednesday, Nov 18: weekly project update** — feature importances and crosstabs.
 
 By this week you should be finalizing your modeling results and beginning to look at bias and disparities in your models.
 
@@ -308,9 +304,9 @@ Just as important as assessing whether your model is making accurate predictions
 - Zafar, M., Valera, I., et al. *Fairness Constraints: Mechanisms for Fair Classification.* PMLR 2017. [Online](http://proceedings.mlr.press/v54/zafar17a.html)
 - Chouldechova, A. *Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments.* Big Data, 2017. [Online](https://www.liebertpub.com/doi/10.1089/big.2016.0047)
 
-**Wednesday: Check-ins**
-
 **Thursday: Project work**
+
+**Friday lab: Check-ins**
 
 ---
 
@@ -319,7 +315,7 @@ Just as important as assessing whether your model is making accurate predictions
 
 > 📌 **Due Monday, Nov 23: weekly project update** — bias and disparity results.
 >
-> **No class Wednesday or Thursday — Thanksgiving.**
+> **No class Thursday or Friday — Thanksgiving break.**
 
 This week your group should be continuing to investigate any disparities in your model results, as well as performing any other necessary post-modeling analyses.
 
@@ -330,13 +326,13 @@ A model that performs well on historical data has not yet been shown to help an 
 ---
 
 ## Week 14 — Wrap-up and final presentations
-*Dec 1, 2, 3*
+*Dec 1, 3, 4*
 
-**Tuesday:** Class wrap-up and time for teams to finish project work.
-
-**Wednesday:** Final check-ins and presentation prep.
+**Tuesday:** Class wrap-up, final check-in, and presentation prep.
 
 **Thursday: Final presentations.** Each group presents their applied ML project as described on the [project page](project.md#5-final-presentation).
+
+**Friday lab:** Presentation overflow and project work time for teams finishing their reports.
 
 ---
 
