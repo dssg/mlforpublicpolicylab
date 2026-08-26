@@ -50,15 +50,15 @@ Project work uses a shared data and ML infrastructure provided for the class. Da
 <img src="img/rayidphoto.png" alt="Rayid Ghani" width="150">
 
 **Rayid Ghani** — GHC 8023  
-Office hours: Tuesday 12:30–1:30pm, Wednesday 4–5pm  
+Office hours: Tuesday 4-5pm, Wednesday 4–5pm  
 Email to meet outside these hours.
 
 ### Teaching Assistant
 
 <img src="img/logan.jpeg" alt="Logan Crowl" width="150">
 
-**Logan Crowl** — HBH 3024 (Slack if you can't find it)  
-Office hours: Monday 1:30–2:30pm, Thursday 2:15–3:15pm
+**Logan Crowl** — HBH 2007 (Slack if you can't find it)  
+Office hours: Monday 11-12pm, Thursday 10-11am
 
 ## Previous versions
 
