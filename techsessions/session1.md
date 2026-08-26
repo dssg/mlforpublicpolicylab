@@ -6,7 +6,7 @@
 ## Quick Recap
 1. Make sure you are on cmu vpn (Full VPN group)
 2. Connect to class server: mlpolicylab.dssg.io (command line/terminal/putty) : type `ssh your_andrew_id@server.mlpolicylab.dssg.io`
-3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type `psql -h database.mlpolicylab.dssg.io -U YOUR_ANDREW_ID group_students_database`
+3. Connect to database server: mlpolicylab.db.dssg.io If you're on the server, type `psql -h database.mlpolicylab.dssg.io -U YOUR_ANDREW_ID group_students`
 4. Setting up dbeaver or dbvisualizer (a visual ide to the database) [instructions are here](dbeaver_instructions.pdf)
 
 ## Detailed instructions** 
@@ -28,26 +28,26 @@ andrewid@mlpolicylab-94889:~$ pwd
 ### Reaching the Course Database
 Most of the data for the course projects will be provided in a postgres database. Once you're connected to the server, you can reach the database using the psql command line utility. The database server is at `database.mlpolicylab.dssg.io` and your username is again your Andrew ID. Here's an example of connecting to the database:
 ```
-andrewid@mlpolicylab-94889:~$ PAGER='less -S' psql -h database.mlpolicylab.dssg.io -U {YOUR_ANDREW_ID} group_students_database 
+andrewid@mlpolicylab-94889:~$ PAGER='less -S' psql -h database.mlpolicylab.dssg.io -U {YOUR_ANDREW_ID} group_students 
 psql (11.6 (Ubuntu 11.6-1.pgdg18.04+1), server 11.5)
 SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
 Type "help" for help.
 
-group_students_database=> SELECT 1+1 AS foo;
+group_students=> SELECT 1+1 AS foo;
  foo
 -----
    2
 (1 row)
 
-group_students_database=> SELECT CURRENT_USER;
+group_students=> SELECT CURRENT_USER;
  current_user
 --------------
  {your_andrew_id}
 (1 row)
 
-group_students_database=> \q
+group_students=> \q
 ```
-Here, we're connecting to an empty `group_students_database` for the time being, but once the teams are formed, we'll follow up with instructions on connecting to a team database populated with some data.
+Here, we're connecting to an empty `group_students` for the time being, but once the teams are formed, we'll follow up with instructions on connecting to a team database populated with some data.
 
 Your password for the database can be found in the `.pgpass` file in your home directory (it's everything after the last colon). While you can only reach the database from the course server, you can use a local SQL client like [dbeaver](https://dbeaver.io/) or [datagrip](https://www.jetbrains.com/datagrip/) by establishing an SSH tunnel through the server (see details below).
 
@@ -60,7 +60,7 @@ A couple of pointers on getting set up:
 - You'll need to connect via an SSH tunnel, so when you set up your database connection, look for the SSH tab and set up the tunnel to `server.mlpolicylab.dssg.io` with your Andrew ID and private key file (choosing "public key" as the authentication method)
 - If you installed it, be sure to choose SSHJ as the method under advanced
 - Then you can test your SSH tunnel by clicking the button below (you might need to make your window larger to see it)
-- Once your tunnel is working, under the general tab you can set up your database connection using `database.mlpolicylab.dssg.io` for the server, your Andrew ID, and the password from your `.pgpass` file on the server (everything after the last colon). The database name should be your group database (for now, `group_students_database` but you'll need to change to your group database once that's assigned)
+- Once your tunnel is working, under the general tab you can set up your database connection using `database.mlpolicylab.dssg.io` for the server, your Andrew ID, and the password from your `.pgpass` file on the server (everything after the last colon). The database name should be your group database (for now, `group_students` but you'll need to change to your group database once that's assigned)
 - Click the button to test the full connection and if that works finish setting up the database
 - Once done, in the left pane you'll be able to browse the database structure and in the right pane run SQL queries (you may need to create a new SQL editor)
 
