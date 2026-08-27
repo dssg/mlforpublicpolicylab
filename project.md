@@ -6,8 +6,8 @@ Beginning in the second week of class, groups of about four students work togeth
 
 ## Project Descriptions
 This semester, we have set up two projects
-1. [Reducing Jail Rebookings through Proactive Mental Health Outreach](mcrt.md)
-2. [Supporting Advocacy for Civil Rights by Prioritizing State Bills that are likely to Pass](bills.md)
+1. [Reducing Jail Rebookings through Proactive Mental Health Outreach](project/mcrt.md)
+2. [Supporting Advocacy for Civil Rights by Prioritizing State Bills that are likely to Pass](project/bills.md)
 
 > ⚠️ **Data security.** Project data is sensitive and must remain in the secure computing environment provided for the course. See the [data security policy](policies.md#data-security) — violations result in automatic failure of the class.
 
