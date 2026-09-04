@@ -485,7 +485,7 @@ This has several advantages:
    
    ![](img/vscode-enter-venv-path.png)
 
-   5. After a moment, your selected python interpreter should be activated. This should be indicated in the status bar at the bottom of your VSCode window, which will show the name of the virtual environment (`mlpolicyclass`):
+   5. After a moment, your selected python interpreter should be activated. This should be indicated in the status bar at the bottom of your VSCode window, which will show the name of the virtual environment, `mlpolicyclass` (note, your version of VSCode may look different, so don't worry if you don't see the environment at the bottom at this point):
    
    ![](img/vscode-changed-interpreter.png)
 
@@ -504,7 +504,7 @@ This has several advantages:
 
    3. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
    
-   ![](img/vscode-run-python.png)
+   ![](img/vscode-run-python-updated.png)
 
    
 
