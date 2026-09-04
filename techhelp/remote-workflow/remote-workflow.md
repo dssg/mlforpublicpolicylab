@@ -16,7 +16,7 @@ We're providing setup instructions and support for "good enough" tools for each 
 2. Jupyter notebooks:
   - For now, the easiest way to use jupyter notebooks is through ``VSCode''
   - If you're interested, you can use parts of this tutorial to set up ``Jupyter`` through a browser on your local machine (but we won't go through it).
-  - Many Python IDEs (such as, Pycharm) have good Jupyter support - feel free to use one of these!
+  - Many Python IDEs (such as Pycharm) have good Jupyter support - feel free to use one of these!
 3. Share code with your team:
   - Use the git command line interface to push to your team github repository.
   - Many IDEs (including VSCode) have git integration.
@@ -38,7 +38,7 @@ ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
 Once there, confirm that you're in the right place with the command:
 ``echo "$USER@$HOSTNAME"``
 
-This should return your andrew id at the server hostname (`hyrule`)
+This should return your andrew id at the server hostname (`mlpolicylab-94889`)
 
 :warning: 
 If you get something else, let us know.
@@ -80,7 +80,7 @@ We'll be setting up VSCode as an editor to work with files remotely over SSH dur
 1. WSL vs Windows Command Prompt -- What's the difference?
 2. Navigating the course server using the command line
 3. Using VSCode for remote development
-4. Using Jupyter remotely, with SSH tunneling
+4. Using Jupyter remotely, with SSH tunneling (not covered in this session)
 5. Remote development concepts - how exactly does all of this work?
 
 
@@ -137,7 +137,7 @@ A relative path specifies the path to some folder or file, *relative to* the cur
 To use a relative path, specify a path *not* starting with a `/`
 
 An example:
-- I start in `/home/krodolfa/mlforpublicpolicylab`
+- I start in `/home/rayid/mlforpublicpolicylab`
 - I use `cd project` (note: doesn't start with `/`)
 - I've changed directories to `/home/krodolfa/mlforpublicpolicylab/project`
 
@@ -150,7 +150,7 @@ In Linux, each user has a "home directory". This is the default directory a user
 You can access your home directory with the command `cd ~`. 
 
 You can also specify absolute paths in a similar way:
-- My home directory is `/home/krodolfa`
+- My home directory is `/home/rayid`
 - I can access the folder `mlforpublicpolicylab` stored in my home directory with `cd ~/mlforpublicpolicylab`
 
 #### Anatomy of a Linux command
