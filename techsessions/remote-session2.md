@@ -22,7 +22,6 @@ We're providing setup instructions and support for "good enough" tools for each 
   - SQL: In other tutorials, we've introduced psql (for writing sql on the server) and DBeaver or DBVisualizer (on your laptop).
 2. Jupyter notebooks:
   - For now, the easiest way to use jupyter notebooks is through ``VSCode''
-  - If you're interested, you can use parts of this tutorial to set up ``Jupyter`` through a browser on your local machine (but we won't go through it).
   - Many Python IDEs (such as, Pycharm) have good Jupyter support - feel free to use one of these!
 3. Share code with your team:
   - Use the git command line interface to push to your team github repository. We'll do a github refresher next week.
@@ -49,11 +48,6 @@ Let's try repeating what we did last week to get started:
 Using WSL (on Windows) or terminal (on Mac/Linux), connect to the server via the command below (replacing the parameters in curly brackets (`{...}`) with your info):
 ```bash
 ssh {andrew_id}@server.mlpolicylab.dssg.io
-```
-or if your private key is in a special place,
-
-```bash
-ssh -i {/path/to/private-key} {andrew_id}@server.mlpolicylab.dssg.io
 ```
 
 Once there, confirm that you're in the right place with the command:
@@ -258,7 +252,7 @@ If you make changes and exit, Nano will display the following message, asking if
 7. Open the file you created in step 6 with `nano`, and put some text in it:
    1. `nano a_test_file`
    2. Type something you learned in this tech session
-   3. press `ctrl+c`, then `y` to save and exit
+   3. press `ctrl+x`, then `y`, then `enter` to save and exit
 
 Let's use `cat` to make sure our changes worked:
 
@@ -292,6 +286,10 @@ Moves the file or folder at source to destination.
 
 10. Move the copy to your home directory: `mv another_one ~/`
 
+Let's check that the file made it, using `ls`:
+
+11. Confirm the copy is in your home directory: `ls ~/another_one`
+
 Finally, let's delete that file with `rm` (turns out we didn't need it after all)
 
 ```bash
@@ -299,7 +297,7 @@ rm {file}
 ```
 Remove (delete!) a file
 
-11. Remove the copy file: `rm ~/another_one`
+12. Remove the copy file: `rm ~/another_one`
 
 ### Background tasks with screen
 
@@ -420,8 +418,7 @@ This has several advantages:
    
    ![](img/vscode-connect-to-host.png)
 
-   3. Enter `ssh -i {andrewid}@server.mlpolicylab.dssg.io`
-      if you have trouble here,m try `ssh -i {path to your private key} {andrewid}@server.mlpolicylab.dssg.io` 
+   3. Enter `ssh {andrewid}@server.mlpolicylab.dssg.io`
    
    ![](img/vscode-enter-login.png)
 
@@ -444,7 +441,15 @@ This has several advantages:
    5. You should be connected to the course server. This should be indicated in the bottom of your VSCode window: 
    ![](img/vscode-ssh-connected.png)
 
-5. Open a workspace folder:
+5. Install the `Python` extension on the course server:
+
+    VSCode installs extensions separately for each remote host, so the `Python` extension you installed locally won't be available in your SSH session until you install it there too.
+
+   1. Press `ctrl+shift+x` (Linux/Windows) or `⌘+shift+x` (MacOS) to open the extensions menu
+   2. Search for the microsoft `Python` extension and click `Install in SSH: server.mlpolicylab.dssg.io`
+   3. Check that the `Jupyter` extension is also installed on the host, and install it the same way if it isn't.
+
+6. Open a workspace folder:
 
     Now that VSCode is connected via SSH, you can browse all of the files and folders on the course server. In this step, we select a folder containing some code to edit and test.
 
@@ -460,7 +465,7 @@ This has several advantages:
    
    ![](img/vscode-select-folder.png)
 
-6. Select your python virtual environment:
+7. Select your python virtual environment:
    
    VSCode can be configured to automatically run python code in a virtual environment. Here, we'll select and activate our group virtual environments.
 
@@ -476,74 +481,32 @@ This has several advantages:
    
    ![](img/vscode-click-find.png)
 
-   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python` (`/class/{andrew_id}/.pyenv/shims/python`). 
+   4. Enter the path to the python executable in your virtual environment: `/path/to/your/environment/bin/python` (`/class/{andrew_id}/.pyenv/versions/mlpolicyclass/bin/python`). 
    
    ![](img/vscode-enter-venv-path.png)
 
-   5. After a moment, your selected python interpreter should be activated. This should be indicated in the bottom of your VSCode window:
+   5. After a moment, your selected python interpreter should be activated. This should be indicated in the status bar at the bottom of your VSCode window, which will show the name of the virtual environment (`mlpolicyclass`):
    
    ![](img/vscode-changed-interpreter.png)
 
-7. Run python!
-   1. Open the folder menu and select a python file (or press `ctrl+n` (Linux/Windows) or `⌘+n` (MacOS) to create a new one) 
+8. Run python!
+   1. `mlpolicyclass` is an empty virtual environment, so you'll need to install packages before importing them. Open a terminal in VSCode (`Terminal > New Terminal`) and install the version of pandas that triage uses, along with `ipykernel`:
+   
+   ```bash
+   pip install pandas==2.0.3 ipykernel
+   ```
+
+   `ipykernel` lets VSCode use `mlpolicyclass` as the kernel for Jupyter notebooks.
+
+   2. Open the folder menu and select a python file (or press `ctrl+n` (Linux/Windows) or `⌘+n` (MacOS) to create a new one) 
    
    ![](img/vscode-select-python.png)
 
-   2. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
+   3. Click the green "play" button at the top of your window. This starts a new terminal session, activates your virtual environment, and runs your python code. 
    
    ![](img/vscode-run-python.png)
 
    
-## Remote development with Jupyter
-
-We're not going to cover this becuase you can use vscode for notebooks but we are keeping it here for those of you interested in doing it over a browser later on in the semester.
-
-![](img/class_jupyter.png)
-
-### How does it work?
-
-Conceptually, this similar to how VSCode works over SSH:
-- The remote machine (our course server) hosts a jupyter notebook server that does things like loads files, runs python, activates virtual environments
-- Your web browser connects to that server and presents a frontend interface for opening, editing, and running notebooks
-- These connect using SSH (inside the CMU VPN)
-  
-### Setting it up
-1. Connect to the CMU VPN
-2. Connect to the course server using SSH
-3. Find an open port on the course server to send your Jupyter traffic through:
-   1. In the terminal (on the course server) type `ss -lntu`. This will list all ports 
-   2. Pick a port number between 1024 and 65535 that is NOT on that list.
-   
-   ![](img/jupyter-port-selection.png)
-   (numbers in this box are ports currently in use)
-   
-4. Change to your group project directory (e.g., `/class/groups/{group_name}`) to activate your virtual environment 
-   1. If you want to confirm your virtualenv has properly activated, run `which python` -- this should return `/class/{andrew_id}/.pyenv/shims/python`. If you get anything different (or nothing at all), your virtualenv hasn't activated correctly!
-5. On the course server, start your notebook server: 
-   1. In the server terminal (inside SSH), run `jupyter notebook --no-browser --port {your port from step 3}` (note: to ensure this persists, you may want to start your server in a `screen` session as discussed above!)
-   2. When the server starts, take note of the URL printed in the server terminal output:
- 
-   ![](img/jupyter-token.png)
-   (the token is printed multiple times)
-6. On your local machine, set up an SSH tunnel. This will allow your web browser (on your local computer) to reach your Jupyter notebook server (on the course server):
-   1. In a **new local** wsl/*nix terminal (not via ssh): type `ssh -i {path to your private key} -N -L localhost:{your port from step 3}:localhost:{your port from step 3} {andrew_id}@server.mlpolicylab.dssg.io`
-7. Open the notebook on your local machine:
-   1. Open a web browser and navigate to URL generated when you started the server, including port and token (e.g., `http://localhost:{your port from step 3}?token={some long token}`). If `localhost` doesn't work, you may want to try `127.0.0.1` or `0.0.0.0` instead.
-   2. Note that if you're re-opening jupyter after a while, it may take you to a login page asking you to enter the token generated in step 4.2. Enter that token to proceed.
-   ![notebook browser login](/techhelp/img/jupyter-login.png)
-   3. In the next screen (which should be a view of the folders and files in your working directory):
-      - To create a new notebook, click the `New` dropdown, and select `Python 3`. This will create a new notebook using your group's virtual environment.
-      - Or you can double click an existing notebook to open it.
-8. **IMPORTANT: Be sure to explicitly shut down the kernels when you're done working with a notebook.** Leaving "zombie" notebook kernels open can use a lot of unneeded resources! 
-
-![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
-
-### Shutting down
-You'll need to do two things to shut down your notebook server:
-1. Kill the notebook server on the remote machine (return to the terminal/screen window where the server is running and type control-C then `y` when prompted if you reall want to shut down)
-1. Close the SSH tunnel on your local machine: on linux/macos/windows wsl, you can do so by running `ps aux | grep {YOUR_PORT}` to find the process id (PID) then using `kill {PID}`, or alternatively closing the terminal session you used to start it. If you're using putty or powershell on windows by any chance, you should simply be able to close the window where you started the tunnel.
-
-
 
 ## Understanding the class remote workflow
 
@@ -564,7 +527,6 @@ External computers cannot connect directly to the course server.
 We can use SSH to get inside this network. We use SSH in two main ways:
 - We use SSH to access the course server terminal. We can use this to access files stored on the server, and run programs like `python`, `psql`, `nano`, etc.
 - We use SSH to open tunnels through the course server, to the course database. An SSH tunnel allows a client computer (ex: your laptop) to connect securely to any application accessible from a remote server (ex: our course server). For example:
-  - We run Jupyter notebook servers on the course server. We can use an SSH tunnel to open hosted notebooks on our local computers
   - The course server can connect to the course database. We can use an SSH tunnel to allow local applications like DBeaver to connect to the course server, via the course server.
 
 Interested in a deeper dive? Here's an article on [SSH tunneling](https://www.ssh.com/ssh/tunneling/).
