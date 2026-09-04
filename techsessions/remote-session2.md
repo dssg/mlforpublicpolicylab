@@ -375,6 +375,38 @@ Once you've assigned a name, you can use it to reattach your screen sessions, wh
 
 - You can use `screen` (and any of the utilities introduced here) in your VSCode terminal. Just press `ctrl+c` to exit your python session (if you're in one), and you'll be able to enter these commands just like a regular terminal session.
 
+### tmux
+
+`screen` is the class default and everything above works. `tmux` is the same idea with a nicer split-pane model. You can choose to use either one.
+
+```bash
+tmux new -s dengue           # start a named session
+# ... start your long job ...
+# Ctrl-b then d              # detach; the job keeps running
+tmux ls                      # list sessions
+tmux attach -t dengue        # come back
+tmux kill-session -t dengue  # done
+```
+
+`Ctrl-b` is the prefix: press and release, *then* press the next key.
+
+| Task | screen | tmux |
+| --- | --- | --- |
+| Start named session | `screen -S name` | `tmux new -s name` |
+| Detach | `Ctrl-a` `d` | `Ctrl-b` `d` |
+| List | `screen -ls` | `tmux ls` |
+| Reattach | `screen -r name` | `tmux attach -t name` |
+| New window | `Ctrl-a` `c` | `Ctrl-b` `c` |
+| Next window | `Ctrl-a` `n` | `Ctrl-b` `n` |
+| Split vertically | `Ctrl-a` `\|` | `Ctrl-b` `%` |
+| Split horizontally | `Ctrl-a` `S` | `Ctrl-b` `"` |
+| Scroll back | `Ctrl-a` `Esc` | `Ctrl-b` `[` (`q` to exit) |
+| End session | `exit` | `exit` |
+
+### Sharing the server
+
+Everyone in the class is on `mlpolicylab-94889`. Before launching something big, check `htop`. At the end of the week, run `screen -ls` (or `tmux ls`) and kill what you're not using. Close VS Code windows you've finished with — each connection leaves a `~/.vscode-server` process running.
+
 
 ## Remote development with VSCode
 
@@ -511,6 +543,8 @@ This has several advantages:
 ## Understanding the class remote workflow
 
 ![Basic Project Workflow](https://dssg.github.io/hitchhikers-guide/curriculum/setup/software-setup/imgs/tech_workflow.png)
+
+The architecture above exists to make sure that the **confidential project data stays inside the secure network.** Every tool choice in this session follows from that.
 
 ### Your machine is a client
 
