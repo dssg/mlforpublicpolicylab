@@ -13,9 +13,9 @@ The JoCo MHC hopes break this cycle of incarceration by identifying individuals 
 
 
 ## The Data
-Through our partnership, the county provided administrative data from their mental health center, jail system, police arrests, and ambulance runs, which have been loaded into a database for your project. In the database, the table `raw.jocojococlient` contains information matching records across different systems (done by JoCo). The `joid` column provides the resulting match id, while `source` indicates the system and column the record came from. The `sourceid` or `hash_sourceid` column provides the join key back into each system. Note that only one may be populated depending on the data type and nature of the key.
+Through our partnership, the county provided de-identified administrative data from their mental health center, jail system, police arrests, and ambulance runs, which have been loaded into a database for your project. In the database, the table `raw.jocojococlient` contains information matching records across different systems (done by JoCo). The `joid` column provides the resulting match id, while `source` indicates the system and column the record came from. The `sourceid` or `hash_sourceid` column provides the join key back into each system. Note that only one may be populated depending on the data type and nature of the key.
 
-Johnson County has provided data from several systems:
+Johnson County has provided de-identified data from several systems:
 - **JCDHE**: Johnson County Department of Health encounter data
 - **KDOC**: Kansas Dept. of Corrections (state-level), including some probation data
 - **AIMS**: Automated Information Mapping System: public jail booking information
@@ -37,9 +37,3 @@ A few notes to keep in mind as you work with the data:
     - Additionally, the pre-trial assessment information in `cleaned.jocojimspretrialassessdata` includes `assessment_mh_flag` and `substance_flag` columns to indicate whether a mental health need or substance abuse issue was identified at the time of the assessment.
 - In the MED-ACT data, you'll find text columns indicating the complaint that led to the response (`chiefcomplaint`) as well as the impressions of the first responders (`primaryimpression` and `secondaryimpression`)
 - There are several datetime columns in the MEDACT data incidating several steps in the process of the ambulance run.
-
-
-### A few other resouces
-- [Adult Criminal Process in Johnson County](joco_docs/joco_crimpro.pdf)
-- [Some Acronyms](joco_docs/joco_acronyms.pdf)
-- [JCMHC services overview](joco_docs/joco_services.pdf)
