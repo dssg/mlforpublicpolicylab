@@ -76,7 +76,7 @@ We'll also set aside about 30 minutes on Tuesday for you to meet with your proje
 
 **Thursday: Project work** — data exploration, scoping, and proposal planning.
 
-**Friday lab: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1qIlxS9vJdAgsu-CJK-bx1tTg4p_y0mYfokDyHJRhfAI/edit)**
+**Friday lab: [Tech session — git and GitHub](https://docs.google.com/presentation/d/1LRNJrdNbLNN5wqGKFPDnsUNxEAaHyxGvNF5giXWIcxY/edit?slide=id.p#slide=id.p)**
 
 A tutorial and refresher on using GitHub for your project.
 
