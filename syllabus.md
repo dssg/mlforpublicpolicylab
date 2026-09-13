@@ -97,7 +97,7 @@ Distinct from initial scoping, a true analytical formulation of your policy prob
 
 **Optional:**
 - Ameisen, E. *Always Start with a Stupid Model, No Exceptions.* [Online](https://blog.insightdatascience.com/always-start-with-a-stupid-model-no-exceptions-3a22314b9aaa)
-- Ramakrishnan, S. *Create a Common-Sense Baseline First.* [Online](https://towardsdatascience.com/first-create-a-common-sense-baseline-e66dbf8a8a47) 🔒
+- Ramakrishnan, S. *Create a Common-Sense Baseline First.* [Online](https://medium.com/data-science/first-create-a-common-sense-baseline-e66dbf8a8a47) 
 - Provost, F. and Fawcett, T. *Data Science for Business.* O'Reilly, 2013. Chapter 2: Business Problems and Data Science. [Online](https://learning.oreilly.com/library/view/data-science-for/9781449374273/ch02.html) 🔒
 
 **Thursday: [Building ML pipelines](Lectures/09-Machine-Learning-Pipelines.pptx)**
