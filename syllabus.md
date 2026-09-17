@@ -108,7 +108,7 @@ End-to-end ML pipelines can quickly become unwieldy with several moving pieces, 
 - Koen, S. *Architecting a Machine Learning Pipeline.* [Online](https://towardsdatascience.com/architecting-a-machine-learning-pipeline-a847f094d1c7) 🔒
 - Hermann, J. and Del Balso, M. *Meet Michelangelo: Uber's Machine Learning Platform.* [Online](https://eng.uber.com/michelangelo/)
 
-**Friday lab: [Tech session — Python and SQL](techsessions/python_sql_tech_session.ipynb)**
+**Friday lab: [Tech session Notebook — Python and SQL](techsessions/python_sql_tech_session.ipynb)**
 
 ---
 
