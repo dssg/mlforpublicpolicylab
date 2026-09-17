@@ -15,7 +15,7 @@
 - **[Syllabus](syllabus.md)** — detailed weekly topics and required/optional readings
 - **[Project](project.md)** — group project structure, assignments, and deliverables
 - **[Policies & grading](policies.md)** — grading breakdown, data security, AI use, attendance, CMU resources
-- **[Tech setup](techhelp/)** — server access, database, and environment instructions
+- **[Tech setup and Lab Sessions](techsessions/)** — server access, database, and environment instructions
 
 **Assignments are submitted through [Canvas](https://canvas.cmu.edu/courses/56402).** Class communication and announcements happen on Slack and by email. Everything else (schedule, slides, readings, tech instructions) is in this repo.
 
