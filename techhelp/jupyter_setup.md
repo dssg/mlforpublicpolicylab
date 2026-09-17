@@ -23,7 +23,7 @@ Although not a good environment for running your ML pipeline and models, jupyter
 
 One important note: **be sure to explicitly shut down the kernels when you're done working with a notebook** (you can do this from the notebook directory listing: see the figure below) as "zombie" notebook sessions can end up using up a lot of resources!
 
-![notebook shutdown](/techhelp/img/jupyter-shutdown.png)
+![notebook shutdown](img/jupyter-shutdown.png)
 
 ## Starting up the server
 On the course server, you'll want to choose an open port for your notebook server (so you can consistently access it in the same place). You can see the ports currently in use with:
@@ -46,7 +46,7 @@ Your group name is bills1, schools1, etc.
 
 Note that whatever directory you're in when you start the server is where your notebooks will be stored. Starting the server will print out a message indicating that the server is starting and giving you a token you can use to access it, which looks something like this:
 
-![notebook server startup](/techhelp/img/jupyter-terminal.png)
+![notebook server startup](img/jupyter-terminal.png)
 
 Take note of the token (outlined with the red box in the image), as you'll need this to log in.
 
@@ -63,7 +63,7 @@ Running this command won't look like it did anything because it's just opening a
 
 Finally, open a browser of your choice on your local machine and navigate to http://localhost:8888/ and you should get a jupyter notebook login page asking for the token that was generated when you started the server (if this doesn't work, you might also try http://0.0.0.0:8888/ or http://127.0.0.1:8888/ ):
 
-![notebook browser login](/techhelp/img/jupyter-login.png)
+![notebook browser login](img/jupyter-login.png)
 
 If you successfully log in, you should see a directory listing where you started the notebook server on the remote server allowing you to create new python files.
 
