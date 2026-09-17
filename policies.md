@@ -20,9 +20,25 @@ Deliverable descriptions live on the [project page](project.md).
 
 ## Your responsibilities
 
-### Attendance
+### Attendance and Participation
 
 Much of this course is focused on discussion with your classmates, so attending each session matters both for what you get out of the course and for what others get out of it. You're expected to attend every session, and participation factors into your grade as described above. If something comes up that requires you to miss a class — illness, conferences, and so on — please let one of the course staff know in advance.
+
+You may miss up to **3 sessions** and still be considered for full participation
+credit; beyond that, participation credit is reduced.
+
+Discussion is a critical part of this class. It is how a lot of the learning
+happens, and it is how real projects actually work. We want to
+encourage you, and give you practice, in being comfortable and effective in doing that. The participation grade credits the effort and work you put into this
+class, in and out of the classroom.
+
+That said, people differ in how comfortable they are speaking in front of a
+group, and speaking is not the only way to participate. Beyond attending, participation is counted across speaking and discussing content in class, and responding to Slido polls and taking part in in-class activities.
+
+**If speaking up in class is difficult for you, come talk to me.** I would much
+rather find a version of participation that works for how you work than have you
+sit through the semester uncomfortable — and office hours are a good place to
+practise the skill in a lower-stakes setting.
 
 ### Academic integrity
 
