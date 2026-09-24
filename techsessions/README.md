@@ -12,6 +12,7 @@
 - **[Materials from week 2 tech session - remote workflows](../techsessions/remote-session2.md)**
 - **[Slides from week 3 tech session - git](https://docs.google.com/presentation/d/1LRNJrdNbLNN5wqGKFPDnsUNxEAaHyxGvNF5giXWIcxY/edit)**
 - **[Notebook for week 4 Python + SQL Tech Session](python_sql_tech_session.ipynb)**
+- **[Week 5 Tech Session on Triage Setup](session5-triage.md)**
   
 ## ssh
 `ssh your_andrew_id@server.mlpolicylab.dssg.io`
