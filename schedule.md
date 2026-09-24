@@ -30,5 +30,3 @@ Assignments listed in the "Due" column are due at the start of the listed day un
 | Finals | Dec 9 |  |  |  | Final report, code, repo, documentation (Wed) |  |
 
 <!-- END SCHEDULE TABLE -->
-
-> **Verify against the official calendar.** These dates are shifted forward from the Fall 2025 offering and assume classes begin Tuesday, Aug 25, with fall break Oct 13–16 and Thanksgiving break Nov 25–27. Confirm against the [CMU academic calendar](https://www.cmu.edu/hub/calendar/) before the semester starts, particularly the last day of classes and the finals-week report deadline.
