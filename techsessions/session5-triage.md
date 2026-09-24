@@ -15,11 +15,11 @@ The purpose of this session is to introduce everyone to [Triage](http://github.c
 3. Run the colab notebook, starting from the section "Running Triage". The notebook will allow you to quickly make changes to the configuration, rerun triage, and become familiar with how it works.
 4. Get triage set up on the server in your virtual environment.
    - You should already have it installed from last time. If not, do `pip install triage`
-   - [a sample config file for donorschoose is available to start with](triage_session/donors_small_config.yaml) - copy the sample config file there (you can use VSCode to create a file and copy and paste for example)
-   - create a database.yaml for your individual donorschoose database in that directory (the credentials are the same as earlier except for the database name - it is donorschoose_yourandrewid (donorschoose_ghani for example)
+   - A sample yaml config file for your projectis is in your project github repo to start with
+   - you should also have (or can create) the database.yaml for your project
    - create a run.py to run triage (you can use the code [here](triage_session/sample_run.py) as a starting point and modify it with the right filepaths.)
 6. Run triage through your run.py file (python run.py)
-7. Look at the results using SQL (and later using this notebook)
+7. Look at the results using SQL
 
 ## Useful Triage Resources
 - [github repo](http:github.com/dssg/triage) - has code and links to documentation
