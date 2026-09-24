@@ -31,14 +31,14 @@ def run_triage():
        dbconfig = yaml.safe_load(dbf)
  
   print(dbconfig)
-  db_url = URL(
-              'postgres',
-              host=dbconfig['host'],
-              username=dbconfig['user'],
-              database=dbconfig['db'],
-              password=dbconfig['pass'],
-              port=dbconfig['port'],
-          )
+  db_url = URL.create(
+        drivername='postgresql',
+        host=dbconfig['host'],
+        username=dbconfig['user'],
+        database=dbconfig['db'],
+        password=dbconfig['pass'],
+        port=dbconfig['port'],
+    )
 
   db_engine = create_engine(db_url)
 
