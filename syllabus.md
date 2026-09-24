@@ -134,7 +134,7 @@ In most cases, a vast array of methods — each with tunable hyperparameters —
 **Friday lab: Tech session — triage configuration**
 
 An introduction to `triage`, the ML pipeline toolkit we use for the class project. See also the [triage documentation](https://dssg.github.io/triage/).
-- [Materials for the session](techsessions/(session5-triage.md))
+- [Materials for the session](techsessions/session5-triage.md)
 ---
 
 ## Week 6 — Choosing performance metrics & evaluating classifiers, part 2
