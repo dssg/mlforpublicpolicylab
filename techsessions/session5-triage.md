@@ -115,7 +115,6 @@ Then run triage inside a `screen` session using the run.py file you created and 
 - **Empty cohorts.** If `rep.cohorts()` shows zero entities on some dates, your
   temporal config and your data don't overlap the way you think they do.
 
-
 ## Useful Triage Resources
 - [github repo](http:github.com/dssg/triage) - has code and links to documentation
 - [colab demo notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb) has a lot of inline documentation that will be useful
