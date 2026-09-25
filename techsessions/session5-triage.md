@@ -8,6 +8,8 @@ on your own project.
 2. Make sure everyone has triage package installed in their virtual environment
 3. Get everyone familiar with running triage
 4. Do a first pass at setting up and running triage for your projects
+
+**Make sure to submit the [tech session assignment on canvas](https://canvas.cmu.edu/courses/56402/assignments/1034119) before you leave (or talk to us if you're having trouble)**
    
 ---
 
