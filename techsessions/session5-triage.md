@@ -22,7 +22,7 @@ the question of whether a project gets fully funded within four months. It's a
 different domain from either class project, which is the point — the structure is
 the same.
 
-## 2.Get familiar with triage in a controlled environment:  The Colab tutorial
+## 2. Get familiar with triage in a controlled environment:  The Colab tutorial
 
 Don't run all 115 cells. Work through these, and read rather than skim the markdown between them:
 
