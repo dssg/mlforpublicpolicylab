@@ -104,6 +104,16 @@ Fill in, in this order:
 
 Then run triage inside a `screen` session using the run.py file you created and the config file you've just updated.
 
+### Things that may go wrong
+
+- **YAML indentation**, especially inside the multi-line label query. It is the
+  single most common failure. You can use yaml checkers on the web to test and fix the yaml.
+- **Your label query returns the wrong columns.** It must return exactly
+  `entity_id` and `outcome`.
+- **Empty cohorts.** If `rep.cohorts()` shows zero entities on some dates, your
+  temporal config and your data don't overlap the way you think they do.
+
+
 ## Useful Triage Resources
 - [github repo](http:github.com/dssg/triage) - has code and links to documentation
 - [colab demo notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb) has a lot of inline documentation that will be useful
