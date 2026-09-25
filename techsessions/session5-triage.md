@@ -120,4 +120,4 @@ Then run triage inside a `screen` session using the run.py file you created and 
 - [colab demo notebook](https://colab.research.google.com/github/dssg/triage/blob/master/example/colab/colab_triage.ipynb) has a lot of inline documentation that will be useful
 - [Triage quickstart guide](https://dssg.github.io/triage/quickstart/)
 - [Typical project workflow](https://dssg.github.io/triage/triage_project_workflow/)
-- [Common configuration recipes](https://github.com/dssg/triage_cookbook)
+- [Common configuration recipes](https://dssg.github.io/triage_cookbook/welcome.html)
