@@ -169,12 +169,14 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 **Tuesday: [Feature engineering and imputation](Lectures/12-features-and-imputation.pptx)**
 
 **Required (Tuesday):**
-- [Short video lecture](https://www.youtube.com/watch?v=kluqz_1GN5c) and the [corresponding slides](Lectures/12-features-and-imputation.pptx)
+-  [slides](Lectures/12-features-and-imputation.pptx)
 
 **Optional:**
 - Akinfaderin, W. *Missing Data Conundrum.* [Online](https://medium.com/ibm-data-science-experience/missing-data-conundrum-exploration-and-imputation-techniques-9f40abe0fd87) 🔒
 - Zhang, A. and Casari, A. *Feature Engineering for Machine Learning.* O'Reilly, 2018. Chapter 2: Fancy Tricks with Simple Numbers. [Online](https://learning.oreilly.com/library/view/feature-engineering-for/9781491953235/) 🔒
 - Gelman, A. *Missing-data imputation.* [PDF](http://www.stat.columbia.edu/~gelman/arm/missing.pdf)
+- [Short video lecture](https://www.youtube.com/watch?v=kluqz_1GN5c)
+
 
 **Thursday: Project work**
 
