@@ -157,7 +157,7 @@ Continuing from last week, we focus on validation strategies that reflect how yo
 
 **Thursday: Temporal validation deep dive** — we meet together as a class to work through temporal validation using a few class project examples.
 
-**Friday lab: Check-ins begin.** Regular team check-ins start this week to give feedback on project progress.
+**Wednesday Check-ins begin.** Regular team check-ins start this week to give feedback on project progress.
 
 ---
 
@@ -178,9 +178,9 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 - [Short video lecture](https://www.youtube.com/watch?v=kluqz_1GN5c)
 
 
-**Thursday: Project work**
+**Wednesday Check-ins** 
 
-**Friday lab: Check-ins**
+**Thursday: Project work**
 
 ---
 
@@ -192,15 +192,16 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 ## Week 8 — Feature engineering in triage
 *Oct 20, 22, 23*
 
-> 📌 **Due Wednesday, Oct 21: modeling plan and temporal validation configuration**
+> 📌 **Due Wednesday, Oct 21 (morning): modeling plan and temporal validation configuration**
 
 This week we get concrete about translating the feature ideas from week 7 into `triage` configuration: how features are specified, how aggregations over time and entity are defined, and how imputation is handled in the pipeline.
 
 **Tuesday: [Features and imputation slides](Lectures/12-features-and-imputation.pptx)** and the **[triage features cookbook](https://dssg.github.io/triage_cookbook/configure/features.html)**
 
-**Thursday: Triage office hours and Q&A**
+**Wednesday Check-ins** 
 
-**Friday lab: Check-ins**
+**Thursday: Project Work**
+
 
 ---
 
@@ -225,9 +226,9 @@ Practical guidance on building ML models for real-world projects: how should you
 - Gonfalonieri, A. *Why is Machine Learning Deployment Hard?* [Online](https://towardsdatascience.com/why-is-machine-learning-deployment-hard-443af67493cd) 🔒
 - Kervizic, J. *Overview of Different Approaches to Deploying Machine Learning Models in Production.* KDnuggets. [Online](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
-**Thursday: Project work**
+**Wednesday: Check-ins** 
 
-**Friday lab: Check-ins**
+**Thursday: Project work**
 
 ---
 
@@ -237,6 +238,8 @@ Practical guidance on building ML models for real-world projects: how should you
 > 📌 **Due Wednesday, Nov 4: V0 modeling results** — updated validation splits, features, and baseline results.
 
 **Tuesday: No class (Election Day)**
+
+**Wednesday Check-ins** 
 
 **Thursday: [Model selection, part 3](Lectures/15-ml-in-practice-and-model-selection-part-3.pptx)**
 
@@ -274,8 +277,6 @@ Model interpretability can be thought of at two levels: global (how the model wo
 
 **[Ethics workshop slides](Lectures/EthicsOverview.pptx)** — a workshop discussion of ethical issues in designing ML systems.
 
-**Friday lab: Check-ins**
-
 ---
 
 ## Week 12 — Bias and fairness
@@ -306,9 +307,10 @@ Just as important as assessing whether your model is making accurate predictions
 - Zafar, M., Valera, I., et al. *Fairness Constraints: Mechanisms for Fair Classification.* PMLR 2017. [Online](http://proceedings.mlr.press/v54/zafar17a.html)
 - Chouldechova, A. *Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments.* Big Data, 2017. [Online](https://www.liebertpub.com/doi/10.1089/big.2016.0047)
 
+**Wednesday Check-ins** 
+
 **Thursday: Project work**
 
-**Friday lab: Check-ins**
 
 ---
 
@@ -334,7 +336,6 @@ A model that performs well on historical data has not yet been shown to help an 
 
 **Thursday: Final presentations.** Each group presents their applied ML project as described on the [project page](project.md#5-final-presentation).
 
-**Friday lab:** Presentation overflow and project work time for teams finishing their reports.
 
 ---
 
