@@ -196,7 +196,7 @@ In many real-world contexts, expressing domain expertise through thoughtful feat
 
 This week we get concrete about translating the feature ideas from week 7 into `triage` configuration: how features are specified, how aggregations over time and entity are defined, and how imputation is handled in the pipeline.
 
-**Tuesday: [Features and imputation slides](Lectures/12-features-and-imputation.pptxLectures/Features in Triage.pptx)** and the **[triage features cookbook](https://dssg.github.io/triage_cookbook/configure/features.html)**
+**Tuesday: [Feartures in Triage slides](Lectures/Features%20in%20Triage.pptx)** and the **[triage features cookbook](https://dssg.github.io/triage_cookbook/configure/features.html)**
 
 **Wednesday Check-ins** 
 
