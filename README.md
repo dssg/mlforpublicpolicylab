@@ -57,8 +57,8 @@ Email to meet outside these hours.
 
 <img src="img/logan.jpeg" alt="Logan Crowl" width="150">
 
-**Logan Crowl** — HBH 2007 (Slack if you can't find it)  
-Office hours: Monday 11-12pm, Thursday 10-11am
+**Logan Crowl** — HBH 2007 (Slack me a heads-up, so I know to look out for you.)  
+Office hours: Monday 11-12pm, Thursday 12:30-1:30pm
 
 ## Previous versions
 
