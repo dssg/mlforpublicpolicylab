@@ -19,7 +19,7 @@ This semester, we have set up two projects
 | 2 | [Peer reviews of three proposals](#2-proposal-peer-reviews) | Tue, Sep 22 | 5% |
 | 3 | [Weekly progress updates](#3-weekly-progress-updates) | Most Tuesdays | 25% |
 | 4 | [Final presentation](#5-final-presentation) | Thu, Dec 3 | 10% |
-| 5 | [Final report and code](#6-final-report) | Wed, Dec 9 | 25% |
+| 5 | [Final report and code](#6-final-report) | Wed, Dec 8 | 25% |
 
 20% of your grade is class attendance and participation and 5% is weekly feedback forms — see [policies](policies.md#grading).
 
@@ -33,18 +33,18 @@ Useful reference: the [Data Science Project Scoping Guide](https://datasciencepu
 
 ## 2. Proposal peer reviews
 
-Each student reviews three other groups' proposals. Reviews should be constructive and specific: is the problem well scoped, is the proposed formulation the right one, what would you imorove?
+Each student reviews three other groups' proposals. Reviews should be constructive and specific: is the problem well scoped, is the proposed formulation the right one, what would you improve?
 
 ## 3. Weekly Project Assignments 
 
-Short update assignments, generally due Tuesdat, that guide the check-in discussions. These typically take the form of filling results or modeling details into a handful of template slides. Over the semester these build up the technical core of the project:
+Short update assignments, generally due Tuesday, that guide the check-in discussions. These typically involve filling results or modeling details into a handful of template slides. Over the semester, these build up the technical core of the project:
 
 - **Analytical formulation, baselines, and cohort/label queries** (week 6)
 - **Modeling plan and temporal validation configuration** (week 8) — how the scope in your proposal is formulated as an ML problem, and the elements of the pipeline your group will build
 - **V0 baseline results and planned feature list** (week 9) — the specific features to be built, the underlying data, the level at which information is available, aggregation strategies over time or geography, and your plan for handling missing values
 - **V0 modeling results** (week 10)
-- **Interpretability results** (week 11)
-- **Feature importances and crosstabs** (week 12)
+- **ML results over time ** (week 11)
+- **Interpretability results** (week 12)
 - **Bias and disparity results** (week 13)
 
 Updates are graded for completeness and correctness. We expect this work to be iterative: errors identified in one week's update that are corrected by the next week results in revision of the previous score up to 80% of the total possible.
@@ -55,7 +55,7 @@ Updates are graded for completeness and correctness. We expect this work to be i
 
 ## 6. Final report
 
-Approximately 10 pages, accompanying the final presentation. It should include:
+10-15 pages, accompanying the final presentation. It should include:
 
 - An executive summary, no more than one page, succinctly describing the project, results, and recommendations.
 - An overview of the problem, its significance, and the scope and goals of the work.
