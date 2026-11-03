@@ -235,7 +235,7 @@ Practical guidance on building ML models for real-world projects: how should you
 ## Week 10 — Choosing performance metrics & evaluating classifiers, part 3
 *Nov 3, 5, 6*
 
-> 📌 **Due Wednesday, Nov 4: V0 modeling results** — updated validation splits, features, and baseline results.
+> 📌 **Due Monday, Nov 2: V0 modeling results** — updated validation splits, features, and baseline results.
 
 **Tuesday: No class (Election Day)**
 
@@ -252,7 +252,7 @@ We return to model selection, digging into how to winnow a large number of model
 ## Week 11 — Model interpretability and ethics
 *Nov 10, 12, 13*
 
-> 📌 **Due Wednesday, Nov 11: weekly project update**
+> 📌 **Due Monday, Nov 9: weekly project update**
 
 By this week, project work should begin to focus more heavily on evaluation, model selection, and interpretation.
 
@@ -282,7 +282,7 @@ Model interpretability can be thought of at two levels: global (how the model wo
 ## Week 12 — Bias and fairness
 *Nov 17, 19, 20*
 
-> 📌 **Due Wednesday, Nov 18: weekly project update** — feature importances and crosstabs.
+> 📌 **Due Monday, Nov 16: weekly project update** — feature importances and crosstabs.
 
 By this week you should be finalizing your modeling results and beginning to look at bias and disparities in your models.
 
@@ -319,7 +319,7 @@ Just as important as assessing whether your model is making accurate predictions
 
 > 📌 **Due Monday, Nov 23: weekly project update** — bias and disparity results.
 >
-> **No class Thursday or Friday — Thanksgiving break.**
+> **No class Thursday — Thanksgiving break.**
 
 This week your group should be continuing to investigate any disparities in your model results, as well as performing any other necessary post-modeling analyses.
 
