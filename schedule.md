@@ -27,6 +27,6 @@ Assignments listed in the "Due" column are due at the start of the listed day un
 | 12 | Nov 17 / 19 / 20 | [Bias and fairness](syllabus.md#week-12--bias-and-fairness) | Project work | Check-ins | Project Update 7: Understanding Your Models |  |
 | 13 | Nov 24 | [Field trials: validating ML models](syllabus.md#week-13--field-trials-validating-ml-models) | **Thanksgiving — no class** | **Thanksgiving — no class** | Project Update 8: Model Bias and Fairness | Final model choice; performance and impact on disparities |
 | 14 | Dec 1 / 3 / 4 | [Wrap-up, final check-in, and presentation prep](syllabus.md#week-14--wrap-up-and-final-presentations) | **Final presentations** | Presentation overflow / project work | Final presentation | Presentations |
-| Finals | Dec 9 |  |  |  | Final report, code, repo, documentation (Wed) |  |
+| Finals Week | Dec 8 | Report, Code, Repo due Tuesday night |  |  | Final report, code, repo, documentation (Tuesday night) |  |
 
 <!-- END SCHEDULE TABLE -->
