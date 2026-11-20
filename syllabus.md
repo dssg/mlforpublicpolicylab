@@ -286,7 +286,7 @@ Model interpretability can be thought of at two levels: global (how the model wo
 
 By this week you should be finalizing your modeling results and beginning to look at bias and disparities in your models.
 
-**Tuesday: [Dealing with bias and fairness in ML](Lectures/bias-fairness-overview.pptx)**
+**Tuesday: [Dealing with bias and fairness in ML](Lectures/18-ethics-bias-fairness-part-1.pptx)**
 
 Just as important as assessing whether your model is making accurate predictions is determining whether it is doing so fairly. But what do we mean by fairness? How can you measure it, and what can you do to mitigate disparities you find? Where in your pipeline can bias be introduced? (Spoiler: everywhere.) This week is a brief introduction to the expansive field of algorithmic fairness.
 
